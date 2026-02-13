@@ -1,11 +1,13 @@
-import * as React from "react"
-import { motion } from "framer-motion"
-import { cn } from "../../lib/utils"
+import { motion, HTMLMotionProps } from 'framer-motion';
+import { ReactNode } from 'react';
+import { cn } from '../../lib/utils';
 
-interface FadeInProps extends React.HTMLAttributes<HTMLDivElement> {
-  delay?: number
-  direction?: "up" | "down" | "left" | "right" | "none"
-  duration?: number
+interface FadeInProps extends Omit<HTMLMotionProps<"div">, "children"> {
+  children: ReactNode;
+  delay?: number;
+  duration?: number;
+  direction?: 'up' | 'down' | 'left' | 'right' | 'none';
+  className?: string;
 }
 
 export function FadeIn({

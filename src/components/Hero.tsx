@@ -4,8 +4,6 @@ import { Button } from './ui/Button';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
 
-import { motion } from 'framer-motion';
-
 const Hero = () => {
   return (
     <section id="inicio" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
