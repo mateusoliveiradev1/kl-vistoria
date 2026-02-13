@@ -58,7 +58,7 @@ const Features = () => {
           <FadeIn direction="left" className="lg:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image 
-                src="https://images.unsplash.com/photo-1504222490245-4367b8b9f920?q=80&w=2070&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?q=80&w=2000&auto=format&fit=crop" 
                 alt="Equipe Especializada" 
                 className="h-auto"
               />

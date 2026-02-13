@@ -124,7 +124,7 @@ const Services = () => {
             <FadeIn delay={0.4} direction="up">
               <div className="relative group overflow-hidden rounded-xl h-48 shadow-md">
                 <Image 
-                  src="https://images.unsplash.com/photo-1597762470488-387751f538c6?q=80&w=2070&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1486262715619-72a9396dc935?q=80&w=2070&auto=format&fit=crop" 
                   alt="Motor" 
                   className="h-full group-hover:scale-110 transition-transform duration-500"
                 />
