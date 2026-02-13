@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Slot } from '@radix-ui/react-slot';
-import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '../../lib/utils';
 
 // Note: You would typically install class-variance-authority and @radix-ui/react-slot
@@ -13,7 +12,7 @@ import { cn } from '../../lib/utils';
 // Installing class-variance-authority and @radix-ui/react-slot is recommended for professional UI libs.
 // I will assume for now I can just write standard Tailwind components.
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   asChild?: boolean;
