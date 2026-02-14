@@ -34,7 +34,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         whileTap={{ scale: 0.95 }}
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         ref={ref}
-        {...props}
+        {...props as any}
       />
     )
   }

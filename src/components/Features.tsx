@@ -1,4 +1,4 @@
-import { CheckCircle, Shield, Award, Clock } from 'lucide-react';
+import { Shield, Award, Clock } from 'lucide-react';
 import { Section } from './ui/Section';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
