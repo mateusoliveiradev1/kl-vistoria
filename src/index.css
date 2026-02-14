@@ -4,7 +4,7 @@
   --color-primary: #1e3a8a;
   --color-secondary: #dc2626;
   --color-accent: #f8fafc;
-  --font-sans: Inter, system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
   
   --animate-blob: blob 7s infinite;
   

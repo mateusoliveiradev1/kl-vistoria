@@ -22,7 +22,7 @@ const Header = () => {
       className={cn(
         "fixed w-full top-0 z-50 h-[80px] flex items-center transition-all duration-300",
         scrolled
-          ? "bg-primary/95 backdrop-blur-md shadow-lg"
+          ? "bg-primary/80 backdrop-blur-lg border-b border-white/10 shadow-xl"
           : "bg-transparent bg-gradient-to-b from-black/50 to-transparent",
       )}
     >

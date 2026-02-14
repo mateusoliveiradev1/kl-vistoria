@@ -3,11 +3,19 @@ import { Section } from './ui/Section';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
 import { Image } from './ui/Image';
+import { SpotlightCard } from './ui/SpotlightCard';
 
 const Services = () => {
   return (
-    <Section id="servicos" className="bg-gray-50">
-      <Container>
+    <Section id="servicos" className="bg-gray-50 relative overflow-hidden">
+      {/* Background Blobs for Glassmorphism Context */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-100/40 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-100/40 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[500px] h-[500px] bg-pink-100/40 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+      </div>
+
+      <Container className="relative z-10">
         <FadeIn className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Nossos Serviços</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -19,8 +27,8 @@ const Services = () => {
           
           {/* Vistoria Cautelar Card */}
           <FadeIn direction="left" delay={0.1}>
-            <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
-              <div className="relative h-64 overflow-hidden">
+            <SpotlightCard className="flex flex-col h-full shadow-xl hover:shadow-2xl transition-all duration-300">
+              <div className="relative h-64 overflow-hidden rounded-t-xl">
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors z-10 pointer-events-none"></div>
                 <Image 
                   src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070&auto=format&fit=crop" 
@@ -57,17 +65,17 @@ const Services = () => {
                   </li>
                 </ul>
                 
-                <a href="#contato" className="inline-block w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors">
+                <a href="#contato" className="inline-block w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors relative z-20">
                   Solicitar Cautelar
                 </a>
               </div>
-            </div>
+            </SpotlightCard>
           </FadeIn>
 
           {/* Histórico Veicular Card */}
           <FadeIn direction="right" delay={0.2}>
-            <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
-              <div className="relative h-64 overflow-hidden">
+            <SpotlightCard className="flex flex-col h-full shadow-xl hover:shadow-2xl transition-all duration-300">
+              <div className="relative h-64 overflow-hidden rounded-t-xl">
                 <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-blue-900/10 transition-colors z-10 pointer-events-none"></div>
                 <Image 
                   src="https://images.unsplash.com/photo-1554744512-d6c603f27c54?q=80&w=2070&auto=format&fit=crop" 
@@ -104,11 +112,11 @@ const Services = () => {
                   </li>
                 </ul>
 
-                <a href="#contato" className="inline-block w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors">
+                <a href="#contato" className="inline-block w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors relative z-20">
                   Consultar Histórico
                 </a>
               </div>
-            </div>
+            </SpotlightCard>
           </FadeIn>
 
         </div>

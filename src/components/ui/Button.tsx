@@ -1,16 +1,7 @@
 import * as React from 'react';
 import { Slot } from '@radix-ui/react-slot';
+import { motion } from 'framer-motion';
 import { cn } from '../../lib/utils';
-
-// Note: You would typically install class-variance-authority and @radix-ui/react-slot
-// But for this simple project, I'll inline a simpler version or just use cn.
-// Let's stick to a simpler implementation without extra heavy deps if possible, 
-// but for "Masterpiece" quality, CVA is standard. I'll simulate CVA behavior with simple objects/functions 
-// to avoid too many small installs, OR I'll just install them. 
-// Let's install them for true professional quality.
-
-// Installing class-variance-authority and @radix-ui/react-slot is recommended for professional UI libs.
-// I will assume for now I can just write standard Tailwind components.
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
@@ -35,10 +26,12 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       lg: "h-14 px-10 text-lg",
     };
 
-    const Comp = asChild ? Slot : "button"
+    const Comp = asChild ? Slot : motion.button
 
     return (
       <Comp
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         ref={ref}
         {...props}
