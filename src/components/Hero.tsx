@@ -83,7 +83,7 @@ const Hero = () => {
           </FadeIn>
 
           <FadeIn delay={0.4} className="flex flex-col sm:flex-row gap-6">
-            <a href={COMPANY_INFO.contact.phoneLink} target="_blank" rel="noopener noreferrer">
+            <a href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="w-full sm:w-auto group">
                 AGENDAR VISTORIA CAUTELAR
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

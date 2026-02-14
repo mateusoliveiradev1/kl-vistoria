@@ -118,7 +118,7 @@ const Location = () => {
               <h3 className="text-xl font-bold text-white mb-4">Agende sua visita técnica</h3>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href={COMPANY_INFO.contact.phoneLink}
+                  href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg hover:shadow-green-900/20 text-center flex items-center justify-center gap-2"

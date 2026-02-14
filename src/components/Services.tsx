@@ -114,13 +114,13 @@ const Services = () => {
                 </ul>
 
                 <a 
-                  href={`${COMPANY_INFO.contact.phoneLink}?text=Olá! Gostaria de tirar dúvidas sobre o Histórico Veicular.`}
+                  href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors relative z-20"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  Tirar Dúvidas no WhatsApp
+                  Agendar Vistoria Cautelar
                 </a>
               </div>
             </SpotlightCard>
