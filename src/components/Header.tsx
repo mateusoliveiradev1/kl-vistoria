@@ -32,7 +32,7 @@ const Header = () => {
           <img
             src={logo}
             alt={COMPANY_INFO.name}
-            className="h-[55px] md:h-[65px] w-auto object-contain scale-125 md:scale-150 origin-left translate-x-2 md:translate-x-4 transition-transform duration-300"
+            className="h-[60px] md:h-[70px] w-auto object-contain origin-left translate-x-2 md:translate-x-4 transition-transform duration-300"
           />
         </div>
 
@@ -53,7 +53,7 @@ const Header = () => {
               </a>
             ),
           )}
-          <a href="#contato">
+          <a href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`} target="_blank" rel="noopener noreferrer">
             <Button size="sm" className="font-bold">
               Contato
             </Button>
@@ -97,7 +97,7 @@ const Header = () => {
               {item}
             </a>
           ))}
-          <a href="#contato" onClick={() => setIsMenuOpen(false)}>
+          <a href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`} target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
             <Button className="w-full">Contato</Button>
           </a>
         </div>

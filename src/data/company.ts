@@ -12,10 +12,10 @@ export const COMPANY_INFO = {
     googleMapsEmbed: ""
   },
   contact: {
-    phone: "(62) 98155-3420",
-    phoneLink: "https://wa.me/5562981553420",
+    phone: "(62) 99219-7652",
+    phoneLink: "https://wa.me/5562992197652",
     email: "contato@klvistorias.com.br",
-    whatsappMessage: "Olá! Gostaria de agendar uma vistoria cautelar."
+    whatsappMessage: "Olá! Vi o site da KL Vistorias e gostaria de agendar uma Vistoria Cautelar."
   },
   social: {
     instagram: "#",

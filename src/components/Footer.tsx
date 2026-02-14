@@ -21,10 +21,10 @@ const Footer = () => {
               {COMPANY_INFO.description}
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
-              <a href={COMPANY_INFO.social.instagram} className="bg-gray-800 p-3 rounded-full hover:bg-secondary transition-colors group">
+              <a href={COMPANY_INFO.social.instagram} className="bg-gray-800 p-3 rounded-full hover:bg-secondary transition-colors group" aria-label="Instagram">
                 <Instagram className="w-5 h-5 text-gray-300 group-hover:text-white" />
               </a>
-              <a href={COMPANY_INFO.social.facebook} className="bg-gray-800 p-3 rounded-full hover:bg-secondary transition-colors group">
+              <a href={COMPANY_INFO.social.facebook} className="bg-gray-800 p-3 rounded-full hover:bg-secondary transition-colors group" aria-label="Facebook">
                 <Facebook className="w-5 h-5 text-gray-300 group-hover:text-white" />
               </a>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6 border-b border-gray-700 pb-2 inline-block text-secondary">Navegação</h3>
             <ul className="space-y-4">
-              {['Início', 'Serviços', 'Diferenciais', 'Localização'].map((item) => (
+              {['Início', 'Serviços', 'Diferenciais', 'Atendimento'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")}`} 
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-400 text-sm">
             &copy; {new Date().getFullYear()} {COMPANY_INFO.name}. Todos os direitos reservados.
           </p>
         </div>

@@ -45,29 +45,29 @@ export default function FAQ() {
           {FAQ_ITEMS.map((item, index) => (
             <FadeIn key={index} delay={index * 0.1} direction="up">
               <div 
-                className="border border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:border-secondary/30 hover:shadow-md bg-white"
+                className="group border border-gray-100 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg bg-white"
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
+                  className="w-full flex items-center justify-between p-6 text-left focus:outline-none bg-gray-50/50 hover:bg-gray-50 transition-colors"
                   aria-expanded={openIndex === index}
                 >
                   <span className="font-bold text-lg text-gray-800 pr-8">{item.question}</span>
-                  <ChevronDown 
-                    className={cn(
-                      "w-5 h-5 text-secondary transition-transform duration-300 flex-shrink-0",
-                      openIndex === index ? "rotate-180" : ""
-                    )} 
-                  />
+                  <div className={cn(
+                    "w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300",
+                    openIndex === index ? "bg-secondary text-white rotate-180" : "bg-gray-200 text-gray-500 group-hover:bg-primary/10 group-hover:text-primary"
+                  )}>
+                    <ChevronDown className="w-5 h-5" />
+                  </div>
                 </button>
                 
                 <div 
                   className={cn(
-                    "px-6 text-gray-600 overflow-hidden transition-all duration-300 ease-in-out",
+                    "px-6 text-gray-600 overflow-hidden transition-all duration-300 ease-in-out bg-white",
                     openIndex === index ? "max-h-48 pb-6 opacity-100" : "max-h-0 opacity-0"
                   )}
                 >
-                  <p className="leading-relaxed border-t border-gray-100 pt-4">
+                  <p className="leading-relaxed pt-2 text-gray-600">
                     {item.answer}
                   </p>
                 </div>
