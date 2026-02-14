@@ -84,7 +84,7 @@ const Features = () => {
                 <p className="text-gray-300 text-lg">Agende sua vistoria agora mesmo e evite dores de cabeça.</p>
               </div>
               <a href="#contato" className="bg-secondary hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all hover:scale-105 shadow-lg shadow-red-900/20 whitespace-nowrap">
-                Falar com Especialista
+                Agendar Avaliação Técnica
               </a>
             </div>
           </FadeIn>

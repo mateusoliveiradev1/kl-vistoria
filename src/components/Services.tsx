@@ -1,9 +1,10 @@
-import { ShieldCheck, FileSearch, CheckCircle2, AlertTriangle } from 'lucide-react';
+import { ShieldCheck, FileSearch, CheckCircle2, AlertTriangle, MessageCircle } from 'lucide-react';
 import { Section } from './ui/Section';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
 import { Image } from './ui/Image';
 import { SpotlightCard } from './ui/SpotlightCard';
+import { COMPANY_INFO } from '../data/company';
 
 const Services = () => {
   return (
@@ -112,8 +113,14 @@ const Services = () => {
                   </li>
                 </ul>
 
-                <a href="#contato" className="inline-block w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors relative z-20">
-                  Consultar Histórico
+                <a 
+                  href={`${COMPANY_INFO.contact.phoneLink}?text=Olá! Gostaria de tirar dúvidas sobre o Histórico Veicular.`}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 w-full text-center py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-colors relative z-20"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  Tirar Dúvidas no WhatsApp
                 </a>
               </div>
             </SpotlightCard>

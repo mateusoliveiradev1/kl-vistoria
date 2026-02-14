@@ -38,7 +38,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 items-center">
-          {["Início", "Serviços", "Diferenciais", "FAQ", "Localização"].map(
+          {["Início", "Serviços", "Diferenciais", "FAQ", "Atendimento"].map(
             (item) => (
               <a
                 key={item}
@@ -84,7 +84,7 @@ const Header = () => {
         )}
       >
         <div className="flex flex-col p-6 space-y-6">
-          {["Início", "Serviços", "Diferenciais", "Localização"].map((item) => (
+          {["Início", "Serviços", "Diferenciais", "Atendimento"].map((item) => (
             <a
               key={item}
               href={`#${item

@@ -26,7 +26,8 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       lg: "h-14 px-10 text-lg",
     };
 
-    const Comp = asChild ? Slot : motion.button
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const Comp = asChild ? Slot : (motion.button as any)
 
     return (
       <Comp
@@ -34,7 +35,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         whileTap={{ scale: 0.95 }}
         className={cn(baseStyles, variants[variant], sizes[size], className)}
         ref={ref}
-        {...props as any}
+        {...props}
       />
     )
   }
