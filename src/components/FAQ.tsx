@@ -8,23 +8,23 @@ import { cn } from '../lib/utils';
 const FAQ_ITEMS = [
   {
     question: "O que é a Vistoria Cautelar?",
-    answer: "É uma análise completa do veículo que verifica a estrutura (chassi, carroceria), originalidade das peças e histórico documental (leilões, sinistros, roubos). Ela garante que você não está comprando um carro batido ou adulterado."
+    answer: "A Vistoria Cautelar é uma análise técnica profunda realizada por peritos em Goiânia. Verificamos toda a estrutura do veículo (chassi, longarinas, painel frontal/traseiro), pintura e originalidade de peças. O objetivo é garantir sua segurança e evitar a compra de carros com batidas graves ou adulterações."
   },
   {
     question: "Qual a diferença entre Vistoria Cautelar e Vistoria de Transferência?",
-    answer: "A Vistoria de Transferência é obrigatória pelo DETRAN apenas para mudar a propriedade do veículo, focando em itens de segurança e numeração. A Cautelar é muito mais profunda, analisando a qualidade e o passado do carro para proteger o comprador."
+    answer: "Muitos clientes em Goiânia confundem as duas. A Vistoria de Transferência é obrigatória pelo DETRAN-GO apenas para trocar o documento. Já a Vistoria Cautelar da KL é opcional e muito mais completa: ela analisa a qualidade real do carro, histórico de leilão e sinistros, sendo o seguro real de quem está investindo em um seminovo."
   },
   {
     question: "Quanto tempo demora o serviço?",
-    answer: "Uma vistoria cautelar completa leva em média de 40 a 60 minutos. Nossos técnicos utilizam equipamentos modernos para agilizar o processo sem perder a precisão."
+    answer: "Nossa unidade móvel atende em toda Goiânia de forma ágil. Uma perícia cautelar completa leva em média de 40 a 60 minutos, dependendo da complexidade do veículo analisado."
   },
   {
     question: "O laudo sai na hora?",
-    answer: "Sim! Assim que a vistoria é finalizada, emitimos o laudo técnico com fotos e parecer detalhado. Você já sai com o resultado em mãos."
+    answer: "Sim! Assim que o perito finaliza a inspeção em solo, o laudo técnico digital é gerado e enviado para você com todas as fotos e o parecer de aprovação ou ressalva."
   },
   {
-    question: "Vocês atendem a domicílio?",
-    answer: "Sim, realizamos atendimento móvel em Goiânia e região. Consulte nossa disponibilidade e taxas de deslocamento pelo WhatsApp."
+    question: "Vocês atendem em quais regiões?",
+    answer: "Realizamos atendimento móvel premium em todos os bairros de Goiânia (como Setor Bueno, Marista, Oeste, Jardim Goiás) e também em Aparecida de Goiânia, Senador Canedo e Anápolis. Vamos até o carro para sua total comodidade."
   }
 ];
 
@@ -44,7 +44,7 @@ export default function FAQ() {
         <div className="space-y-4">
           {FAQ_ITEMS.map((item, index) => (
             <FadeIn key={index} delay={index * 0.1} direction="up">
-              <div 
+              <div
                 className="group border border-gray-100 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg bg-white"
               >
                 <button
@@ -60,8 +60,8 @@ export default function FAQ() {
                     <ChevronDown className="w-5 h-5" />
                   </div>
                 </button>
-                
-                <div 
+
+                <div
                   className={cn(
                     "px-6 text-gray-600 overflow-hidden transition-all duration-300 ease-in-out bg-white",
                     openIndex === index ? "max-h-48 pb-6 opacity-100" : "max-h-0 opacity-0"

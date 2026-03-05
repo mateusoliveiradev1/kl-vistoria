@@ -1,7 +1,7 @@
-import { Instagram, Facebook, Phone, MapPin, Mail } from 'lucide-react';
-import logo from '../assets/logo.svg';
+import { Instagram, Facebook, Phone, MapPin, Mail, Star } from 'lucide-react';
 import { COMPANY_INFO } from '../data/company';
 import { Container } from './ui/Container';
+import { Logo } from './Logo';
 
 const Footer = () => {
   return (
@@ -15,7 +15,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center justify-center md:justify-start">
-              <img src={logo} alt={COMPANY_INFO.name} className="h-20 w-auto object-contain" />
+              <a href="#inicio" aria-label="Voltar para o início">
+                <Logo className="h-16 w-auto" variant="light" />
+              </a>
             </div>
             <p className="text-gray-400 leading-relaxed">
               {COMPANY_INFO.description}
@@ -28,6 +30,16 @@ const Footer = () => {
                 <Facebook className="w-5 h-5 text-gray-300 group-hover:text-white" />
               </a>
             </div>
+
+            <div className="pt-4">
+              <a
+                href="#" // Placeholder for Quick Review Link
+                className="inline-flex items-center gap-2 bg-white/5 border border-white/10 hover:bg-white/10 text-white text-xs font-bold py-2 px-4 rounded-full transition-all"
+              >
+                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                AVALIAR NO GOOGLE
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -36,8 +48,8 @@ const Footer = () => {
             <ul className="space-y-4">
               {['Início', 'Serviços', 'Diferenciais', 'Atendimento'].map((item) => (
                 <li key={item}>
-                  <a 
-                    href={`#${item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")}`} 
+                  <a
+                    href={`#${item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")}`}
                     className="text-gray-400 hover:text-white hover:translate-x-1 transition-all inline-block"
                   >
                     {item}

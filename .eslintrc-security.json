@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "security",
+        "no-secrets"
+    ],
+    "extends": [
+        "plugin:security/recommended"
+    ],
+    "rules": {
+        "security/detect-object-injection": "warn",
+        "security/detect-non-literal-fs-filename": "warn",
+        "security/detect-eval-with-expression": "error",
+        "security/detect-pseudo-random-prng": "off",
+        "no-secrets/no-secrets": "error"
+    }
+}

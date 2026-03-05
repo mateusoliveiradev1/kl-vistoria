@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Features from './components/Features';
+import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Location from './components/Location';
 import Footer from './components/Footer';
@@ -40,7 +41,7 @@ function App() {
     <HelmetProvider>
       <ScrollProgress />
       <div className="min-h-screen flex flex-col font-sans">
-        <SEO 
+        <SEO
           title="Vistoria Cautelar e Veicular em Goiânia"
           description="Especialistas em Vistoria Cautelar em Goiânia. Garanta segurança na compra do seu carro com análise estrutural, documental e de histórico completa. Agende agora!"
         />
@@ -49,6 +50,7 @@ function App() {
           <Hero />
           <Services />
           <Features />
+          <Testimonials />
           <FAQ />
           <Location />
         </main>

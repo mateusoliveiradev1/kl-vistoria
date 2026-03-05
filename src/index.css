@@ -1,40 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #1e3a8a;
+  --color-primary: #3B82F6;
   --color-secondary: #dc2626;
-  --color-accent: #f8fafc;
-  --font-sans: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
-  
+  --color-accent: #1e3a8a;
+  --color-background-dark: #0F172A;
+  --color-surface-dark: rgba(30, 41, 59, 0.7);
+
+  --font-heading: 'Orbitron', sans-serif;
+  --font-sans: 'Exo+2', 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+
   --animate-blob: blob 7s infinite;
-  
+
   @keyframes blob {
-    0% { transform: translate(0px, 0px) scale(1); }
-    33% { transform: translate(30px, -50px) scale(1.1); }
-    66% { transform: translate(-20px, 20px) scale(0.9); }
-    100% { transform: translate(0px, 0px) scale(1); }
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
   }
 }
 
 @layer base {
+  :root {
+    background-color: #0F172A;
+    color: #f1f5f9;
+  }
+
   html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #0F172A;
   }
+
   body {
-    @apply antialiased text-gray-800 bg-white overflow-x-hidden;
+    @apply antialiased text-slate-200 bg-background-dark overflow-x-hidden font-sans;
+    background-color: #0F172A;
   }
-  
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-wider text-white;
+  }
+
   /* Custom Scrollbar */
   ::-webkit-scrollbar {
     width: 10px;
   }
+
   ::-webkit-scrollbar-track {
-    @apply bg-gray-100;
+    @apply bg-slate-900;
   }
+
   ::-webkit-scrollbar-thumb {
     @apply bg-primary/50 rounded-full hover:bg-primary transition-colors;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface-dark backdrop-blur-xl border border-slate-700/50 shadow-2xl;
   }
 }
 
@@ -42,7 +83,16 @@
   .animation-delay-2000 {
     animation-delay: 2s;
   }
+
   .animation-delay-4000 {
     animation-delay: 4s;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+
+  .text-glow-sm {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
   }
 }

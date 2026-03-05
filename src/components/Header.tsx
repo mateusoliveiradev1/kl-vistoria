@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo.svg";
-import { COMPANY_INFO } from "../data/company";
 import { cn } from "../lib/utils";
 import { Button } from "./ui/Button";
+import { Logo } from "./Logo";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,11 +28,9 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center h-full">
         {/* Logo */}
         <div className="flex items-center h-full">
-          <img
-            src={logo}
-            alt={COMPANY_INFO.name}
-            className="h-[60px] md:h-[70px] w-auto object-contain origin-left translate-x-2 md:translate-x-4 transition-transform duration-300"
-          />
+          <a href="#inicio" aria-label="Voltar para o início">
+            <Logo className="h-[45px] md:h-[55px] hover:scale-105 transition-transform duration-300" variant={scrolled ? "light" : "default"} />
+          </a>
         </div>
 
         {/* Desktop Navigation */}
@@ -53,16 +50,16 @@ const Header = () => {
               </a>
             ),
           )}
-          <a href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`} target="_blank" rel="noopener noreferrer">
-            <Button size="sm" className="font-bold">
+          <div onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))} className="cursor-pointer">
+            <Button size="sm" className="font-bold pointer-events-none">
               Contato
             </Button>
-          </a>
+          </div>
         </nav>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white focus:outline-none p-2"
+          className="md:hidden text-white focus:outline-none p-3 -mr-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -97,9 +94,9 @@ const Header = () => {
               {item}
             </a>
           ))}
-          <a href={`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(COMPANY_INFO.contact.whatsappMessage)}`} target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)}>
-            <Button className="w-full">Contato</Button>
-          </a>
+          <div onClick={() => { setIsMenuOpen(false); window.dispatchEvent(new CustomEvent('open-whatsapp-popup')); }} className="cursor-pointer">
+            <Button className="w-full pointer-events-none">Contato</Button>
+          </div>
         </div>
       </div>
     </header>
