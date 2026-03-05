@@ -7,43 +7,49 @@ import { motion } from 'framer-motion';
 
 const Location = () => {
   return (
-    <Section id="atendimento" className="bg-gray-900 relative overflow-hidden">
+    <Section id="atendimento" className="bg-[#050B14] relative overflow-hidden py-24 sm:py-32 border-t border-slate-800/50">
       {/* Abstract Map Background */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none">
+      <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-screen">
         <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" strokeWidth="0.5" />
+          <pattern id="grid-location" width="8" height="8" patternUnits="userSpaceOnUse">
+            <path d="M 8 0 L 0 0 0 8" fill="none" stroke="currentColor" className="text-primary/20" strokeWidth="0.5" />
           </pattern>
-          <rect width="100" height="100" fill="url(#grid)" />
+          <rect width="100" height="100" fill="url(#grid-location)" />
         </svg>
       </div>
 
+      {/* Decorative Glow */}
+      <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
+
       <Container className="relative z-10">
-        <FadeIn className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Nós vamos até você</h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Levamos nossa unidade móvel de alta precisão onde seu futuro carro estiver.
-            Atendimento especializado no <span className="text-white font-semibold">Setor Bueno, Marista, Oeste, Jardim Goiás, Parque Amazônia</span> e em toda Goiânia e Região Metropolitana.
+        <FadeIn className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 tracking-tight font-heading uppercase drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+            Nós Vamos Até <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Você</span>
+          </h2>
+          <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+            Levamos nossa <strong className="text-slate-200">Unidade Móvel de Alta Precisão</strong> onde o veículo estiver.
+            Atendimento prioritário em <span className="text-primary font-medium">Setor Bueno, Marista, Oeste, Jardim Goiás, Parque Amazônia</span> e toda Goiânia e região.
           </p>
         </FadeIn>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
-          {/* Radar Animation */}
-          <FadeIn direction="right" className="relative h-[400px] flex items-center justify-center order-2 lg:order-1">
-            <div className="relative w-80 h-80 flex items-center justify-center">
+          {/* Radar Animation Area */}
+          <FadeIn direction="right" className="lg:col-span-5 relative h-[400px] md:h-[500px] flex items-center justify-center order-2 lg:order-1">
+            <div className="absolute inset-0 border border-slate-800/50 rounded-[40px] bg-slate-900/20 backdrop-blur-sm -z-10" />
+            <div className="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
               {/* Pulsing Circles */}
-              {[0, 1, 2].map((i) => (
+              {[0, 1, 2, 3].map((i) => (
                 <motion.div
                   key={i}
-                  className="absolute border border-blue-500/30 rounded-full"
+                  className="absolute border border-primary/30 rounded-full"
                   style={{ width: '100%', height: '100%' }}
                   animate={{
-                    scale: [1, 1.5, 2],
-                    opacity: [0.5, 0],
+                    scale: [1, 1.8, 2.5],
+                    opacity: [0.6, 0.2, 0],
                   }}
                   transition={{
-                    duration: 3,
+                    duration: 4,
                     repeat: Infinity,
                     delay: i * 1,
                     ease: "easeOut",
@@ -52,82 +58,87 @@ const Location = () => {
               ))}
 
               {/* Center Dot */}
-              <div className="w-4 h-4 bg-blue-500 rounded-full shadow-[0_0_20px_rgba(59,130,246,0.8)] z-10 animate-pulse relative">
-                <div className="absolute -inset-1 bg-blue-500/50 rounded-full animate-ping"></div>
+              <div className="w-6 h-6 bg-primary rounded-full shadow-[0_0_30px_rgba(59,130,246,1)] z-10 animate-pulse relative flex items-center justify-center">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+                <div className="absolute -inset-2 bg-primary/40 rounded-full animate-ping"></div>
               </div>
 
               {/* Map Outline (Abstract) */}
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-20">
-                <MapPin className="w-32 h-32 text-white" />
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-10">
+                <MapPin className="w-48 h-48 text-white stroke-[1px]" />
               </div>
 
               {/* Floating Labels */}
               <motion.div
-                className="absolute top-10 right-0 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full text-xs text-white border border-white/10"
+                className="absolute top-12 md:top-20 right-0 md:border md:border-primary/20 bg-slate-900/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-white shadow-lg font-heading tracking-wider"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                Goiânia
+                GOIÂNIA
               </motion.div>
               <motion.div
-                className="absolute bottom-10 left-0 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full text-xs text-white border border-white/10"
+                className="absolute bottom-12 md:bottom-20 left-0 bg-slate-900/80 md:border md:border-slate-700/50 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-slate-300 shadow-lg font-heading tracking-wider"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
               >
-                Aparecida
+                APARECIDA
               </motion.div>
             </div>
-            <p className="absolute bottom-0 text-gray-400 text-sm tracking-widest uppercase mt-8">Radar de Cobertura Ativo</p>
+
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 bg-slate-900/90 px-4 py-2 rounded-lg border border-slate-800">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+              <p className="text-slate-400 text-[10px] font-bold tracking-[0.2em] font-heading">RADAR ATIVO</p>
+            </div>
           </FadeIn>
 
           {/* Benefits & Contact */}
-          <FadeIn direction="left" className="order-1 lg:order-2 space-y-8">
-
-            <div className="grid grid-cols-1 gap-4">
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl flex items-start gap-4 hover:bg-white/10 transition-colors group">
-                <div className="bg-blue-500/20 p-3 rounded-xl group-hover:scale-110 transition-transform">
-                  <Clock className="w-6 h-6 text-blue-400" />
+          <FadeIn direction="left" className="lg:col-span-7 order-1 lg:order-2 space-y-8 lg:pl-8">
+            <div className="grid grid-cols-1 gap-5">
+              <div className="glass-card hover:border-primary/40 transition-colors group p-6 rounded-2xl flex items-start gap-5">
+                <div className="bg-slate-800/80 border border-slate-700/50 p-4 rounded-xl group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300 shadow-inner">
+                  <Clock className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">Economia de Tempo</h4>
-                  <p className="text-gray-400 text-sm">Não perca horas no trânsito. Nós nos deslocamos até a concessionária, loja ou residência.</p>
+                  <h4 className="text-white font-bold text-lg md:text-xl mb-2 font-heading tracking-wide group-hover:text-primary transition-colors">Economia de Tempo</h4>
+                  <p className="text-slate-400 text-sm md:text-base leading-relaxed">Não perca horas no trânsito. Nossa equipe desloca-se com rapidez até a concessionária, garagem ou residência informada.</p>
                 </div>
               </div>
 
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl flex items-start gap-4 hover:bg-white/10 transition-colors group">
-                <div className="bg-blue-500/20 p-3 rounded-xl group-hover:scale-110 transition-transform">
-                  <Shield className="w-6 h-6 text-blue-400" />
+              <div className="glass-card hover:border-primary/40 transition-colors group p-6 rounded-2xl flex items-start gap-5">
+                <div className="bg-slate-800/80 border border-slate-700/50 p-4 rounded-xl group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300 shadow-inner">
+                  <Shield className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">Segurança Total</h4>
-                  <p className="text-gray-400 text-sm">Acompanhe a vistoria presencialmente ou receba o laudo digital completo via WhatsApp.</p>
+                  <h4 className="text-white font-bold text-lg md:text-xl mb-2 font-heading tracking-wide group-hover:text-primary transition-colors">Transparência Total</h4>
+                  <p className="text-slate-400 text-sm md:text-base leading-relaxed">Acompanhe a vistoria presencialmente passo-a-passo ou receba o laudo digital completo e detalhado via WhatsApp em tempo real.</p>
                 </div>
               </div>
 
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl flex items-start gap-4 hover:bg-white/10 transition-colors group">
-                <div className="bg-blue-500/20 p-3 rounded-xl group-hover:scale-110 transition-transform">
-                  <Car className="w-6 h-6 text-blue-400" />
+              <div className="glass-card hover:border-primary/40 transition-colors group p-6 rounded-2xl flex items-start gap-5">
+                <div className="bg-slate-800/80 border border-slate-700/50 p-4 rounded-xl group-hover:bg-primary/20 group-hover:border-primary/50 transition-all duration-300 shadow-inner">
+                  <Car className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">Unidade Móvel Completa</h4>
-                  <p className="text-gray-400 text-sm">Levamos todos os equipamentos de precisão necessários para uma análise técnica rigorosa.</p>
+                  <h4 className="text-white font-bold text-lg md:text-xl mb-2 font-heading tracking-wide group-hover:text-primary transition-colors">Mobilidade Absoluta</h4>
+                  <p className="text-slate-400 text-sm md:text-base leading-relaxed">Unidade móvel equipada com scanners automotivos, medidores de espessura e ferramentas de alta precisão para análise rigorosa.</p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-6 border-t border-white/10">
-              <h3 className="text-xl font-bold text-white mb-4">Agende sua visita técnica</h3>
+            <div className="pt-8 border-t border-slate-800/80">
+              <p className="text-xs text-slate-500 uppercase tracking-[0.15em] font-bold font-heading mb-4">Pronto para acionar a equipe?</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))}
-                  className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg hover:shadow-green-900/20 text-center flex items-center justify-center gap-2 cursor-pointer"
+                  className="flex-[2] bg-primary hover:bg-blue-600 text-white font-black py-4 md:py-5 px-6 rounded-xl transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] active:scale-[0.98] text-center flex items-center justify-center gap-3 cursor-pointer group uppercase tracking-wider text-sm md:text-base"
                 >
-                  <Phone className="w-5 h-5" />
-                  Chamar no WhatsApp
+                  <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+                  Agendar Visita Técnica
                 </button>
-                <div className="flex-1 bg-white/10 border border-white/10 text-white py-4 px-6 rounded-xl text-center flex items-center justify-center gap-2">
-                  <Mail className="w-5 h-5" />
-                  {COMPANY_INFO.contact.email}
+                <div className="flex-[1] bg-slate-900/50 border border-slate-700 text-slate-300 py-4 px-6 rounded-xl text-center flex items-center justify-center gap-3 text-sm hover:bg-slate-800 transition-colors">
+                  <Mail className="w-4 h-4 text-slate-500" />
+                  <span className="hidden xl:inline">{COMPANY_INFO.contact.email}</span>
+                  <span className="xl:hidden">E-mail</span>
                 </div>
               </div>
             </div>
