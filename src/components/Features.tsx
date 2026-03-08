@@ -65,9 +65,9 @@ const Features = () => {
               <div className="bg-black/20 p-3 rounded-xl w-fit mb-4 backdrop-blur-sm">
                 <Clock className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Laudo Imediato</h3>
-              <p className="text-blue-100 font-light">
-                Fotografia em alta resolução e parecer técnico emitido e assinado na hora da vistoria.
+              <h3 className="text-2xl font-bold text-white mb-2">Laudo Técnico</h3>
+              <p className="text-blue-100 font-light text-sm">
+                Parecer técnico detalhado e assinado digitalmente, entregue logo após a conferência minuciosa dos nossos peritos.
               </p>
             </div>
           </FadeIn>

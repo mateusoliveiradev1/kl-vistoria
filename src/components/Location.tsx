@@ -28,7 +28,7 @@ const Location = () => {
           </h2>
           <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
             Levamos nossa <strong className="text-slate-200">Unidade Móvel de Alta Precisão</strong> onde o veículo estiver.
-            Atendimento prioritário em <span className="text-primary font-medium">Setor Bueno, Marista, Oeste, Jardim Goiás, Parque Amazônia</span> e toda Goiânia e região.
+            Atendimento em <span className="text-primary font-medium">Goiânia e toda Região Metropolitana</span> com deslocamento imediato até você.
           </p>
         </FadeIn>
 
@@ -67,22 +67,6 @@ const Location = () => {
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-10">
                 <MapPin className="w-48 h-48 text-white stroke-[1px]" />
               </div>
-
-              {/* Floating Labels */}
-              <motion.div
-                className="absolute top-12 md:top-20 right-0 md:border md:border-primary/20 bg-slate-900/80 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-white shadow-lg font-heading tracking-wider"
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              >
-                GOIÂNIA
-              </motion.div>
-              <motion.div
-                className="absolute bottom-12 md:bottom-20 left-0 bg-slate-900/80 md:border md:border-slate-700/50 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-slate-300 shadow-lg font-heading tracking-wider"
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              >
-                APARECIDA
-              </motion.div>
             </div>
 
             <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 bg-slate-900/90 px-4 py-2 rounded-lg border border-slate-800">

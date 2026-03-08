@@ -20,11 +20,11 @@ const FAQ_ITEMS = [
   },
   {
     question: "O laudo sai na hora?",
-    answer: "Sim! Assim que o perito finaliza a inspeção em solo, o laudo técnico digital é gerado e enviado para você com todas as fotos e o parecer de aprovação ou ressalva."
+    answer: "O laudo técnico KL é emitido após uma conferência minuciosa dos nossos peritos seniores. Isso garante que cada detalhe estrutural e eletrônico foi validado, proporcionando segurança real ao seu investimento (não realizamos emissões genéricas instantâneas)."
   },
   {
     question: "Vocês atendem em quais regiões?",
-    answer: "Realizamos atendimento móvel premium em todos os bairros de Goiânia (como Setor Bueno, Marista, Oeste, Jardim Goiás) e também em Aparecida de Goiânia, Senador Canedo e Anápolis. Vamos até o carro para sua total comodidade."
+    answer: "Realizamos atendimento móvel premium em toda Goiânia e Região Metropolitana. Vamos até o carro, onde quer que ele esteja, para sua total comodidade e segurança."
   }
 ];
 

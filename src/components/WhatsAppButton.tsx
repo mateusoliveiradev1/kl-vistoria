@@ -13,6 +13,20 @@ export function WhatsAppButton() {
 
   return (
     <>
+      {/* Botão Direto (Bypass Popup) */}
+      <a
+        href="https://wa.me/5562992197652?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+vistoria+cautelar."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-28 right-6 z-[40] bg-white text-[#25D366] p-3 rounded-full shadow-xl hover:bg-slate-50 transition-all duration-300 hover:scale-110 group border border-[#25D366]/20"
+        aria-label="WhatsApp Direto"
+      >
+        <div className="absolute -top-8 right-0 bg-slate-900 text-white text-[10px] font-bold px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-white/10 uppercase tracking-tighter">
+          Zap Direto
+        </div>
+        <Phone className="w-5 h-5 fill-current" />
+      </a>
+
       <button
         onClick={() => setIsPopupOpen(true)}
         className="fixed bottom-6 right-6 z-[40] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#128C7E] transition-all duration-300 hover:scale-110 group cursor-pointer border-none outline-none"
