@@ -1,41 +1,25 @@
-
 import { HelmetProvider } from 'react-helmet-async';
+import { Routes, Route } from 'react-router-dom';
 import { ScrollProgress } from './components/ui/ScrollProgress';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Features from './components/Features';
-import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
-import Location from './components/Location';
-import Footer from './components/Footer';
 import { SEO } from './components/SEO';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { CookieConsent } from './components/CookieConsent';
 import { BackToTop } from './components/BackToTop';
 import { NotFound } from './components/NotFound';
-import { useState, useEffect } from 'react';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import LocationPage from './pages/LocationPage';
+import ServiceAreasPage from './pages/ServiceAreasPage';
+import { serviceLocations } from './data/locations';
+import { useEffect } from 'react';
 import { logPageView } from './lib/analytics';
 
 function App() {
-  const [is404] = useState(() => {
-    const path = window.location.pathname;
-    return path !== '/' && path !== '/index.html';
-  });
-
   useEffect(() => {
     // Track page views on route change (or initial load)
     logPageView();
   }, []);
-
-  if (is404) {
-    return (
-      <HelmetProvider>
-        <SEO title="Página não encontrada" />
-        <NotFound />
-      </HelmetProvider>
-    );
-  }
 
   return (
     <HelmetProvider>
@@ -47,12 +31,18 @@ function App() {
         />
         <Header />
         <main className="flex-grow">
-          <Hero />
-          <Services />
-          <Features />
-          <Testimonials />
-          <FAQ />
-          <Location />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/areas-de-atendimento" element={<ServiceAreasPage />} />
+            {serviceLocations.map(loc => (
+              <Route
+                key={loc.slug}
+                path={`/${loc.slug}`}
+                element={<LocationPage locationId={loc.slug} />}
+              />
+            ))}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </main>
         <Footer />
         <WhatsAppButton />

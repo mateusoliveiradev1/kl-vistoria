@@ -99,7 +99,7 @@ const Hero = () => {
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
-            <a href="#servicos">
+            <a href="/#servicos">
               <Button variant="outline" size="lg" className="w-full sm:w-auto border-slate-700 hover:bg-slate-800/50 backdrop-blur-sm transition-all duration-500">
                 VER SERVIÇOS TÉCNICOS
               </Button>

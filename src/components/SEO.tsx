@@ -25,7 +25,7 @@ export function SEO({ title, description, keywords, image, url }: SEOProps) {
   // Schema.org Structured Data for Local Business
   const localBusinessData = {
     "@context": "https://schema.org",
-    "@type": "AutoRepair",
+    "@type": "AutoInspectionStation",
     "name": COMPANY_INFO.name,
     "image": siteImage,
     "description": "Líder em Vistoria Cautelar e Perícia Automotiva em Goiânia. Evite golpes e prejuízos na compra de veículos usados com nosso laudo técnico especializado.",
@@ -157,6 +157,12 @@ export function SEO({ title, description, keywords, image, url }: SEOProps) {
       <meta name="author" content={COMPANY_INFO.name} />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <link rel="canonical" href={siteUrl} />
+
+      {/* 📍 GEOLOCATION (LOCAL SEO ELITE) */}
+      <meta name="geo.region" content="BR-GO" />
+      <meta name="geo.placename" content="Goiânia" />
+      <meta name="geo.position" content="-16.6534954;-49.3361483" />
+      <meta name="ICBM" content="-16.6534954, -49.3361483" />
 
       {/* 📱 OPEN GRAPH / FACEBOOK (ELITE SPECS) */}
       <meta property="og:type" content="website" />
