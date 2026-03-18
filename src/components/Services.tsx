@@ -150,7 +150,7 @@ const Services = () => {
             <FadeIn delay={0.5} direction="up">
               <div className="relative group overflow-hidden rounded-xl h-48 shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070&auto=format&fit=crop"
+                  src="/pintura.jpg"
                   alt="Medição de espessura de pintura em perícia cautelar Goiânia"
                   className="h-full group-hover:scale-110 transition-transform duration-500"
                 />
@@ -174,7 +174,7 @@ const Services = () => {
             <FadeIn delay={0.7} direction="up">
               <div className="relative group overflow-hidden rounded-xl h-48 shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070&auto=format&fit=crop"
+                  src="/documento.webp"
                   alt="Verificação de documentação e histórico administrativo veicular"
                   className="h-full group-hover:scale-110 transition-transform duration-500"
                 />

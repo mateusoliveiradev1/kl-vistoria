@@ -104,7 +104,7 @@ const Location = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold text-lg md:text-xl mb-2 font-heading tracking-wide group-hover:text-primary transition-colors">Mobilidade Absoluta</h4>
-                  <p className="text-slate-400 text-sm md:text-base leading-relaxed">Unidade móvel equipada com scanners automotivos, medidores de espessura e ferramentas de alta precisão para análise rigorosa.</p>
+                  <p className="text-slate-400 text-sm md:text-base leading-relaxed">Unidade móvel equipada com medidores de espessura e ferramentas de alta precisão para análise rigorosa.</p>
                 </div>
               </div>
             </div>
@@ -136,3 +136,4 @@ const Location = () => {
 };
 
 export default Location;
+

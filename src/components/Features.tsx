@@ -35,7 +35,7 @@ const Features = () => {
               </div>
               <h3 className="text-3xl font-bold text-white mb-2">Engenharia e Precisão</h3>
               <p className="text-gray-300 text-lg max-w-md">
-                Scanner automotivo, medidor de espessura de tinta e luz negra para revelar o que os olhos não veem.
+                Medidor de espessura de tinta e análise técnica detalhada para revelar o que os olhos não veem.
               </p>
             </div>
           </FadeIn>
@@ -96,3 +96,4 @@ const Features = () => {
 };
 
 export default Features;
+

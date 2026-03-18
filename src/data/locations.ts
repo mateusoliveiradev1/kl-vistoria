@@ -21,7 +21,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Bueno. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Bueno. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Bueno. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -53,7 +53,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Oeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de Praça Tamandaré demanda segurança e procedência total. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Rápido e cirúrgico. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -156,7 +156,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Universitário. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Universitário começa na perícia técnica. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Universitário começa na perícia técnica. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -188,7 +188,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Centro de Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Com foco na integridade estrutural, a Vistoria Cautelar analisa longarinas e colunas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Lucas Martins",
             "text": "Rápido e cirúrgico. Mesmo sendo no Centro de Goiânia, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Centro de Goiânia sem medo.",
@@ -231,7 +231,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar na Nova Suíça. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio na Nova Suíça sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Nova Suíça com um documento pericial definitivo.",
+        "uniqueParagraph": "Não feche negócio na Nova Suíça sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Nova Suíça com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -263,7 +263,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Jaó. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Setor Jaó esconde riscos que só um perito identifica. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Fiquei impressionado. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -353,7 +353,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar nos Jardins Verona. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular nos Jardins Verona. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Blindamos sua negociação nos Jardins Verona com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Eduardo Lima",
             "text": "Atendimento de elite. O perito veio até aqui nos Jardins Verona e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -383,7 +383,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Jardim Atlântico. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Jardim Atlântico sem antes descobrir a verdade oculta do carro. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Cláudio Pires",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Jardim Atlântico sem medo.",
@@ -458,7 +458,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Avenida 85. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular na Avenida 85. Nossa equipe técnica na Avenida 85 é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Rápido e cirúrgico. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -488,7 +488,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Faiçalville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Realizamos a Vistoria Cautelar completa, auditando chassi, motor e histórico de leilões. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -578,7 +578,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Residencial Eldorado. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Residencial Eldorado sem antes descobrir a verdade oculta do carro. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Garantimos segurança total do pátio de carros até a sua garagem no Residencial Eldorado.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Rafael Santos",
             "text": "Serviço nota 10! O perito veio até aqui no Residencial Eldorado e achou uma repintura que eu não vi. Agora compro meu carro no Residencial Eldorado sem medo.",
@@ -621,9 +621,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Jardim Novo Mundo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Jardim Novo Mundo começa na perícia técnica. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Jardim Novo Mundo começa na perícia técnica. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Atendimento de elite. Mesmo sendo no Jardim Novo Mundo, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -683,7 +683,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Crimeia Leste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Setor Crimeia Leste é palco de negociações rápidas que pedem cautela. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Garantimos segurança total do pátio de carros até a sua garagem no Setor Crimeia Leste.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Larissa Mendes",
             "text": "Serviço nota 10! A Vistoria Cautelar me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -803,7 +803,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Vila Jaraguá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Jaraguá começa na perícia técnica. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Garantimos segurança total do pátio de carros até a sua garagem na Vila Jaraguá.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Eduardo Lima",
             "text": "Rápido e cirúrgico. O perito veio até aqui na Vila Jaraguá e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -816,7 +816,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Canaã. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Canaã. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Canaã. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -1041,7 +1041,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar nos Jardins Mônaco. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -1086,7 +1086,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Perim. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -1163,7 +1163,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Vila Roriz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo na Vila Roriz é palco de negociações rápidas que pedem cautela. Com foco na integridade estrutural, a Vistoria Cautelar analisa longarinas e colunas. Blindamos sua negociação na Vila Roriz com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Atendimento de elite. O perito veio até aqui na Vila Roriz e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -1313,7 +1313,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Santos Dumont. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Santos Dumont sem antes descobrir a verdade oculta do carro. A Vistoria Cautelar da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Blindamos sua negociação no Setor Santos Dumont com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Serviço nota 10! O perito veio até aqui no Setor Santos Dumont e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -1326,7 +1326,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Jardim do Cedro. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -1343,7 +1343,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Itaipu. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Realizamos a Vistoria Cautelar completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Fiquei impressionado. Mesmo sendo no Itaipu, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -1358,7 +1358,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Parque Oeste Industrial. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Realizamos a Vistoria Cautelar completa, auditando chassi, motor e histórico de leilões. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Fiquei impressionado. O perito veio até aqui no Parque Oeste Industrial e achou uma repintura que eu não vi. Agora compro meu carro no Parque Oeste Industrial sem medo.",
@@ -1476,7 +1476,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "em",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar em Aparecida de Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio em Aparecida de Goiânia sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Não feche negócio em Aparecida de Goiânia sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -1508,7 +1508,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Cidade Vera Cruz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo na Cidade Vera Cruz exige um laudo técnico inquestionável. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Garantimos segurança total do pátio de carros até a sua garagem na Cidade Vera Cruz.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Atendimento de elite. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Valeu cada real investido.",
@@ -1523,7 +1523,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Jardim Helvécia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Helvécia. Com foco na integridade estrutural, a Vistoria Cautelar analisa longarinas e colunas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Rápido e cirúrgico. A Vistoria Cautelar me deu a paz de espírito para depositar o dinheiro do carro. Recomendo para todo mundo.",
@@ -1598,7 +1598,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Vila Brasília Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular na Vila Brasília Aparecida. A Vistoria Cautelar da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Garantimos segurança total do pátio de carros até a sua garagem na Vila Brasília Aparecida.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Thiago Ribeiro",
             "text": "Rápido e cirúrgico. O perito veio até aqui na Vila Brasília Aparecida e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -1613,7 +1613,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Jardim Luz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Luz. Com foco na integridade estrutural, a Vistoria Cautelar analisa longarinas e colunas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Muito profissionais. A Vistoria Cautelar me deu a paz de espírito para depositar o dinheiro do carro. Recomendo para todo mundo.",
@@ -1626,7 +1626,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Pontal Sul. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Pontal Sul sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Pontal Sul.",
+        "uniqueParagraph": "Não feche negócio no Setor Pontal Sul sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Pontal Sul.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -1761,9 +1761,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar",
         "shortDescription": "Agende sua Vistoria Cautelar no Boulevard Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Boulevard Senador Canedo esconde riscos que só um perito identifica. Nossa Vistoria Cautelar utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "O mercado de usados no Boulevard Senador Canedo esconde riscos que só um perito identifica. Nossa Vistoria Cautelar utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Muito profissionais. A Vistoria Cautelar me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Boulevard Senador Canedo sem medo.",
@@ -1778,7 +1778,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar em Trindade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo em Trindade é palco de negociações rápidas que pedem cautela. Nossa equipe técnica em Trindade é referência em diagnosticar recuperações de sinistro. Garantimos segurança total do pátio de carros até a sua garagem em Trindade.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Muito profissionais. Mesmo sendo em Trindade, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -1793,7 +1793,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Maysa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Maysa começa na perícia técnica. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Muito profissionais. A Vistoria Cautelar me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Maysa sem medo.",
@@ -1808,7 +1808,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar no Setor Central de Trindade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa equipe técnica no Setor Central de Trindade é referência em diagnosticar recuperações de sinistro. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Muito profissionais. Mesmo sendo no Setor Central de Trindade, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Setor Central de Trindade sem medo.",
@@ -1913,7 +1913,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar na Jaiara. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo na Jaiara é palco de negociações rápidas que pedem cautela. Nossa equipe técnica na Jaiara é referência em diagnosticar recuperações de sinistro. Garantimos segurança total do pátio de carros até a sua garagem na Jaiara.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Beatriz Lima",
             "text": "Muito profissionais. Mesmo sendo na Jaiara, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -2168,7 +2168,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Centro de Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Centro de Goiânia sem antes descobrir a verdade oculta do carro. Realizamos a Vistoria Cautelar e Transferência completa, auditando chassi, motor e histórico de leilões. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Simone Rocha",
             "text": "Muito profissionais. Mesmo sendo no Centro de Goiânia, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -2243,7 +2243,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Jaó. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Jaó exige um laudo técnico inquestionável. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Serviço nota 10! A Vistoria Cautelar e Transferência me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Jaó sem medo.",
@@ -2256,7 +2256,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Goiânia 2. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Goiânia 2 começa na perícia técnica. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Goiânia 2 começa na perícia técnica. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -2318,7 +2318,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Paris. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Paris começa na perícia técnica. Com foco na integridade estrutural, a Vistoria Cautelar e Transferência analisa longarinas e colunas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Valeu cada real investido.",
@@ -2333,7 +2333,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Verona. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Verona começa na perícia técnica. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mariana Oliveira",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -2363,7 +2363,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Jardim Atlântico. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Jardim Atlântico é palco de negociações rápidas que pedem cautela. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Beatriz Lima",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. A melhor vistoria de Goiânia sem dúvidas.",
@@ -2498,7 +2498,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Coimbra. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Coimbra sem antes descobrir a verdade oculta do carro. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Thiago Ribeiro",
             "text": "Fiquei impressionado. A Vistoria Cautelar e Transferência me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -2558,7 +2558,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Residencial Eldorado. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Residencial Eldorado começa na perícia técnica. Com foco na integridade estrutural, a Vistoria Cautelar e Transferência analisa longarinas e colunas. Blindamos sua negociação no Residencial Eldorado com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Daniela Meireles",
             "text": "Fiquei impressionado. O perito veio até aqui no Residencial Eldorado e achou uma repintura que eu não vi. Agora compro meu carro no Residencial Eldorado sem medo.",
@@ -2573,7 +2573,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Vila Rosa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Realizamos a Vistoria Cautelar e Transferência completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Serviço nota 10! Mesmo sendo na Vila Rosa, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -2586,7 +2586,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Negrão de Lima. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -2633,7 +2633,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Morada do Sol. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio na Morada do Sol sem antes descobrir a verdade oculta do carro. Nossa equipe técnica na Morada do Sol é referência em diagnosticar recuperações de sinistro. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Cláudio Pires",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -2678,7 +2678,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Valência. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio nos Jardins Valência sem antes descobrir a verdade oculta do carro. Com foco na integridade estrutural, a Vistoria Cautelar e Transferência analisa longarinas e colunas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Rápido e cirúrgico. A Vistoria Cautelar e Transferência me deu a paz de espírito para depositar o dinheiro do carro. Parceria para a vida toda.",
@@ -2843,7 +2843,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Rio Formoso. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Rio Formoso começa na perícia técnica. Com foco na integridade estrutural, a Vistoria Cautelar e Transferência analisa longarinas e colunas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Serviço nota 10! Mesmo sendo no Setor Rio Formoso, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -2858,7 +2858,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Madri. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio nos Jardins Madri sem antes descobrir a verdade oculta do carro. A Vistoria Cautelar e Transferência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Blindamos sua negociação nos Jardins Madri com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Muito profissionais. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -2871,7 +2871,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Lisboa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Lisboa com um documento pericial definitivo.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Lisboa com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -3021,7 +3021,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Mônaco. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Mônaco começa na perícia técnica. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Mônaco começa na perícia técnica. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -3038,7 +3038,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Vila Mutirão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular na Vila Mutirão. A Vistoria Cautelar e Transferência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Renata Lopes",
             "text": "Rápido e cirúrgico. O perito veio até aqui na Vila Mutirão e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -3096,7 +3096,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Recanto do Bosque. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Recanto do Bosque sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Recanto do Bosque com um documento pericial definitivo.",
+        "uniqueParagraph": "Não feche negócio no Setor Recanto do Bosque sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Recanto do Bosque com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -3156,7 +3156,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Jardim Guanabara. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Guanabara. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Guanabara. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -3171,7 +3171,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Central. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Central com um documento pericial definitivo.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Central com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -3261,7 +3261,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência nos Jardins Ravena. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio nos Jardins Ravena sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Não feche negócio nos Jardins Ravena sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -3413,7 +3413,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Setor Parque das Nações. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. A melhor vistoria de Goiânia sem dúvidas.",
@@ -3426,7 +3426,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Jardim Novo Mundo II. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Novo Mundo II. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Jardim Novo Mundo II.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Novo Mundo II. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Jardim Novo Mundo II.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -3486,7 +3486,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Cidade Vera Cruz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo na Cidade Vera Cruz é palco de negociações rápidas que pedem cautela. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "A região de grande fluxo na Cidade Vera Cruz é palco de negociações rápidas que pedem cautela. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -3578,7 +3578,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Vila Brasília Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio na Vila Brasília Aparecida sem antes descobrir a verdade oculta do carro. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Fiquei impressionado. A Vistoria Cautelar e Transferência me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -3651,9 +3651,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Parque das Nações Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Serviço nota 10! O perito veio até aqui no Parque das Nações Aparecida e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -3696,7 +3696,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Cautelar e Transferência",
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência no Jardim das Oliveiras. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Jardim das Oliveiras sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim das Oliveiras com um documento pericial definitivo.",
+        "uniqueParagraph": "Não feche negócio no Jardim das Oliveiras sem antes descobrir a verdade oculta do carro. Nossa Vistoria Cautelar e Transferência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim das Oliveiras com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -3713,7 +3713,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência na Vila Galvão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Galvão começa na perícia técnica. Com foco na integridade estrutural, a Vistoria Cautelar e Transferência analisa longarinas e colunas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Beatriz Lima",
             "text": "Fiquei impressionado. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -3968,7 +3968,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Cautelar e Transferência em Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. A Vistoria Cautelar e Transferência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Simone Rocha",
             "text": "Rápido e cirúrgico. Mesmo sendo em Goiânia, o atendimento foi pontual e muito explicativo. Valeu cada real investido.",
@@ -4073,7 +4073,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Pedro Ludovico. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Pedro Ludovico. Realizamos a Vistoria Pré-Compra completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "João Silva",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -4116,7 +4116,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Universitário. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -4163,7 +4163,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra na Vila Brasília. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Brasília começa na perícia técnica. Nossa equipe técnica na Vila Brasília é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Beatriz Lima",
             "text": "Muito profissionais. A Vistoria Pré-Compra me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -4206,7 +4206,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Jardim América. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Jardim América exige um laudo técnico inquestionável. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Comprar um seminovo no Jardim América exige um laudo técnico inquestionável. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -4268,7 +4268,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Alphaville Flamboyant. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Alphaville Flamboyant esconde riscos que só um perito identifica. A Vistoria Pré-Compra da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gabriel Soares",
             "text": "Muito profissionais. O perito veio até aqui no Alphaville Flamboyant e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -4371,9 +4371,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Sudoeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Setor Sudoeste esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "O mercado de usados no Setor Sudoeste esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Setor Sudoeste sem medo.",
@@ -4431,7 +4431,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra na Avenida Anhanguera. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo na Avenida Anhanguera exige um laudo técnico inquestionável. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Avenida Anhanguera com um documento pericial definitivo.",
+        "uniqueParagraph": "Comprar um seminovo na Avenida Anhanguera exige um laudo técnico inquestionável. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Avenida Anhanguera com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -4446,9 +4446,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Faiçalville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Setor Faiçalville esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "O mercado de usados no Setor Faiçalville esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcela Gouvêa",
             "text": "Muito profissionais. O laudo digital chegou em minutos e é o mais completo que já recebi. Parceria para a vida toda.",
@@ -4491,7 +4491,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Aeroporto. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Setor Aeroporto esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "O mercado de usados no Setor Aeroporto esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -4506,7 +4506,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra na Cidade Jardim. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -4538,7 +4538,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Residencial Eldorado. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa equipe técnica no Residencial Eldorado é referência em diagnosticar recuperações de sinistro. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Serviço nota 10! Mesmo sendo no Residencial Eldorado, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Residencial Eldorado sem medo.",
@@ -4568,7 +4568,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Negrão de Lima. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Negrão de Lima. Nossa equipe técnica no Setor Negrão de Lima é referência em diagnosticar recuperações de sinistro. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Fiquei impressionado. O perito veio até aqui no Setor Negrão de Lima e achou uma repintura que eu não vi. Agora compro meu carro no Setor Negrão de Lima sem medo.",
@@ -4598,7 +4598,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Santa Genoveva. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Realizamos a Vistoria Pré-Compra completa, auditando chassi, motor e histórico de leilões. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Rápido e cirúrgico. Mesmo sendo no Setor Santa Genoveva, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -4808,7 +4808,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Residencial Granville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Daniela Meireles",
             "text": "Fiquei impressionado. Mesmo sendo no Residencial Granville, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -4836,7 +4836,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra nos Jardins Madri. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular nos Jardins Madri. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular nos Jardins Madri. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -4958,7 +4958,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Jardim Curitiba. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa equipe técnica no Jardim Curitiba é referência em diagnosticar recuperações de sinistro. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Atendimento de elite. Mesmo sendo no Jardim Curitiba, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Jardim Curitiba sem medo.",
@@ -5048,7 +5048,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Perim. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Perim exige um laudo técnico inquestionável. Nossa equipe técnica no Setor Perim é referência em diagnosticar recuperações de sinistro. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Fiquei impressionado. Mesmo sendo no Setor Perim, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -5078,7 +5078,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Recanto do Bosque. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Recanto do Bosque exige um laudo técnico inquestionável. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Garantimos segurança total do pátio de carros até a sua garagem no Setor Recanto do Bosque.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Rafael Santos",
             "text": "Muito profissionais. Mesmo sendo no Setor Recanto do Bosque, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Setor Recanto do Bosque sem medo.",
@@ -5121,7 +5121,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra na Vila Roriz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados na Vila Roriz esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "O mercado de usados na Vila Roriz esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -5166,7 +5166,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Jardim Europa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Jardim Europa é palco de negociações rápidas que pedem cautela. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "A região de grande fluxo no Jardim Europa é palco de negociações rápidas que pedem cautela. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -5393,7 +5393,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Setor Parque das Nações. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Parque das Nações começa na perícia técnica. Nossa equipe técnica no Setor Parque das Nações é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Rápido e cirúrgico. A Vistoria Pré-Compra me deu a paz de espírito para depositar o dinheiro do carro. Parceria para a vida toda.",
@@ -5466,7 +5466,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra na Cidade Vera Cruz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -5496,9 +5496,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Jardim Buriti Sereno. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Jardim Buriti Sereno sem antes descobrir a verdade oculta do carro. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Não feche negócio no Jardim Buriti Sereno sem antes descobrir a verdade oculta do carro. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Rápido e cirúrgico. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -5543,7 +5543,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Papillon Park. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Papillon Park. Realizamos a Vistoria Pré-Compra completa, auditando chassi, motor e histórico de leilões. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Rápido e cirúrgico. O perito veio até aqui no Papillon Park e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -5558,7 +5558,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra na Vila Brasília Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Vila Brasília Aparecida sem medo.",
@@ -5616,7 +5616,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Vistoria Pré-Compra",
         "shortDescription": "Agende sua Vistoria Pré-Compra no Garavelo B. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Garavelo B esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "O mercado de usados no Garavelo B esconde riscos que só um perito identifica. Nossa Vistoria Pré-Compra utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -5663,7 +5663,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Conjunto Uirapuru. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Rápido e cirúrgico. O perito veio até aqui no Conjunto Uirapuru e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -5723,7 +5723,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra no Boulevard Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Boulevard Senador Canedo. A Vistoria Pré-Compra da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Garantimos segurança total do pátio de carros até a sua garagem no Boulevard Senador Canedo.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -5933,7 +5933,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Vistoria Pré-Compra em Anápolis City. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados em Anápolis City esconde riscos que só um perito identifica. Nossa equipe técnica em Anápolis City é referência em diagnosticar recuperações de sinistro. Blindamos sua negociação em Anápolis City com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mariana Oliveira",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Anápolis City sem medo.",
@@ -5961,7 +5961,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Setor Bueno. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de Parque Vaca Brava demanda segurança e procedência total. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "A valorização de veículos perto de Parque Vaca Brava demanda segurança e procedência total. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -5991,9 +5991,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Setor Oeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de Praça Tamandaré, a exigência no laudo deve ser máxima. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Oeste.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de Praça Tamandaré, a exigência no laudo deve ser máxima. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Oeste.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Fiquei impressionado. A Perícia Automotiva me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Oeste sem medo.",
@@ -6021,7 +6021,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Jardim Goiás. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de Shopping Flamboyant, a exigência no laudo deve ser máxima. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de Shopping Flamboyant, a exigência no laudo deve ser máxima. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -6128,7 +6128,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Centro de Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Centro de Goiânia esconde riscos que só um perito identifica. Nossa equipe técnica no Centro de Goiânia é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Felipe Castro",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -6186,7 +6186,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Jardim América. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim América. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim América com um documento pericial definitivo.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim América. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim América com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -6248,7 +6248,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Alphaville Flamboyant. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Alphaville Flamboyant sem antes descobrir a verdade oculta do carro. A Perícia Automotiva da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcela Gouvêa",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -6278,7 +6278,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva nos Jardins Paris. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio nos Jardins Paris sem antes descobrir a verdade oculta do carro. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Serviço nota 10! Mesmo sendo nos Jardins Paris, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Jardins Paris sem medo.",
@@ -6353,7 +6353,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor Sudoeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Sudoeste começa na perícia técnica. Com foco na integridade estrutural, a Perícia Automotiva analisa longarinas e colunas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Muito profissionais. Mesmo sendo no Setor Sudoeste, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -6413,7 +6413,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva na Avenida Anhanguera. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo na Avenida Anhanguera é palco de negociações rápidas que pedem cautela. Com foco na integridade estrutural, a Perícia Automotiva analisa longarinas e colunas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Beatriz Lima",
             "text": "Muito profissionais. O perito veio até aqui na Avenida Anhanguera e achou uma repintura que eu não vi. Agora compro meu carro no Avenida Anhanguera sem medo.",
@@ -6473,7 +6473,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor Aeroporto. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Aeroporto. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Atendimento de elite. A Perícia Automotiva me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Aeroporto sem medo.",
@@ -6561,7 +6561,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Jardim Novo Mundo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Novo Mundo. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Novo Mundo. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -6756,9 +6756,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Setor Canaã. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Canaã sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Não feche negócio no Setor Canaã sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Rápido e cirúrgico. A Perícia Automotiva me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Canaã sem medo.",
@@ -6831,7 +6831,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva nos Jardins Lisboa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Lisboa começa na perícia técnica. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Lisboa com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Lisboa começa na perícia técnica. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Lisboa com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -6861,7 +6861,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Setor Gentil Meireles. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Setor Gentil Meireles é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A região de grande fluxo no Setor Gentil Meireles é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -6876,9 +6876,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Bairro Goiá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Bairro Goiá sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Não feche negócio no Bairro Goiá sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Rafael Santos",
             "text": "Serviço nota 10! Mesmo sendo no Bairro Goiá, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -6893,7 +6893,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor João Braz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Setor João Braz é palco de negociações rápidas que pedem cautela. Nossa equipe técnica no Setor João Braz é referência em diagnosticar recuperações de sinistro. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Fiquei impressionado. Mesmo sendo no Setor João Braz, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -6998,7 +6998,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva na Vila Mutirão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Com foco na integridade estrutural, a Perícia Automotiva analisa longarinas e colunas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Thiago Ribeiro",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -7041,7 +7041,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Parque Tremendão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Parque Tremendão sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Parque Tremendão com um documento pericial definitivo.",
+        "uniqueParagraph": "Não feche negócio no Parque Tremendão sem antes descobrir a verdade oculta do carro. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Parque Tremendão com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -7073,7 +7073,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva na Fazenda Caveirinha. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Fazenda Caveirinha começa na perícia técnica. A Perícia Automotiva da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Garantimos segurança total do pátio de carros até a sua garagem na Fazenda Caveirinha.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Serviço nota 10! O perito veio até aqui na Fazenda Caveirinha e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -7116,7 +7116,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Jardim Guanabara. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Jardim Guanabara é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "A região de grande fluxo no Jardim Guanabara é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -7163,7 +7163,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva na Vila Mauá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio na Vila Mauá sem antes descobrir a verdade oculta do carro. A Perícia Automotiva da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Rápido e cirúrgico. Mesmo sendo na Vila Mauá, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -7326,7 +7326,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Residencial Itaipu. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Residencial Itaipu é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Residencial Itaipu com um documento pericial definitivo.",
+        "uniqueParagraph": "A região de grande fluxo no Residencial Itaipu é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Residencial Itaipu com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -7343,7 +7343,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor Grajaú. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Grajaú começa na perícia técnica. Realizamos a Perícia Automotiva completa, auditando chassi, motor e histórico de leilões. Blindamos sua negociação no Setor Grajaú com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Fiquei impressionado. A Perícia Automotiva me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Grajaú sem medo.",
@@ -7373,7 +7373,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor Parque das Nações. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Setor Parque das Nações é palco de negociações rápidas que pedem cautela. Nossa equipe técnica no Setor Parque das Nações é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Muito profissionais. O perito veio até aqui no Setor Parque das Nações e achou uma repintura que eu não vi. Agora compro meu carro no Setor Parque das Nações sem medo.",
@@ -7403,7 +7403,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Setor das Nações. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor das Nações começa na perícia técnica. Realizamos a Perícia Automotiva completa, auditando chassi, motor e histórico de leilões. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Fiquei impressionado. Mesmo sendo no Setor das Nações, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -7506,9 +7506,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Bairro Cardoso. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Daniela Meireles",
             "text": "Serviço nota 10! A Perícia Automotiva me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -7628,7 +7628,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva em Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Blindamos sua negociação em Senador Canedo com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. A melhor vistoria de Goiânia sem dúvidas.",
@@ -7703,7 +7703,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Boulevard Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Boulevard Senador Canedo exige um laudo técnico inquestionável. A Perícia Automotiva da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Garantimos segurança total do pátio de carros até a sua garagem no Boulevard Senador Canedo.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Boulevard Senador Canedo sem medo.",
@@ -7791,9 +7791,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "em",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva em Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo em Anápolis começa na perícia técnica. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo em Anápolis começa na perícia técnica. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -7821,7 +7821,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia Automotiva",
         "shortDescription": "Agende sua Perícia Automotiva no Setor Central de Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Setor Central de Anápolis é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "A região de grande fluxo no Setor Central de Anápolis é palco de negociações rápidas que pedem cautela. Nossa Perícia Automotiva utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -7838,7 +7838,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva no Bairro Jamil Abrão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Com foco na integridade estrutural, a Perícia Automotiva analisa longarinas e colunas. Blindamos sua negociação no Bairro Jamil Abrão com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Lucas Martins",
             "text": "Serviço nota 10! O perito veio até aqui no Bairro Jamil Abrão e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -7868,7 +7868,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia Automotiva na Vila Formosa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados na Vila Formosa esconde riscos que só um perito identifica. Nossa equipe técnica na Vila Formosa é referência em diagnosticar recuperações de sinistro. Blindamos sua negociação na Vila Formosa com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gabriel Soares",
             "text": "Serviço nota 10! Mesmo sendo na Vila Formosa, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -7943,7 +7943,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Bueno. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Bueno. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Valeu cada real investido.",
@@ -7958,7 +7958,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Marista. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Marista começa na perícia técnica. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Daniela Meireles",
             "text": "Serviço nota 10! A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Marista sem medo.",
@@ -8091,9 +8091,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Campinas. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A berço comercial goiano no Setor Campinas é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A berço comercial goiano no Setor Campinas é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Rápido e cirúrgico. O perito veio até aqui no Setor Campinas e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -8168,7 +8168,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim América. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Jardim América sem antes descobrir a verdade oculta do carro. Realizamos a Laudo Cautelar Veicular completa, auditando chassi, motor e histórico de leilões. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Rápido e cirúrgico. A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -8258,7 +8258,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular nos Jardins Paris. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Atendimento de elite. O perito veio até aqui nos Jardins Paris e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -8273,7 +8273,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular nos Jardins Verona. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular nos Jardins Verona. A Laudo Cautelar Veicular da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Rápido e cirúrgico. A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. Recomendo para todo mundo.",
@@ -8301,7 +8301,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Atlântico. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Jardim Atlântico é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A região de grande fluxo no Jardim Atlântico é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -8348,7 +8348,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Parque Vaca Brava. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Parque Vaca Brava. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Thiago Ribeiro",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -8481,7 +8481,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Parque das Laranjeiras. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Parque das Laranjeiras. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Parque das Laranjeiras. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -8498,7 +8498,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Residencial Eldorado. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcela Gouvêa",
             "text": "Muito profissionais. A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -8543,7 +8543,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Novo Mundo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Jardim Novo Mundo sem antes descobrir a verdade oculta do carro. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -8588,7 +8588,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Balneário Meia Ponte. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Jardim Balneário Meia Ponte é palco de negociações rápidas que pedem cautela. A Laudo Cautelar Veicular da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Rápido e cirúrgico. O laudo digital chegou em minutos e é o mais completo que já recebi. Agora compro meu carro no Jardim Balneário Meia Ponte sem medo.",
@@ -8601,9 +8601,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Crimeia Leste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Setor Crimeia Leste esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "O mercado de usados no Setor Crimeia Leste esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Setor Crimeia Leste sem medo.",
@@ -8616,7 +8616,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular nos Jardins Valência. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo nos Jardins Valência exige um laudo técnico inquestionável. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem nos Jardins Valência.",
+        "uniqueParagraph": "Comprar um seminovo nos Jardins Valência exige um laudo técnico inquestionável. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem nos Jardins Valência.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -8723,7 +8723,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Jaraguá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. A Laudo Cautelar Veicular da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Serviço nota 10! Mesmo sendo na Vila Jaraguá, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -8751,7 +8751,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Cascavelle. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Jardim Cascavelle.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Jardim Cascavelle.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -8826,9 +8826,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular nos Jardins Florença. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio nos Jardins Florença sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "Não feche negócio nos Jardins Florença sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Felipe Castro",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -8841,9 +8841,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Gentil Meireles. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Setor Gentil Meireles é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A região de grande fluxo no Setor Gentil Meireles é palco de negociações rápidas que pedem cautela. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Muito profissionais. O perito veio até aqui no Setor Gentil Meireles e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -8918,7 +8918,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Curitiba. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Jardim Curitiba é palco de negociações rápidas que pedem cautela. Com foco na integridade estrutural, a Laudo Cautelar Veicular analisa longarinas e colunas. Blindamos sua negociação no Jardim Curitiba com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Simone Rocha",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -8933,7 +8933,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Capuava. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Capuava exige um laudo técnico inquestionável. Realizamos a Laudo Cautelar Veicular completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Cláudio Pires",
             "text": "Serviço nota 10! Mesmo sendo no Setor Capuava, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -8976,7 +8976,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Mutirão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Mutirão começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Mutirão com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Mutirão começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Mutirão com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -9038,7 +9038,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Recanto do Bosque. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Recanto do Bosque sem antes descobrir a verdade oculta do carro. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Blindamos sua negociação no Setor Recanto do Bosque com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Rápido e cirúrgico. O perito veio até aqui no Setor Recanto do Bosque e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -9066,9 +9066,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Urias Magalhães. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Urias Magalhães sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Não feche negócio no Setor Urias Magalhães sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Rápido e cirúrgico. A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -9083,7 +9083,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Roriz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo na Vila Roriz é palco de negociações rápidas que pedem cautela. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Blindamos sua negociação na Vila Roriz com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mariana Oliveira",
             "text": "Atendimento de elite. A Laudo Cautelar Veicular me deu a paz de espírito para depositar o dinheiro do carro. Parceria para a vida toda.",
@@ -9126,7 +9126,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Jardim Europa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Jardim Europa sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "Não feche negócio no Jardim Europa sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -9171,7 +9171,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Alpes. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Alpes começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Alpes com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Alpes começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Alpes com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -9186,7 +9186,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Solar Ville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Solar Ville sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "Não feche negócio no Setor Solar Ville sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -9203,7 +9203,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular nos Jardins Ravena. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular nos Jardins Ravena. Nossa equipe técnica nos Jardins Ravena é referência em diagnosticar recuperações de sinistro. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Rápido e cirúrgico. Mesmo sendo nos Jardins Ravena, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -9231,7 +9231,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Santos Dumont. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Setor Santos Dumont esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "O mercado de usados no Setor Santos Dumont esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -9263,7 +9263,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Itaipu. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Itaipu esconde riscos que só um perito identifica. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Amanda Santos",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -9321,7 +9321,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Grajaú. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -9338,7 +9338,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Concórdia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Realizamos a Laudo Cautelar Veicular completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Renata Lopes",
             "text": "Atendimento de elite. Mesmo sendo na Vila Concórdia, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -9396,7 +9396,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "em",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular em Aparecida de Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo em Aparecida de Goiânia começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação em Aparecida de Goiânia com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo em Aparecida de Goiânia começa na perícia técnica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação em Aparecida de Goiânia com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -9426,7 +9426,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Cidade Vera Cruz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados na Cidade Vera Cruz esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "O mercado de usados na Cidade Vera Cruz esconde riscos que só um perito identifica. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -9651,7 +9651,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Laudo Cautelar Veicular",
         "shortDescription": "Agende sua Laudo Cautelar Veicular na Vila Galvão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio na Vila Galvão sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "Não feche negócio na Vila Galvão sem antes descobrir a verdade oculta do carro. Nossa Laudo Cautelar Veicular utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -9728,7 +9728,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular no Setor Central de Trindade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Central de Trindade sem antes descobrir a verdade oculta do carro. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Felipe Castro",
             "text": "Muito profissionais. Mesmo sendo no Setor Central de Trindade, o atendimento foi pontual e muito explicativo. Valeu cada real investido.",
@@ -9908,7 +9908,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Laudo Cautelar Veicular em Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Atendimento de elite. O perito veio até aqui em Goiânia e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -9996,7 +9996,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Alto da Glória. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -10058,7 +10058,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Universitário. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Universitário sem antes descobrir a verdade oculta do carro. A Avaliação de Procedência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Serviço nota 10! O perito veio até aqui no Setor Universitário e achou uma repintura que eu não vi. Parceria para a vida toda.",
@@ -10073,7 +10073,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Campinas. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de Matriz de Campinas demanda segurança e procedência total. Nossa equipe técnica no Setor Campinas é referência em diagnosticar recuperações de sinistro. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Muito profissionais. Mesmo sendo no Setor Campinas, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -10193,7 +10193,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Aldeia do Vale. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Aldeia do Vale sem antes descobrir a verdade oculta do carro. Com foco na integridade estrutural, a Avaliação de Procedência analisa longarinas e colunas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Serviço nota 10! A Avaliação de Procedência me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Aldeia do Vale sem medo.",
@@ -10266,7 +10266,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência nos Jardins Atenas. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -10311,7 +10311,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Sudoeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Setor Sudoeste é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "A região de grande fluxo no Setor Sudoeste é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -10493,7 +10493,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência na Vila Rosa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo na Vila Rosa exige um laudo técnico inquestionável. Nossa equipe técnica na Vila Rosa é referência em diagnosticar recuperações de sinistro. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Atendimento de elite. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -10508,7 +10508,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Negrão de Lima. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Pedro Henrique",
             "text": "Muito profissionais. A Avaliação de Procedência me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -10536,7 +10536,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Santa Genoveva. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Setor Santa Genoveva sem antes descobrir a verdade oculta do carro. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Santa Genoveva com um documento pericial definitivo.",
+        "uniqueParagraph": "Não feche negócio no Setor Santa Genoveva sem antes descobrir a verdade oculta do carro. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Setor Santa Genoveva com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -10566,7 +10566,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim Balneário Meia Ponte. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Jardim Balneário Meia Ponte exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Comprar um seminovo no Jardim Balneário Meia Ponte exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -10583,7 +10583,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Crimeia Leste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. A Avaliação de Procedência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Larissa Mendes",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -10596,7 +10596,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência nos Jardins Valência. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Valência começa na perícia técnica. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Valência com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Valência começa na perícia técnica. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação nos Jardins Valência com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -10703,7 +10703,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência na Vila Jaraguá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. A Avaliação de Procedência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Eduardo Lima",
             "text": "Fiquei impressionado. O perito veio até aqui na Vila Jaraguá e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -10716,7 +10716,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Canaã. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Canaã. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Canaã. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -10778,7 +10778,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência nos Jardins Madri. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -10898,7 +10898,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim Curitiba. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Jardim Curitiba é palco de negociações rápidas que pedem cautela. Nossa equipe técnica no Jardim Curitiba é referência em diagnosticar recuperações de sinistro. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -11106,9 +11106,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim Europa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Jardim Europa é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A região de grande fluxo no Jardim Europa é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Daniela Meireles",
             "text": "Rápido e cirúrgico. Mesmo sendo no Jardim Europa, o atendimento foi pontual e muito explicativo. Valeu cada real investido.",
@@ -11168,7 +11168,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Solar Ville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Solar Ville começa na perícia técnica. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Garantimos segurança total do pátio de carros até a sua garagem no Setor Solar Ville.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Simone Rocha",
             "text": "Rápido e cirúrgico. A Avaliação de Procedência me deu a paz de espírito para depositar o dinheiro do carro. Parceria para a vida toda.",
@@ -11181,7 +11181,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência nos Jardins Ravena. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo nos Jardins Ravena é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem nos Jardins Ravena.",
+        "uniqueParagraph": "A região de grande fluxo nos Jardins Ravena é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem nos Jardins Ravena.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -11226,7 +11226,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim do Cedro. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Jardim do Cedro exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Comprar um seminovo no Jardim do Cedro exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -11288,7 +11288,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Residencial Itaipu. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Residencial Itaipu sem antes descobrir a verdade oculta do carro. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Garantimos segurança total do pátio de carros até a sua garagem no Residencial Itaipu.",
         "heroImage": "https://images.unsplash.com/photo-1532581291347-9c39cf10a73c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. Agora compro meu carro no Residencial Itaipu sem medo.",
@@ -11453,7 +11453,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Parque Industrial Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Parque Industrial Aparecida esconde riscos que só um perito identifica. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Blindamos sua negociação no Parque Industrial Aparecida com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Rápido e cirúrgico. O perito veio até aqui no Parque Industrial Aparecida e achou uma repintura que eu não vi. Agora compro meu carro no Parque Industrial Aparecida sem medo.",
@@ -11543,7 +11543,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim Maria Inês. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Jardim Maria Inês esconde riscos que só um perito identifica. Realizamos a Avaliação de Procedência completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Atendimento de elite. Mesmo sendo no Jardim Maria Inês, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -11616,7 +11616,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Jardim das Oliveiras. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Jardim das Oliveiras sem antes descobrir a verdade oculta do carro. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "Não feche negócio no Jardim das Oliveiras sem antes descobrir a verdade oculta do carro. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -11691,7 +11691,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência na Maysa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo na Maysa é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Maysa com um documento pericial definitivo.",
+        "uniqueParagraph": "A região de grande fluxo na Maysa é palco de negociações rápidas que pedem cautela. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Maysa com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -11753,7 +11753,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência em Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. A Avaliação de Procedência da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Atendimento de elite. Mesmo sendo em Anápolis, o atendimento foi pontual e muito explicativo. A melhor vistoria de Goiânia sem dúvidas.",
@@ -11781,7 +11781,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência no Setor Central de Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Setor Central de Anápolis exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Comprar um seminovo no Setor Central de Anápolis exige um laudo técnico inquestionável. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -11826,7 +11826,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Avaliação de Procedência",
         "shortDescription": "Agende sua Avaliação de Procedência na Vila Formosa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa Avaliação de Procedência utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -11843,7 +11843,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Avaliação de Procedência no Bairro de Lourdes. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Bairro de Lourdes esconde riscos que só um perito identifica. Com foco na integridade estrutural, a Avaliação de Procedência analisa longarinas e colunas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Muito profissionais. A Avaliação de Procedência me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -11901,9 +11901,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Bueno. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A área mais valorizada no Setor Bueno é palco de negociações rápidas que pedem cautela. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Bueno.",
+        "uniqueParagraph": "A área mais valorizada no Setor Bueno é palco de negociações rápidas que pedem cautela. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Setor Bueno.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Serviço nota 10! Mesmo sendo no Setor Bueno, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -12038,7 +12038,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Universitário. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Setor Universitário esconde riscos que só um perito identifica. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Renata Lopes",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. Agora compro meu carro no Setor Universitário sem medo.",
@@ -12083,7 +12083,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Vila Brasília. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Brasília começa na perícia técnica. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Blindamos sua negociação na Vila Brasília com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Cláudio Pires",
             "text": "Atendimento de elite. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Recomendo para todo mundo.",
@@ -12216,9 +12216,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados nos Jardins Paris. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Paris começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Paris começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Atendimento de elite. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -12246,7 +12246,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados nos Jardins Atenas. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -12336,9 +12336,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Avenida 85. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo na Avenida 85 começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo na Avenida 85 começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Lucas Martins",
             "text": "Rápido e cirúrgico. A Consultoria na Compra de Usados me deu a paz de espírito para depositar o dinheiro do carro. Parceria para a vida toda.",
@@ -12398,7 +12398,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Coimbra. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Coimbra sem antes descobrir a verdade oculta do carro. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Thiago Ribeiro",
             "text": "Atendimento de elite. Mesmo sendo no Setor Coimbra, o atendimento foi pontual e muito explicativo. Valeu cada real investido.",
@@ -12428,7 +12428,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Cidade Jardim. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Felipe Castro",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -12441,9 +12441,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Parque das Laranjeiras. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Parque das Laranjeiras. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Parque das Laranjeiras. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1517524008410-b4a165599813?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -12471,7 +12471,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Vila Rosa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Rosa começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem na Vila Rosa.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo na Vila Rosa começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem na Vila Rosa.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -12488,7 +12488,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Negrão de Lima. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Negrão de Lima começa na perícia técnica. Realizamos a Consultoria na Compra de Usados completa, auditando chassi, motor e histórico de leilões. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Renata Lopes",
             "text": "Serviço nota 10! O perito veio até aqui no Setor Negrão de Lima e achou uma repintura que eu não vi. Parceria para a vida toda.",
@@ -12638,7 +12638,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Alphaville Ipês. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Alphaville Ipês esconde riscos que só um perito identifica. Nossa equipe técnica no Alphaville Ipês é referência em diagnosticar recuperações de sinistro. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Serviço nota 10! Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -12698,7 +12698,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Canaã. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Canaã começa na perícia técnica. Nossa equipe técnica no Setor Canaã é referência em diagnosticar recuperações de sinistro. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Muito profissionais. A Consultoria na Compra de Usados me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Canaã sem medo.",
@@ -12788,7 +12788,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados nos Jardins Florença. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados nos Jardins Florença esconde riscos que só um perito identifica. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Lucas Martins",
             "text": "Muito profissionais. A Consultoria na Compra de Usados me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Jardins Florença sem medo.",
@@ -12893,7 +12893,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Capuava. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa equipe técnica no Setor Capuava é referência em diagnosticar recuperações de sinistro. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1526726538690-5cbf95642cb4?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Muito profissionais. O perito veio até aqui no Setor Capuava e achou uma repintura que eu não vi. Recomendo para todo mundo.",
@@ -12921,9 +12921,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados nos Jardins Mônaco. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados nos Jardins Mônaco esconde riscos que só um perito identifica. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "O mercado de usados nos Jardins Mônaco esconde riscos que só um perito identifica. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Fiquei impressionado. O perito veio até aqui nos Jardins Mônaco e achou uma repintura que eu não vi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -13011,7 +13011,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Fazenda Caveirinha. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo na Fazenda Caveirinha começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Fazenda Caveirinha com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo na Fazenda Caveirinha começa na perícia técnica. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Fazenda Caveirinha com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -13116,7 +13116,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Jardim Planalto. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Planalto. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim Planalto com um documento pericial definitivo.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Planalto. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim Planalto com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1600706432502-77a0e2e32771?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -13146,7 +13146,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Solar Ville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Setor Solar Ville exige um laudo técnico inquestionável. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Comprar um seminovo no Setor Solar Ville exige um laudo técnico inquestionável. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -13161,7 +13161,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados nos Jardins Ravena. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -13193,7 +13193,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Setor Santos Dumont. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Santos Dumont começa na perícia técnica. A Consultoria na Compra de Usados da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Camila Rocha",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -13431,7 +13431,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Parque Industrial Aparecida. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -13461,7 +13461,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Papillon Park. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -13566,7 +13566,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "em",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados em Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo em Senador Canedo exige um laudo técnico inquestionável. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem em Senador Canedo.",
+        "uniqueParagraph": "Comprar um seminovo em Senador Canedo exige um laudo técnico inquestionável. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem em Senador Canedo.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -13583,7 +13583,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Conjunto Uirapuru. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mariana Oliveira",
             "text": "Rápido e cirúrgico. Mesmo sendo no Conjunto Uirapuru, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -13673,7 +13673,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Maysa. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Com foco na integridade estrutural, a Consultoria na Compra de Usados analisa longarinas e colunas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Ana Clara",
             "text": "Fiquei impressionado. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Valeu cada real investido.",
@@ -13793,7 +13793,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados na Jaiara. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo na Jaiara é palco de negociações rápidas que pedem cautela. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Rápido e cirúrgico. Foram extremamente detalhistas na análise do chassi e histórico de leilão. A melhor vistoria de Goiânia sem dúvidas.",
@@ -13838,7 +13838,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Consultoria na Compra de Usados no Parque Brasília. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A região de grande fluxo no Parque Brasília é palco de negociações rápidas que pedem cautela. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Renata Lopes",
             "text": "Fiquei impressionado. Mesmo sendo no Parque Brasília, o atendimento foi pontual e muito explicativo. Agora compro meu carro no Parque Brasília sem medo.",
@@ -13866,7 +13866,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "em",
         "serviceNameOriginal": "Consultoria na Compra de Usados",
         "shortDescription": "Agende sua Consultoria na Compra de Usados em Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular em Goiânia. Nossa Consultoria na Compra de Usados utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular em Goiânia. Nossa Consultoria na Compra de Usados utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -13971,7 +13971,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Pedro Ludovico. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Pedro Ludovico. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Setor Pedro Ludovico. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -13988,7 +13988,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Parque Amazônia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Parque Amazônia exige um laudo técnico inquestionável. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcos Almeida",
             "text": "Serviço nota 10! A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -14018,7 +14018,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Universitário. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "O mercado de usados no Setor Universitário esconde riscos que só um perito identifica. Realizamos a Perícia de Estrutura e Motor completa, auditando chassi, motor e histórico de leilões. Garantimos segurança total do pátio de carros até a sua garagem no Setor Universitário.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Roberto Souza",
             "text": "Fiquei impressionado. A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -14106,7 +14106,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim América. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região mais estratégica no Jardim América é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim América com um documento pericial definitivo.",
+        "uniqueParagraph": "A região mais estratégica no Jardim América é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim América com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -14138,7 +14138,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Goiânia 2. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Garantimos segurança total do pátio de carros até a sua garagem no Goiânia 2.",
         "heroImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Lucas Martins",
             "text": "Serviço nota 10! A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Goiânia 2 sem medo.",
@@ -14166,7 +14166,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Alphaville Flamboyant. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Alphaville Flamboyant começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Alphaville Flamboyant com um documento pericial definitivo.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Alphaville Flamboyant começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Alphaville Flamboyant com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -14286,7 +14286,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Parque Vaca Brava. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Parque Vaca Brava exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Parque Vaca Brava com um documento pericial definitivo.",
+        "uniqueParagraph": "Comprar um seminovo no Parque Vaca Brava exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Parque Vaca Brava com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -14301,7 +14301,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor na Avenida T-63. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular na Avenida T-63. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular na Avenida T-63. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -14331,7 +14331,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor na Avenida Anhanguera. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo na Avenida Anhanguera exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
+        "uniqueParagraph": "Comprar um seminovo na Avenida Anhanguera exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1722078260099-961a157a46d8?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -14346,7 +14346,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Faiçalville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Setor Faiçalville exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
+        "uniqueParagraph": "Comprar um seminovo no Setor Faiçalville exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "O câmbio automático exige atenção extra na pré-compra. Além da estrutura, avaliamos o fluido e o comportamento eletrônico da transmissão.",
         "localTestimonial": {
@@ -14393,7 +14393,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Aeroporto. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa equipe técnica no Setor Aeroporto é referência em diagnosticar recuperações de sinistro. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Fiquei impressionado. O perito veio até aqui no Setor Aeroporto e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -14481,9 +14481,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim Novo Mundo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Jardim Novo Mundo é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
+        "uniqueParagraph": "A região de grande fluxo no Jardim Novo Mundo é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mariana Oliveira",
             "text": "Fiquei impressionado. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -14528,7 +14528,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim Balneário Meia Ponte. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. A Perícia de Estrutura e Motor da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Rafael Santos",
             "text": "Muito profissionais. O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -14603,7 +14603,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Alphaville Araguaia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Alphaville Araguaia exige um laudo técnico inquestionável. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Serviço nota 10! A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -14661,7 +14661,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "na",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor na Vila Jaraguá. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados na Vila Jaraguá esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Jaraguá com um documento pericial definitivo.",
+        "uniqueParagraph": "O mercado de usados na Vila Jaraguá esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação na Vila Jaraguá com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1542362567-b05503f3af15?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -14693,7 +14693,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim Cascavelle. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Analisamos minuciosamente a originalidade de cada componente mecânico e estético. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. Valeu cada real investido.",
@@ -14706,7 +14706,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Residencial Granville. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -14813,7 +14813,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor João Braz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Serviço nota 10! O laudo digital chegou em minutos e é o mais completo que já recebi. A melhor vistoria de Goiânia sem dúvidas.",
@@ -14828,7 +14828,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Parque Industrial João Braz. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Para veículos de alto padrão perto de pontos estratégicos, a exigência no laudo deve ser máxima. Nossa equipe técnica no Parque Industrial João Braz é referência em diagnosticar recuperações de sinistro. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Tereza Souza",
             "text": "Atendimento de elite. A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Parque Industrial João Braz sem medo.",
@@ -14841,7 +14841,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Sudoeste. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados no Sudoeste esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Sudoeste.",
+        "uniqueParagraph": "O mercado de usados no Sudoeste esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Sudoeste.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -14871,9 +14871,9 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Capuava. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Capuava começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Capuava começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "João Silva",
             "text": "Rápido e cirúrgico. A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -14901,7 +14901,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "nos",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor nos Jardins Mônaco. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "O mercado de usados nos Jardins Mônaco esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "O mercado de usados nos Jardins Mônaco esconde riscos que só um perito identifica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -14931,7 +14931,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim Liberdade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Liberdade. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
+        "uniqueParagraph": "Segurança patrimonial é o pilar de uma boa compra veicular no Jardim Liberdade. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
         "expertTip": "Mito ou Verdade: Carro de único dono nem sempre é garantia de perfeição. A perícia técnica é a única prova real do estado do automóvel.",
         "localTestimonial": {
@@ -14948,7 +14948,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Perim. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Perim começa na perícia técnica. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Fiquei impressionado. O laudo digital chegou em minutos e é o mais completo que já recebi. Recomendo para todo mundo.",
@@ -15006,7 +15006,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Urias Magalhães. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Urias Magalhães começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
+        "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Urias Magalhães começa na perícia técnica. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Dica do Perito: Sempre verifique se os parafusos do capô possuem marcas de chave, sinal claro de remoção para reparos estruturais.",
         "localTestimonial": {
@@ -15053,7 +15053,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Central. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Realizamos a Perícia de Estrutura e Motor completa, auditando chassi, motor e histórico de leilões. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1469285994282-454ceb49e63c?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Juliana Fernandes",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Agora compro meu carro no Setor Central sem medo.",
@@ -15143,7 +15143,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor nos Jardins Ravena. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo nos Jardins Ravena começa na perícia técnica. A Perícia de Estrutura e Motor da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Blindamos sua negociação nos Jardins Ravena com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Patrícia Borges",
             "text": "Rápido e cirúrgico. O perito veio até aqui nos Jardins Ravena e achou uma repintura que eu não vi. Valeu cada real investido.",
@@ -15186,7 +15186,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim do Cedro. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Comprar um seminovo no Jardim do Cedro exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim do Cedro com um documento pericial definitivo.",
+        "uniqueParagraph": "Comprar um seminovo no Jardim do Cedro exige um laudo técnico inquestionável. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Blindamos sua negociação no Jardim do Cedro com um documento pericial definitivo.",
         "heroImage": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=2070",
         "expertTip": "Atenção ao histórico de leilão: Nem todo carro de leilão é ruim, mas a desvalorização é real. Nosso laudo traz o scoring completo do veículo.",
         "localTestimonial": {
@@ -15201,7 +15201,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Itaipu. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "Não feche negócio no Itaipu sem antes descobrir a verdade oculta do carro. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Itaipu.",
+        "uniqueParagraph": "Não feche negócio no Itaipu sem antes descobrir a verdade oculta do carro. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Itaipu.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
         "expertTip": "Importante: Verifique sempre se as etiquetas de segurança dos cintos de segurança condizem com o ano de fabricação do veículo.",
         "localTestimonial": {
@@ -15263,7 +15263,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Grajaú. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Grajaú exige um laudo técnico inquestionável. Realizamos a Perícia de Estrutura e Motor completa, auditando chassi, motor e histórico de leilões. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1605553066446-8608e906a208?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Serviço nota 10! Mesmo sendo no Setor Grajaú, o atendimento foi pontual e muito explicativo. Valeu cada real investido.",
@@ -15353,7 +15353,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Colina Azul. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Setor Colina Azul sem antes descobrir a verdade oculta do carro. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Fernanda Costa",
             "text": "Fiquei impressionado. O perito veio até aqui no Setor Colina Azul e achou uma repintura que eu não vi. Parceria para a vida toda.",
@@ -15426,7 +15426,7 @@ export const serviceLocations: ServiceLocation[] = [
         "preposition": "no",
         "serviceNameOriginal": "Perícia de Estrutura e Motor",
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Bairro Cardoso. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
-        "uniqueParagraph": "A região de grande fluxo no Bairro Cardoso é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza scanners térmicos e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Bairro Cardoso.",
+        "uniqueParagraph": "A região de grande fluxo no Bairro Cardoso é palco de negociações rápidas que pedem cautela. Nossa Perícia de Estrutura e Motor utiliza medição técnica e análise de estrutura para achar batidas. Garantimos segurança total do pátio de carros até a sua garagem no Bairro Cardoso.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
         "expertTip": "Dica Técnica: Vedantes de fábrica nas colunas possuem uma textura específica. Se estiverem lisos demais, o carro pode ter sofrido um capotamento maquiado.",
         "localTestimonial": {
@@ -15518,7 +15518,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Garavelo B. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Garavelo B exige um laudo técnico inquestionável. Realizamos a Perícia de Estrutura e Motor completa, auditando chassi, motor e histórico de leilões. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gabriel Soares",
             "text": "Muito profissionais. O perito veio até aqui no Garavelo B e achou uma repintura que eu não vi. Parceria para a vida toda.",
@@ -15578,7 +15578,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Jardim das Oliveiras. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Jardim das Oliveiras começa na perícia técnica. Realizamos a Perícia de Estrutura e Motor completa, auditando chassi, motor e histórico de leilões. Fuja de dores de cabeça futuras escolhendo a melhor perícia técnica da região.",
         "heroImage": "https://images.unsplash.com/photo-1620002093398-8f16081af5ee?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Felipe Castro",
             "text": "Rápido e cirúrgico. A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Valeu cada real investido.",
@@ -15623,7 +15623,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Boulevard Senador Canedo. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio no Boulevard Senador Canedo sem antes descobrir a verdade oculta do carro. A Perícia de Estrutura e Motor da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Não arrisque seu patrimônio; conte com a vistoria mais respeitada de Goiânia.",
         "heroImage": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Gustavo Vieira",
             "text": "Serviço nota 10! Mesmo sendo no Boulevard Senador Canedo, o atendimento foi pontual e muito explicativo. Recomendo para todo mundo.",
@@ -15668,7 +15668,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Central de Trindade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Setor Central de Trindade exige um laudo técnico inquestionável. Nossa equipe técnica no Setor Central de Trindade é referência em diagnosticar recuperações de sinistro. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Simone Rocha",
             "text": "Serviço nota 10! A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. Agora compro meu carro no Setor Central de Trindade sem medo.",
@@ -15698,7 +15698,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Parque das Nações Trindade. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Comprar um seminovo no Parque das Nações Trindade exige um laudo técnico inquestionável. Nossa unidade móvel atende toda a região de pontos estratégicos com laudos entregues na hora. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Marcela Gouvêa",
             "text": "Fiquei impressionado. Mesmo sendo no Parque das Nações Trindade, o atendimento foi pontual e muito explicativo. Parceria para a vida toda.",
@@ -15713,7 +15713,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor em Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "A valorização de veículos perto de pontos estratégicos demanda segurança e procedência total. Oferecemos a perícia mais detalhada de Goiás, testando mais de 120 itens vitais. Sua próxima conquista merece a transparência que só a KL Vistoria entrega.",
         "heroImage": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Sérgio Machado",
             "text": "Atendimento de elite. A Perícia de Estrutura e Motor me deu a paz de espírito para depositar o dinheiro do carro. A melhor vistoria de Goiânia sem dúvidas.",
@@ -15743,7 +15743,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Setor Central de Anápolis. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Setor Central de Anápolis começa na perícia técnica. A Perícia de Estrutura e Motor da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Nosso laudo é o certificado oficial de tranquilidade para motoristas exigentes.",
         "heroImage": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Bruno Alencar",
             "text": "Muito profissionais. O perito veio até aqui no Setor Central de Anápolis e achou uma repintura que eu não vi. Parceria para a vida toda.",
@@ -15758,7 +15758,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor no Bairro Jamil Abrão. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Garantir um bom negócio automotivo no Bairro Jamil Abrão começa na perícia técnica. Nossa equipe técnica no Bairro Jamil Abrão é referência em diagnosticar recuperações de sinistro. Valorize seu seminovo com o selo de procedência que faz a diferença na revenda.",
         "heroImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Mônica Paiva",
             "text": "Muito profissionais. O perito veio até aqui no Bairro Jamil Abrão e achou uma repintura que eu não vi. Agora compro meu carro no Bairro Jamil Abrão sem medo.",
@@ -15848,7 +15848,7 @@ export const serviceLocations: ServiceLocation[] = [
         "shortDescription": "Agende sua Perícia de Estrutura e Motor em Goiânia. Perícia técnica com laudo 100% garantido e atendimento móvel em toda a região de Goiânia.",
         "uniqueParagraph": "Não feche negócio em Goiânia sem antes descobrir a verdade oculta do carro. A Perícia de Estrutura e Motor da KL Vistorias foca em blindar o comprador contra fraudes e remarcações. Proteja seu dinheiro contra golpes e revendas maquiadas com nossa expertise.",
         "heroImage": "https://images.unsplash.com/photo-1493238544526-03710d946fb9?q=80&w=2070",
-        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossos scanners identificam se essa variação é normal ou fruto de batida.",
+        "expertTip": "Sabia que a tonalidade da pintura original pode variar levemente entre plástico e metal? Nossa análise técnica identifica se essa variação é compatível com o padrão de fábrica ou fruto de batida.",
         "localTestimonial": {
             "name": "Carlos Mendes",
             "text": "Muito profissionais. Foram extremamente detalhistas na análise do chassi e histórico de leilão. Parceria para a vida toda.",
@@ -15856,3 +15856,4 @@ export const serviceLocations: ServiceLocation[] = [
         }
     }
 ];
+

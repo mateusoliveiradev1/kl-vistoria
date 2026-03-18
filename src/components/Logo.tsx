@@ -34,7 +34,7 @@ export const Logo = ({ className = "", variant = "default", ...props }: LogoProp
                     strokeLinecap="square"
                     strokeLinejoin="round"
                 />
-                {/* Tech/Scanner Scanner line effect */}
+                {/* Accent line effect */}
                 <line
                     x1="5"
                     y1="50"
@@ -83,3 +83,4 @@ export const Logo = ({ className = "", variant = "default", ...props }: LogoProp
         </svg>
     );
 };
+
