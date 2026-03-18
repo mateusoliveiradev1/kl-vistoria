@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wireframe — Blog / Dicas | KL Vistorias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Balsamiq Sans', 'Comic Sans MS', cursive; background: #d4d4d4; color: #222; font-size: 14px; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+  .wf-title { background: #1a1a1a; color: white; padding: 14px 28px; }
+  .wf-title h1 { font-size: 17px; margin-bottom: 4px; }
+  .wf-title p  { font-size: 12px; color: #aaa; }
+  .wf-legend { background: #2e2e2e; padding: 8px 28px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .wf-legend > span { font-size: 11px; color: #ccc; font-family: Arial, sans-serif; }
+  .badge-r { background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .badge-n { background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .comp-wrap { position: relative; }
+  .cb-reuse { position: absolute; top: -10px; right: -10px; background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  .cb-new   { position: absolute; top: -10px; right: -10px; background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  /* Header */
+  .wire-header { background: #111; color: white; height: 66px; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #000; }
+  .wire-logo { background: #555; border: 2px solid #888; padding: 5px 12px; border-radius: 3px; font-weight: bold; font-size: 13px; color: white; letter-spacing: 1px; }
+  .wire-nav { display: flex; gap: 20px; align-items: center; }
+  .wire-nav a { color: #bbb; font-size: 13px; text-decoration: underline dotted; text-underline-offset: 3px; }
+  /* Buttons */
+  .wire-btn     { display: inline-block; background: #333; color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-sm  { display: inline-block; background: #333; color: white; padding: 6px 14px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 12px; cursor: pointer; }
+  .wire-btn-lg  { display: inline-block; background: #222; color: white; padding: 12px 28px; border-radius: 4px; border: 2px solid #000; font-family: inherit; font-size: 15px; font-weight: bold; cursor: pointer; }
+  .wire-btn-outline { display: inline-block; background: white; color: #333; padding: 9px 20px; border-radius: 4px; border: 2px solid #666; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-ghost { display: inline-block; background: rgba(255,255,255,0.1); color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid rgba(255,255,255,0.35); font-family: inherit; font-size: 13px; cursor: pointer; }
+  /* Images & cards */
+  .wire-img { background: #c6c6c6; border: 2px dashed #aaa; display: flex; align-items: center; justify-content: center; color: #777; font-size: 12px; border-radius: 4px; text-align: center; padding: 12px; line-height: 1.5; }
+  .wire-card { background: white; border: 1.5px solid #c0c0c0; border-radius: 8px; padding: 20px; position: relative; }
+  .wire-input { border: 1.5px solid #bbb; border-radius: 4px; padding: 10px 14px; font-family: inherit; font-size: 13px; background: white; display: inline-block; }
+  /* Layout */
+  .section       { padding: 48px 0; background: #efefef; border-bottom: 1px dashed #bbb; }
+  .section-white { padding: 48px 0; background: #ffffff; border-bottom: 1px dashed #bbb; }
+  .section-dark  { padding: 52px 0; background: #2e2e2e; color: white; }
+  .blog-hero     { background: #222; color: white; padding: 52px 0 48px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+  /* Category pills */
+  .cat-pill { display: inline-block; background: white; border: 1.5px solid #bbb; border-radius: 20px; padding: 6px 16px; font-size: 12px; color: #555; cursor: pointer; white-space: nowrap; }
+  .cat-pill.active { background: #333; color: white; border-color: #111; }
+  /* Blog card */
+  .blog-card { background: white; border: 1.5px solid #c0c0c0; border-radius: 8px; overflow: hidden; position: relative; }
+  .blog-card-img { background: #c6c6c6; border-bottom: 1.5px dashed #bbb; display: flex; align-items: center; justify-content: center; color: #888; font-size: 11px; text-align: center; padding: 8px; height: 160px; }
+  .blog-card-body { padding: 16px; }
+  .blog-cat-tag { display: inline-block; background: #eee; border: 1px solid #ddd; border-radius: 10px; padding: 2px 10px; font-size: 10px; color: #666; margin-bottom: 8px; }
+  .blog-title { font-size: 15px; font-weight: bold; margin-bottom: 8px; line-height: 1.4; color: #222; }
+  .blog-excerpt { font-size: 12px; color: #777; line-height: 1.5; margin-bottom: 12px; }
+  .blog-meta { font-size: 11px; color: #aaa; }
+  /* Featured post */
+  .featured-card { background: white; border: 1.5px solid #c0c0c0; border-radius: 8px; overflow: hidden; position: relative; }
+  /* Pagination */
+  .page-btn { display: inline-flex; width: 36px; height: 36px; border: 1.5px solid #ccc; border-radius: 4px; align-items: center; justify-content: center; font-size: 13px; cursor: pointer; background: white; color: #555; }
+  .page-btn.active { background: #333; color: white; border-color: #111; }
+  /* Newsletter */
+  .tag { display: inline-block; background: #e2e2e2; border: 1px solid #ccc; border-radius: 12px; padding: 4px 12px; font-size: 11px; color: #555; }
+  .divider { border: none; border-top: 1px dashed #e0e0e0; margin: 14px 0; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 40px; }
+  .mb-4{margin-bottom:4px;}.mb-8{margin-bottom:8px;}.mb-12{margin-bottom:12px;}.mb-16{margin-bottom:16px;}.mb-20{margin-bottom:20px;}.mb-24{margin-bottom:24px;}.mb-32{margin-bottom:32px;}.mb-40{margin-bottom:40px;}
+  .mt-8{margin-top:8px;}.mt-12{margin-top:12px;}.mt-16{margin-top:16px;}.mt-24{margin-top:24px;}.mt-32{margin-top:32px;}
+  .flex{display:flex;}.gap-8{gap:8px;}.gap-12{gap:12px;}.gap-16{gap:16px;}.items-center{align-items:center;}.justify-between{justify-content:space-between;}.justify-center{justify-content:center;}.flex-wrap{flex-wrap:wrap;}.text-center{text-align:center;}.w-full{width:100%;}
+</style>
+</head>
+<body>
+
+<!-- ===== WIREFRAME TITLE BAR ===== -->
+<div class="wf-title">
+  <h1>📝 Blog / Dicas — Content & Tips Page &nbsp;|&nbsp; KL Vistorias Cautelar</h1>
+  <p>SEO-driven articles about buying used cars — category filters, featured post, article grid, newsletter — Balanced content density</p>
+</div>
+<div class="wf-legend">
+  <span>Legend:</span>
+  <span><span class="badge-r">[REUSE]</span> Existing component from codebase</span>
+  <span><span class="badge-n">[NEW]</span> New component to be created</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<!-- REUSABLE: Header from src/components/Header.tsx -->
+<div class="comp-wrap" style="position:sticky; top:0; z-index:100; margin-top:12px;">
+  <span class="cb-reuse" title="src/components/Header.tsx">[REUSE] Header</span>
+  <div class="wire-header">
+    <div class="wire-logo">[ KL VISTORIAS ]</div>
+    <nav class="wire-nav">
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Diferenciais</a>
+      <a href="#">FAQ</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#" style="color:white; border-bottom:2px solid #888; padding-bottom:2px; text-decoration:none;">Blog</a>
+      <span class="wire-btn-sm">Contato</span>
+    </nav>
+  </div>
+</div>
+
+<!-- ===== BLOG HERO ===== -->
+<div class="blog-hero" style="margin-top:8px;">
+  <div class="container">
+    <div style="font-size:12px; color:#555; margin-bottom:10px;"><a href="#" style="color:#555; text-decoration:underline;">Início</a> › Blog</div>
+    <h1 style="font-size:34px; font-weight:bold; color:white; margin-bottom:10px; line-height:1.2;">Dicas &amp; Informações</h1>
+    <p style="color:#aaa; font-size:15px; margin-bottom:28px; max-width:520px; line-height:1.6;">Aprenda a comprar seu próximo carro com segurança. Artigos técnicos e dicas práticas dos nossos peritos.</p>
+    <!-- Search Bar -->
+    <div class="comp-wrap" style="display:inline-block;">
+      <span class="cb-new" title="src/components/BlogSearch.tsx">[NEW] BlogSearch</span>
+      <div style="display:flex; gap:0; max-width:480px;">
+        <input class="wire-input" type="text" placeholder="Buscar artigos... ex: 'vistoria cautelar'" style="border-radius:4px 0 0 4px; width:360px; border-right:none;"/>
+        <span style="background:#444; color:white; border:1.5px solid #444; border-radius:0 4px 4px 0; padding:10px 18px; font-family:inherit; font-size:13px; cursor:pointer; display:flex; align-items:center;">🔍&nbsp; Buscar</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CATEGORY FILTER ===== -->
+<!-- NEW COMPONENT: CategoryFilter -->
+<div class="section-white" style="padding:20px 0; border-bottom:1px dashed #ddd;">
+  <div class="container">
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/CategoryFilter.tsx">[NEW] CategoryFilter</span>
+      <div class="flex gap-8 flex-wrap items-center">
+        <span style="font-size:12px; color:#888; margin-right:4px;">Filtrar por:</span>
+        <span class="cat-pill active">Todos (18)</span>
+        <span class="cat-pill">Vistoria Cautelar (6)</span>
+        <span class="cat-pill">Compra Segura (5)</span>
+        <span class="cat-pill">Documentação (3)</span>
+        <span class="cat-pill">Financiamento (2)</span>
+        <span class="cat-pill">Mercado Automotivo (2)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FEATURED POST ===== -->
+<!-- NEW COMPONENT: FeaturedPost -->
+<div class="section" style="padding:36px 0;">
+  <div class="container">
+    <div class="mb-20" style="display:flex; align-items:center; gap:10px;">
+      <div style="height:2px; width:32px; background:#555;"></div>
+      <span style="font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:#666;">Artigo em Destaque</span>
+    </div>
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/FeaturedPost.tsx">[NEW] FeaturedPost</span>
+      <div class="featured-card">
+        <div class="grid-2" style="gap:0;">
+          <!-- Image left -->
+          <div class="comp-wrap">
+            <span class="cb-reuse" style="right:8px; top:8px;" title="src/components/ui/Image.tsx">[REUSE] Image</span>
+            <div class="wire-img" style="height:280px; border-radius:0; border:none; background:#bbb; font-size:13px;">🖼️&nbsp;[Featured Image: 540×280 — Car buying inspection checklist article hero]</div>
+          </div>
+          <!-- Content right -->
+          <div style="padding:28px;">
+            <div style="display:flex; gap:8px; margin-bottom:12px; align-items:center;">
+              <span style="background:#333; color:white; padding:3px 10px; border-radius:10px; font-size:10px; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">DESTAQUE</span>
+              <span class="blog-cat-tag" style="background:#eee;">Compra Segura</span>
+            </div>
+            <h2 style="font-size:22px; font-weight:bold; margin-bottom:12px; line-height:1.35; color:#111;">7 Sinais de que o Carro que Você Vai Comprar Foi em Leilão — e Como a Vistoria Cautelar te Protege</h2>
+            <p style="font-size:13px; color:#666; line-height:1.7; margin-bottom:20px;">Veículos de leilão podem parecer uma grande oportunidade, mas muitos escondem danos sérios que só um perito especializado consegue identificar. Saiba quais sinais procurar antes de fechar negócio...</p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <div>
+                <div style="font-size:12px; font-weight:bold; color:#555; margin-bottom:2px;">Carlos Silva — Perito Chefe</div>
+                <div style="font-size:11px; color:#aaa;">10 Mar 2026 · 8 min de leitura</div>
+              </div>
+              <!-- REUSABLE: Button -->
+              <div class="comp-wrap" style="display:inline-block;">
+                <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+                <span class="wire-btn">Ler Artigo →</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== ARTICLE GRID ===== -->
+<!-- NEW COMPONENT: BlogCard -->
+<div class="section-white" style="padding:40px 0;">
+  <div class="container">
+    <h2 style="font-size:22px; font-weight:bold; margin-bottom:24px; border-bottom:1px dashed #e0e0e0; padding-bottom:12px;">Artigos Recentes</h2>
+
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/BlogCard.tsx">[NEW] BlogCard</span>
+      <div class="grid-3">
+
+        <!-- Card 1 -->
+        <div class="blog-card">
+          <div class="comp-wrap" style="position:static;">
+            <div class="blog-card-img">🖼️ [Image: 380×160 — Car paint thickness gauge in use]</div>
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Vistoria Cautelar</span>
+            <div class="blog-title">O que é o Medidor de Espessura de Tinta e Por Que Ele é Essencial</div>
+            <div class="blog-excerpt">Este equipamento é um dos mais importantes na vistoria cautelar. Aprenda como ele revela repinturas ocultas...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">05 Mar 2026 · 5 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card">
+          <div class="blog-card-img">🖼️ [Image: 380×160 — Vehicle documents on desk]</div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Documentação</span>
+            <div class="blog-title">Transferência de Veículo: Quais Documentos Você Precisa Verificar</div>
+            <div class="blog-excerpt">Antes de pagar pelo carro, confira essa lista completa de documentos obrigatórios para evitar surpresas desagradáveis...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">01 Mar 2026 · 6 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card">
+          <div class="blog-card-img">🖼️ [Image: 380×160 — Car chassis inspection close-up]</div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Vistoria Cautelar</span>
+            <div class="blog-title">Chassi Adulterado: Como Identificar e Por Que é Crime</div>
+            <div class="blog-excerpt">Comprar um carro com chassi adulterado pode acarretar apreensão do veículo e processo criminal. Saiba como evitar...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">24 Fev 2026 · 7 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="blog-card">
+          <div class="blog-card-img">🖼️ [Image: 380×160 — Person reviewing car financing contract]</div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Financiamento</span>
+            <div class="blog-title">Financiamento de Carro Usado: O Que Verificar Antes de Assinar</div>
+            <div class="blog-excerpt">Muitos compradores ignoram verificações essenciais antes de financiar um seminovo. Descubra o checklist completo...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">18 Fev 2026 · 5 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="blog-card">
+          <div class="blog-card-img">🖼️ [Image: 380×160 — Used car marketplace website on laptop]</div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Mercado Automotivo</span>
+            <div class="blog-title">Comprar Carro no OLX ou Mercado Livre: Dicas para Não Cair em Golpe</div>
+            <div class="blog-excerpt">O mercado online de veículos cresce a cada ano, mas os golpes também. Aprenda as principais armadilhas e como se proteger...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">12 Fev 2026 · 8 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="blog-card">
+          <div class="blog-card-img">🖼️ [Image: 380×160 — Mechanic doing engine inspection]</div>
+          <div class="blog-card-body">
+            <span class="blog-cat-tag">Compra Segura</span>
+            <div class="blog-title">Test Drive: O Que Testar e Como Identificar Problemas Antes de Comprar</div>
+            <div class="blog-excerpt">Um bom test drive pode revelar muito sobre o estado real de um veículo. Confira o roteiro que nossos peritos recomendam...</div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="blog-meta">05 Fev 2026 · 6 min</span>
+              <span style="font-size:12px; color:#555; text-decoration:underline; cursor:pointer;">Ler mais →</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- end comp-wrap BlogCard -->
+
+    <!-- ===== PAGINATION ===== -->
+    <!-- NEW COMPONENT: Pagination -->
+    <div class="comp-wrap mt-32" style="text-align:center;">
+      <span class="cb-new" title="src/components/Pagination.tsx">[NEW] Pagination</span>
+      <div style="display:inline-flex; gap:6px; align-items:center;">
+        <span class="page-btn">←</span>
+        <span class="page-btn active">1</span>
+        <span class="page-btn">2</span>
+        <span class="page-btn">3</span>
+        <span style="padding:0 6px; color:#aaa;">...</span>
+        <span class="page-btn">8</span>
+        <span class="page-btn">→</span>
+      </div>
+      <div style="font-size:12px; color:#aaa; margin-top:8px;">Mostrando 6 de 18 artigos</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===== NEWSLETTER CTA ===== -->
+<!-- NEW COMPONENT: NewsletterCTA -->
+<div class="section-dark">
+  <div class="container">
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/NewsletterCTA.tsx">[NEW] NewsletterCTA</span>
+      <div style="max-width:600px; margin:0 auto; text-align:center;">
+        <div style="width:52px; height:52px; background:#444; border:2px solid #666; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; margin:0 auto 20px auto;">✉️</div>
+        <h2 style="font-size:26px; font-weight:bold; color:white; margin-bottom:10px;">Receba Dicas na Sua Caixa de Entrada</h2>
+        <p style="color:#aaa; font-size:14px; margin-bottom:28px; line-height:1.6;">Artigos semanais sobre compra segura de veículos, direto dos nossos peritos. Sem spam, somente conteúdo útil.</p>
+        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;">
+          <input class="wire-input" type="email" placeholder="seuemail@email.com" style="width:260px; border-color:#555; background:#3a3a3a; color:white;"/>
+          <!-- REUSABLE: Button -->
+          <div class="comp-wrap" style="display:inline-block;">
+            <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+            <span class="wire-btn-lg" style="white-space:nowrap;">Quero Receber →</span>
+          </div>
+        </div>
+        <p style="font-size:11px; color:#555; margin-top:12px;">🔒 Sem spam. Cancele a qualquer momento.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FAQ SECTION (REUSE) ===== -->
+<div class="section-white" style="padding:40px 0;">
+  <div class="container">
+    <!-- REUSABLE: FAQ from src/components/FAQ.tsx -->
+    <div class="comp-wrap">
+      <span class="cb-reuse" title="src/components/FAQ.tsx">[REUSE] FAQ</span>
+      <div style="max-width:720px; margin:0 auto;">
+        <h2 style="font-size:22px; font-weight:bold; margin-bottom:6px; text-align:center;">Dúvidas Sobre a Vistoria?</h2>
+        <p style="font-size:13px; color:#777; text-align:center; margin-bottom:24px;">Perguntas frequentes dos nossos leitores</p>
+        <!-- FAQ items (accordion style, showing 3 collapsed) -->
+        <div style="border:1.5px solid #e0e0e0; border-radius:8px; overflow:hidden; margin-bottom:8px;">
+          <div style="padding:16px 20px; background:#f8f8f8; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+            <span style="font-weight:bold; font-size:14px; color:#333;">O que é a Vistoria Cautelar?</span>
+            <span style="font-size:18px; color:#aaa;">▾</span>
+          </div>
+          <div style="padding:16px 20px; font-size:13px; color:#666; border-top:1px dashed #e0e0e0; line-height:1.6;">
+            A Vistoria Cautelar é uma análise técnica profunda realizada por peritos. Verificamos a estrutura do veículo, chassi, pintura e originalidade de peças. Essencial para quem vai comprar um seminovo.
+          </div>
+        </div>
+        <div style="border:1.5px solid #e0e0e0; border-radius:8px; overflow:hidden; margin-bottom:8px;">
+          <div style="padding:16px 20px; background:#f8f8f8; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+            <span style="font-weight:bold; font-size:14px; color:#333;">Quanto tempo demora a vistoria?</span>
+            <span style="font-size:18px; color:#aaa;">▸</span>
+          </div>
+        </div>
+        <div style="border:1.5px solid #e0e0e0; border-radius:8px; overflow:hidden;">
+          <div style="padding:16px 20px; background:#f8f8f8; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+            <span style="font-weight:bold; font-size:14px; color:#333;">Onde vocês atendem em Goiânia?</span>
+            <span style="font-size:18px; color:#aaa;">▸</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CTA STRIP ===== -->
+<div style="background:#1a1a1a; padding:32px 0; text-align:center;">
+  <div class="container">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+      <div>
+        <h3 style="font-size:20px; font-weight:bold; color:white; margin-bottom:4px;">Pronto para agendar sua vistoria?</h3>
+        <p style="color:#666; font-size:13px;">Atendemos em toda Goiânia e Região Metropolitana</p>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <!-- REUSABLE: Button -->
+        <div class="comp-wrap" style="display:inline-block;">
+          <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+          <span class="wire-btn-lg">📱 Agendar pelo WhatsApp</span>
+        </div>
+        <span class="wire-btn-ghost">Ver Serviços</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<!-- REUSABLE: Footer from src/components/Footer.tsx -->
+<div class="comp-wrap" style="margin-top:8px;">
+  <span class="cb-reuse" style="right:20px; top:-10px;" title="src/components/Footer.tsx">[REUSE] Footer</span>
+  <div style="background:#111; color:#aaa; padding:40px 0 20px;">
+    <div class="container">
+      <div class="footer-grid" style="margin-bottom:28px;">
+        <div>
+          <div class="wire-logo" style="display:inline-block; margin-bottom:12px;">[ KL VISTORIAS ]</div>
+          <p style="font-size:12px; color:#555; max-width:220px; line-height:1.6;">Engenharia veicular preditiva. Vistorias móveis em Goiânia e Região.</p>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:12px; letter-spacing:1.5px;">Links</p>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <a href="#" style="color:#777; font-size:12px; text-decoration:none;">Início</a>
+            <a href="#" style="color:#777; font-size:12px; text-decoration:none;">Serviços</a>
+            <a href="#" style="color:#777; font-size:12px; text-decoration:none;">Sobre Nós</a>
+            <a href="#" style="color:#ccc; font-size:12px; text-decoration:none;">Blog / Dicas ←</a>
+          </div>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:12px; letter-spacing:1.5px;">Contato</p>
+          <div style="font-size:12px; color:#777; line-height:1.8;">
+            📞 (62) 99219-7652<br/>
+            ✉️ contato@klvistorias.com.br<br/>
+            📍 Goiânia, GO
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px dashed #222; padding-top:14px; font-size:12px; color:#444;">
+        © 2024 KL Vistorias Cautelar — CNPJ: 14.869.645/0001-38
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- REUSABLE: WhatsAppButton from src/components/WhatsAppButton.tsx -->
+<div class="comp-wrap" style="position:fixed; bottom:24px; right:24px; z-index:1000;">
+  <span class="cb-reuse" title="src/components/WhatsAppButton.tsx">[REUSE] WhatsAppButton</span>
+  <div style="width:52px; height:52px; background:#555; border:2px solid #888; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer;">📱</div>
+</div>
+
+</body>
+</html>

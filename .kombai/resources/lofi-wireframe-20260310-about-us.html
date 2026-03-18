@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wireframe — Sobre Nós | KL Vistorias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Balsamiq Sans', 'Comic Sans MS', cursive; background: #d4d4d4; color: #222; font-size: 14px; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+  .wf-title { background: #1a1a1a; color: white; padding: 14px 28px; }
+  .wf-title h1 { font-size: 17px; margin-bottom: 4px; }
+  .wf-title p { font-size: 12px; color: #aaa; }
+  .wf-legend { background: #2e2e2e; padding: 8px 28px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .wf-legend > span { font-size: 11px; color: #ccc; font-family: Arial, sans-serif; }
+  .badge-r { background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .badge-n { background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .comp-wrap { position: relative; }
+  .cb-reuse { position: absolute; top: -10px; right: -10px; background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  .cb-new   { position: absolute; top: -10px; right: -10px; background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  /* Layout */
+  .section       { padding: 52px 0; background: #efefef; border-bottom: 1px dashed #bbb; }
+  .section-white { padding: 52px 0; background: #ffffff; border-bottom: 1px dashed #bbb; }
+  .section-dark  { padding: 52px 0; background: #383838; color: white; border-bottom: 1px dashed #555; }
+  .section-cta   { padding: 64px 0; background: #1c1c1c; color: white; text-align: center; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: center; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  /* Wires */
+  .wire-header { background: #111; color: white; height: 66px; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #000; }
+  .wire-logo { background: #555; border: 2px solid #888; padding: 5px 12px; border-radius: 3px; font-weight: bold; font-size: 13px; color: white; letter-spacing: 1px; }
+  .wire-nav { display: flex; gap: 20px; align-items: center; }
+  .wire-nav a { color: #bbb; font-size: 13px; text-decoration: underline dotted; text-underline-offset: 3px; }
+  .wire-nav a.active { color: white; text-decoration: none; border-bottom: 2px solid #888; padding-bottom: 2px; }
+  .wire-btn    { display: inline-block; background: #333; color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-lg { display: inline-block; background: #222; color: white; padding: 13px 30px; border-radius: 4px; border: 2px solid #000; font-family: inherit; font-size: 15px; font-weight: bold; cursor: pointer; }
+  .wire-btn-sm { display: inline-block; background: #333; color: white; padding: 6px 14px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 12px; cursor: pointer; }
+  .wire-btn-outline { display: inline-block; background: white; color: #333; padding: 9px 20px; border-radius: 4px; border: 2px solid #666; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-ghost { display: inline-block; background: rgba(255,255,255,0.1); color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid rgba(255,255,255,0.35); font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-img { background: #c6c6c6; border: 2px dashed #aaa; display: flex; align-items: center; justify-content: center; color: #777; font-size: 12px; border-radius: 4px; text-align: center; padding: 12px; line-height: 1.5; }
+  .wire-img-circle { background: #c6c6c6; border: 2px dashed #aaa; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #777; font-size: 11px; text-align: center; line-height: 1.4; }
+  .wire-card { background: white; border: 1.5px solid #c0c0c0; border-radius: 8px; padding: 22px; position: relative; }
+  .wire-card-dark { background: #444; border: 1.5px solid #666; border-radius: 8px; padding: 22px; position: relative; color: white; }
+  .icon-box { width: 52px; height: 52px; background: #ddd; border: 2px solid #bbb; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 14px; }
+  .stat-num { font-size: 40px; font-weight: bold; margin-bottom: 6px; color: #222; }
+  .stat-lbl { font-size: 13px; color: #666; line-height: 1.4; }
+  .check-item { display: flex; align-items: center; gap: 10px; margin-bottom: 11px; font-size: 14px; }
+  .check-circle { width: 20px; height: 20px; background: #888; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; flex-shrink: 0; }
+  .section-title { font-size: 26px; font-weight: bold; margin-bottom: 10px; }
+  .section-sub   { font-size: 14px; color: #666; margin-bottom: 32px; }
+  .tag { display: inline-block; background: #e2e2e2; border: 1px solid #ccc; border-radius: 12px; padding: 4px 12px; font-size: 11px; color: #555; margin-bottom: 12px; }
+  .tag-dark { display: inline-block; background: #555; border: 1px solid #666; border-radius: 12px; padding: 4px 12px; font-size: 11px; color: #ccc; margin-bottom: 12px; }
+  .divider { border: none; border-top: 1px dashed #ddd; margin: 16px 0; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 40px; }
+  .mb-4  { margin-bottom: 4px;  } .mb-8  { margin-bottom: 8px;  } .mb-12 { margin-bottom: 12px; }
+  .mb-16 { margin-bottom: 16px; } .mb-24 { margin-bottom: 24px; } .mb-32 { margin-bottom: 32px; }
+  .mt-8  { margin-top: 8px; }    .mt-16 { margin-top: 16px; }   .mt-24 { margin-top: 24px; }
+  .flex { display: flex; } .gap-8 { gap: 8px; } .gap-12 { gap: 12px; } .gap-16 { gap: 16px; }
+  .items-center { align-items: center; }
+  .text-center { text-align: center; }
+  .text-muted { color: #777; }
+  .w-full { width: 100%; }
+</style>
+</head>
+<body>
+
+<!-- ===== WIREFRAME TITLE BAR ===== -->
+<div class="wf-title">
+  <h1>📄 Sobre Nós — About Us Page &nbsp;|&nbsp; KL Vistorias Cautelar</h1>
+  <p>Company story, team profiles, core values, statistics & technology showcase — Balanced content density</p>
+</div>
+<div class="wf-legend">
+  <span>Legend:</span>
+  <span><span class="badge-r">[REUSE]</span> Existing component from codebase</span>
+  <span><span class="badge-n">[NEW]</span> New component to be created</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<!-- REUSABLE: Header from src/components/Header.tsx -->
+<div class="comp-wrap" style="position:sticky; top:0; z-index:100; margin-top:12px;">
+  <span class="cb-reuse" title="src/components/Header.tsx">[REUSE] Header</span>
+  <div class="wire-header">
+    <div class="wire-logo">[ KL VISTORIAS ]</div>
+    <nav class="wire-nav">
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Diferenciais</a>
+      <a href="#">FAQ</a>
+      <a href="#" class="active">Sobre Nós</a>
+      <a href="#">Atendimento</a>
+      <span class="wire-btn-sm">Contato</span>
+    </nav>
+  </div>
+</div>
+
+<!-- ===== PAGE HERO ===== -->
+<div style="position:relative; height:400px; overflow:hidden; margin-top:8px;">
+  <!-- REUSABLE: Image from src/components/ui/Image.tsx -->
+  <div class="comp-wrap" style="height:100%;">
+    <span class="cb-reuse" style="right:20px; top:12px;" title="src/components/ui/Image.tsx">[REUSE] Image</span>
+    <div class="wire-img" style="height:100%; border-radius:0; border:none; font-size:13px; background:#bbb;">
+      🖼️&nbsp;&nbsp;[Image: 1440 × 400 — Inspector examining a vehicle, hero background]
+    </div>
+  </div>
+  <div style="position:absolute; inset:0; background:rgba(0,0,0,0.58); display:flex; align-items:flex-end;">
+    <div class="container" style="padding-bottom:52px;">
+      <div style="font-size:12px; color:#aaa; margin-bottom:10px;"><a href="#" style="color:#aaa; text-decoration:underline;">Início</a> › Sobre Nós</div>
+      <h1 style="font-size:34px; color:white; font-weight:bold; margin-bottom:12px; line-height:1.2;">Conheça a KL Vistorias Cautelar</h1>
+      <p style="color:#ddd; font-size:15px; margin-bottom:24px; max-width:500px; line-height:1.6;">A perícia automotiva mais confiável de Goiânia e Região Metropolitana</p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <!-- REUSABLE: Button from src/components/ui/Button.tsx -->
+        <div class="comp-wrap" style="display:inline-block;">
+          <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+          <span class="wire-btn-lg">Agendar Vistoria →</span>
+        </div>
+        <span class="wire-btn-ghost">Nossos Serviços</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== STORY SECTION ===== -->
+<!-- REUSABLE: Section + FadeIn -->
+<div class="comp-wrap" style="margin-top:8px;">
+  <span class="cb-reuse" style="right:8px; top:-10px;" title="src/components/ui/Section.tsx">[REUSE] Section</span>
+  <div class="section">
+    <div class="container">
+      <div class="comp-wrap">
+        <span class="cb-reuse" title="src/components/ui/FadeIn.tsx">[REUSE] FadeIn</span>
+        <div class="grid-2">
+          <div>
+            <div class="tag">Nossa Trajetória</div>
+            <h2 class="section-title">Nossa História</h2>
+            <p style="color:#555; margin-bottom:14px; line-height:1.7; font-size:14px;">
+              Fundada com o propósito de transformar o mercado de veículos usados em Goiânia, a KL Vistorias nasceu da necessidade real de uma inspeção técnica séria, imparcial e acessível para o comprador.
+            </p>
+            <p style="color:#555; margin-bottom:14px; line-height:1.7; font-size:14px;">
+              Nossos peritos são treinados nos padrões mais rigorosos da indústria automotiva. Cada vistoria é conduzida com equipamentos de precisão e olhar treinado para detectar o que os olhos comuns não enxergam.
+            </p>
+            <p style="color:#555; margin-bottom:28px; line-height:1.7; font-size:14px;">
+              Nossa missão é simples: proteger quem compra e quem vende veículos usados, fornecendo informação técnica honesta e laudo digital confiável.
+            </p>
+            <div class="comp-wrap" style="display:inline-block;">
+              <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+              <span class="wire-btn">Agendar Agora</span>
+            </div>
+          </div>
+          <div class="comp-wrap">
+            <span class="cb-reuse" title="src/components/ui/Image.tsx">[REUSE] Image</span>
+            <div class="wire-img" style="height:320px;">🖼️&nbsp;[Image: 520 × 320 — Inspector at work, vehicle analysis]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== STATS ROW ===== -->
+<!-- NEW COMPONENT: StatCounter -->
+<div class="section-white" style="margin-top:0;">
+  <div class="container">
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/StatCounter.tsx">[NEW] StatCounter</span>
+      <div class="grid-4" style="text-align:center;">
+        <div class="wire-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-lbl">Anos de<br/>Experiência</div>
+        </div>
+        <div class="wire-card">
+          <div class="stat-num">500+</div>
+          <div class="stat-lbl">Laudos<br/>Emitidos</div>
+        </div>
+        <div class="wire-card">
+          <div class="stat-num">5</div>
+          <div class="stat-lbl">Cidades<br/>Atendidas</div>
+        </div>
+        <div class="wire-card">
+          <div class="stat-num">100%</div>
+          <div class="stat-lbl">Laudos Digitais<br/>Assinados</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== VALUES ===== -->
+<div class="section">
+  <div class="container">
+    <div class="text-center mb-32">
+      <h2 class="section-title">Nossos Valores</h2>
+      <p class="section-sub">Os princípios que guiam cada vistoria que realizamos</p>
+    </div>
+    <!-- NEW COMPONENT: ValuesCard -->
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/ValuesCard.tsx">[NEW] ValuesCard</span>
+      <div class="grid-3">
+        <div class="wire-card text-center" style="padding:30px 22px;">
+          <div class="icon-box" style="margin: 0 auto 14px auto;">🛡️</div>
+          <h3 style="font-size:17px; font-weight:bold; margin-bottom:8px;">Confiança</h3>
+          <p style="font-size:13px; color:#666; line-height:1.6;">Transparência total em cada laudo. O cliente sabe exatamente o que foi avaliado e como cada resultado foi obtido.</p>
+        </div>
+        <div class="wire-card text-center" style="padding:30px 22px;">
+          <div class="icon-box" style="margin: 0 auto 14px auto;">🏆</div>
+          <h3 style="font-size:17px; font-weight:bold; margin-bottom:8px;">Precisão</h3>
+          <p style="font-size:13px; color:#666; line-height:1.6;">Tecnologia de ponta e método rigoroso garantem análise milimétrica de cada componente estrutural e eletrônico.</p>
+        </div>
+        <div class="wire-card text-center" style="padding:30px 22px;">
+          <div class="icon-box" style="margin: 0 auto 14px auto;">⚡</div>
+          <h3 style="font-size:17px; font-weight:bold; margin-bottom:8px;">Agilidade</h3>
+          <p style="font-size:13px; color:#666; line-height:1.6;">Laudo técnico entregue em até 24 horas, com a comodidade do atendimento móvel em toda Goiânia e região.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TEAM ===== -->
+<div class="section-white">
+  <div class="container">
+    <div class="text-center mb-32">
+      <h2 class="section-title">Nossa Equipe</h2>
+      <p class="section-sub">Peritos treinados para entregar a vistoria mais completa do mercado</p>
+    </div>
+    <!-- NEW COMPONENT: TeamCard -->
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/TeamCard.tsx">[NEW] TeamCard</span>
+      <div class="grid-3">
+
+        <div class="wire-card text-center" style="padding:28px;">
+          <div class="wire-img-circle" style="width:100px; height:100px; margin:0 auto 16px auto; font-size:11px;">👤<br/>Photo<br/>120×120</div>
+          <h3 style="font-size:16px; font-weight:bold; margin-bottom:6px;">Carlos Silva</h3>
+          <div class="tag" style="margin-bottom:12px;">Perito Chefe</div>
+          <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:14px;">10 anos de experiência em perícia automotiva. Certificado ABNT e especialista em estrutura veicular e análise de chassi.</p>
+          <div class="divider"></div>
+          <span style="font-size:11px; color:#999;">carlos@klvistorias.com.br</span>
+        </div>
+
+        <div class="wire-card text-center" style="padding:28px;">
+          <div class="wire-img-circle" style="width:100px; height:100px; margin:0 auto 16px auto; font-size:11px;">👤<br/>Photo<br/>120×120</div>
+          <h3 style="font-size:16px; font-weight:bold; margin-bottom:6px;">Ana Martins</h3>
+          <div class="tag" style="margin-bottom:12px;">Analista Documental</div>
+          <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:14px;">Especialista em consulta de histórico veicular, análise de documentação, leilão e pesquisa de restrições nacionais.</p>
+          <div class="divider"></div>
+          <span style="font-size:11px; color:#999;">ana@klvistorias.com.br</span>
+        </div>
+
+        <div class="wire-card text-center" style="padding:28px;">
+          <div class="wire-img-circle" style="width:100px; height:100px; margin:0 auto 16px auto; font-size:11px;">👤<br/>Photo<br/>120×120</div>
+          <h3 style="font-size:16px; font-weight:bold; margin-bottom:6px;">João Ferreira</h3>
+          <div class="tag" style="margin-bottom:12px;">Técnico Automotivo</div>
+          <p style="font-size:12px; color:#666; line-height:1.6; margin-bottom:14px;">Certificado em diagnóstico eletrônico e mecânica avançada. Expert em análise de motor, câmbio e transmissão.</p>
+          <div class="divider"></div>
+          <span style="font-size:11px; color:#999;">joao@klvistorias.com.br</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== TECHNOLOGY ===== -->
+<div class="section-dark">
+  <div class="container">
+    <div class="grid-2" style="gap:52px; align-items:center;">
+      <div class="comp-wrap">
+        <span class="cb-reuse" title="src/components/ui/Image.tsx">[REUSE] Image</span>
+        <div class="wire-img" style="height:300px; background:#555; border-color:#666; color:#aaa;">🖼️&nbsp;[Image: 520 × 300 — Professional scanner equipment in use]</div>
+      </div>
+      <div>
+        <div class="tag-dark">Tecnologia</div>
+        <h2 class="section-title" style="color:white; margin-bottom:12px;">Equipamentos de Alta Tecnologia</h2>
+        <p style="color:#bbb; font-size:13px; margin-bottom:24px; line-height:1.6;">Investimos constantemente em ferramentas que detectam defeitos invisíveis ao olho humano.</p>
+        <div class="check-item">
+          <div class="check-circle">✓</div>
+          <span>Scanner automotivo profissional de última geração</span>
+        </div>
+        <div class="check-item">
+          <div class="check-circle">✓</div>
+          <span>Medidor de espessura de tinta (detecta repintura oculta)</span>
+        </div>
+        <div class="check-item">
+          <div class="check-circle">✓</div>
+          <span>Lanterna de luz negra UV para identificar restaurações</span>
+        </div>
+        <div class="check-item">
+          <div class="check-circle">✓</div>
+          <span>Sistema de laudo digital com assinatura certificada</span>
+        </div>
+        <div class="check-item">
+          <div class="check-circle">✓</div>
+          <span>Câmera profissional de alta resolução para registro completo</span>
+        </div>
+        <div class="mt-24">
+          <span class="wire-btn-ghost">Ver Nossos Serviços →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CTA BANNER ===== -->
+<div class="section-cta">
+  <div class="container">
+    <h2 style="font-size:28px; color:white; margin-bottom:12px;">Pronto para uma compra segura?</h2>
+    <p style="color:#aaa; font-size:15px; margin-bottom:32px;">Agende sua vistoria e receba um laudo técnico detalhado com assinatura digital</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <!-- REUSABLE: Button -->
+      <div class="comp-wrap" style="display:inline-block;">
+        <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+        <span class="wire-btn-lg">📱&nbsp; Agendar pelo WhatsApp</span>
+      </div>
+      <span class="wire-btn-ghost">Ver Laudos de Exemplo</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<!-- REUSABLE: Footer from src/components/Footer.tsx -->
+<div class="comp-wrap" style="margin-top:8px;">
+  <span class="cb-reuse" style="right:20px; top:-10px;" title="src/components/Footer.tsx">[REUSE] Footer</span>
+  <div style="background:#111; color:#aaa; padding:48px 0 24px;">
+    <div class="container">
+      <div class="footer-grid" style="margin-bottom:32px;">
+        <div>
+          <div class="wire-logo" style="display:inline-block; margin-bottom:14px;">[ KL VISTORIAS ]</div>
+          <p style="font-size:13px; color:#555; margin-bottom:16px; max-width:240px; line-height:1.6;">Engenharia veicular preditiva. Vistorias móveis de alta precisão em Goiânia e Região.</p>
+          <div class="flex gap-8">
+            <div style="width:36px; height:36px; background:#2a2a2a; border:1px solid #444; border-radius:6px; display:flex; align-items:center; justify-content:center;">📷</div>
+            <div style="width:36px; height:36px; background:#2a2a2a; border:1px solid #444; border-radius:6px; display:flex; align-items:center; justify-content:center;">📘</div>
+          </div>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:14px; letter-spacing:1.5px;">Navegação</p>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <a href="#" style="color:#777; font-size:13px; text-decoration:none;">Início</a>
+            <a href="#" style="color:#777; font-size:13px; text-decoration:none;">Serviços</a>
+            <a href="#" style="color:#777; font-size:13px; text-decoration:none;">Diferenciais</a>
+            <a href="#" style="color:#ccc; font-size:13px; text-decoration:none;">Sobre Nós ←</a>
+            <a href="#" style="color:#777; font-size:13px; text-decoration:none;">Atendimento</a>
+          </div>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:14px; letter-spacing:1.5px;">Fale Conosco</p>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div style="display:flex; align-items:center; gap:10px;">
+              <div style="width:32px; height:32px; background:#2a2a2a; border:1px solid #444; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:13px;">📞</div>
+              <div>
+                <p style="font-size:10px; color:#555; text-transform:uppercase; letter-spacing:1px; margin-bottom:2px;">Agendamento</p>
+                <span style="font-size:13px; color:#aaa;">(62) 99219-7652</span>
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:10px;">
+              <div style="width:32px; height:32px; background:#2a2a2a; border:1px solid #444; border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:13px;">✉️</div>
+              <div>
+                <p style="font-size:10px; color:#555; text-transform:uppercase; letter-spacing:1px; margin-bottom:2px;">E-mail</p>
+                <span style="font-size:13px; color:#aaa;">contato@klvistorias.com.br</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px dashed #2a2a2a; padding-top:16px; display:flex; justify-content:space-between; font-size:12px; color:#444;">
+        <span>© 2024 KL Vistorias Cautelar. Engenharia Automotiva.</span>
+        <span>CNPJ: 14.869.645/0001-38</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- REUSABLE: WhatsAppButton from src/components/WhatsAppButton.tsx -->
+<div class="comp-wrap" style="position:fixed; bottom:24px; right:24px; z-index:1000;">
+  <span class="cb-reuse" title="src/components/WhatsAppButton.tsx">[REUSE] WhatsAppButton</span>
+  <div style="width:52px; height:52px; background:#555; border:2px solid #888; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer;">📱</div>
+</div>
+
+</body>
+</html>

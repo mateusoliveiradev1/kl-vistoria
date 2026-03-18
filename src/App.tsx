@@ -10,6 +10,7 @@ import { NotFound } from './components/NotFound';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ServiceAreasPage from './pages/ServiceAreasPage';
 import { serviceLocations } from './data/locations';
 import { useEffect } from 'react';
@@ -34,6 +35,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/areas-de-atendimento" element={<ServiceAreasPage />} />
+            <Route path="/politica-de-privacidade" element={<PrivacyPolicyPage />} />
             {serviceLocations.map(loc => (
               <Route
                 key={loc.slug}

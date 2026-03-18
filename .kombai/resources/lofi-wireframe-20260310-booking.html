@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wireframe — Agendamento Online | KL Vistorias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Balsamiq Sans', 'Comic Sans MS', cursive; background: #d4d4d4; color: #222; font-size: 14px; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+  .wf-title { background: #1a1a1a; color: white; padding: 14px 28px; }
+  .wf-title h1 { font-size: 17px; margin-bottom: 4px; }
+  .wf-title p  { font-size: 12px; color: #aaa; }
+  .wf-legend { background: #2e2e2e; padding: 8px 28px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  .wf-legend > span { font-size: 11px; color: #ccc; font-family: Arial, sans-serif; }
+  .badge-r { background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .badge-n { background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-weight: bold; font-family: Arial, sans-serif; }
+  .comp-wrap { position: relative; }
+  .cb-reuse { position: absolute; top: -10px; right: -10px; background: #4CAF50; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  .cb-new   { position: absolute; top: -10px; right: -10px; background: #FF9800; color: white; padding: 2px 7px; border-radius: 3px; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; z-index: 20; white-space: nowrap; pointer-events: none; }
+  /* Header */
+  .wire-header { background: #111; color: white; height: 66px; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #000; }
+  .wire-logo { background: #555; border: 2px solid #888; padding: 5px 12px; border-radius: 3px; font-weight: bold; font-size: 13px; color: white; letter-spacing: 1px; }
+  .wire-nav { display: flex; gap: 20px; align-items: center; }
+  .wire-nav a { color: #bbb; font-size: 13px; text-decoration: underline dotted; text-underline-offset: 3px; }
+  /* Buttons */
+  .wire-btn     { display: inline-block; background: #333; color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-sm  { display: inline-block; background: #333; color: white; padding: 6px 14px; border-radius: 4px; border: 2px solid #111; font-family: inherit; font-size: 12px; cursor: pointer; }
+  .wire-btn-lg  { display: inline-block; background: #222; color: white; padding: 12px 28px; border-radius: 4px; border: 2px solid #000; font-family: inherit; font-size: 15px; font-weight: bold; cursor: pointer; }
+  .wire-btn-outline { display: inline-block; background: white; color: #333; padding: 9px 20px; border-radius: 4px; border: 2px solid #666; font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-ghost { display: inline-block; background: rgba(255,255,255,0.1); color: white; padding: 9px 20px; border-radius: 4px; border: 2px solid rgba(255,255,255,0.35); font-family: inherit; font-size: 13px; cursor: pointer; }
+  .wire-btn-wa { display: inline-block; background: #555; color: white; padding: 11px 20px; border-radius: 4px; border: 2px solid #333; font-family: inherit; font-size: 14px; font-weight: bold; cursor: pointer; width: 100%; text-align: center; }
+  /* Cards & wires */
+  .wire-card  { background: white; border: 1.5px solid #c0c0c0; border-radius: 8px; padding: 20px; position: relative; }
+  .wire-card-dark { background: #444; border: 1.5px solid #666; border-radius: 8px; padding: 20px; color: white; position: relative; }
+  .wire-img   { background: #c6c6c6; border: 2px dashed #aaa; display: flex; align-items: center; justify-content: center; color: #777; font-size: 12px; border-radius: 4px; text-align: center; padding: 12px; line-height: 1.5; }
+  .wire-input { border: 1.5px solid #bbb; border-radius: 4px; padding: 10px 14px; font-family: inherit; font-size: 13px; width: 100%; background: white; display: block; }
+  .wire-select { border: 1.5px solid #bbb; border-radius: 4px; padding: 10px 14px; font-family: inherit; font-size: 13px; width: 100%; background: white; display: block; }
+  .wire-label { font-size: 12px; color: #555; margin-bottom: 5px; display: block; font-weight: bold; }
+  .wire-input:focus { outline: 2px dashed #aaa; }
+  /* Layout */
+  .section     { padding: 40px 0; background: #efefef; }
+  .section-white { padding: 40px 0; background: white; }
+  .hero-compact { background: #222; color: white; padding: 36px 0 32px; border-bottom: 1px solid #000; }
+  .main-layout { display: grid; grid-template-columns: 1fr 340px; gap: 28px; align-items: start; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  /* Step Progress */
+  .step-progress { display: flex; align-items: center; padding: 24px 0; }
+  .step-item { display: flex; flex-direction: column; align-items: center; gap: 6px; flex: 1; }
+  .step-circle { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 15px; border: 2px solid #888; }
+  .step-circle.active { background: #333; color: white; border-color: #111; }
+  .step-circle.done   { background: #777; color: white; border-color: #555; }
+  .step-circle.idle   { background: white; color: #999; border-color: #ccc; }
+  .step-label { font-size: 11px; color: #555; text-align: center; }
+  .step-label.active { color: #222; font-weight: bold; }
+  .step-label.idle   { color: #aaa; }
+  .step-line { flex: 1; height: 2px; background: #ccc; margin: 0 4px; margin-top: -16px; }
+  .step-line.done { background: #777; }
+  /* Service Select Cards */
+  .service-card { background: white; border: 2px solid #ccc; border-radius: 8px; padding: 18px; cursor: pointer; transition: border-color 0.2s; position: relative; }
+  .service-card.selected { border-color: #444; background: #f8f8f8; }
+  .service-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .radio-circle { width: 20px; height: 20px; border-radius: 50%; border: 2px solid #999; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .radio-circle.checked { background: #333; border-color: #333; }
+  .radio-circle.checked::after { content: '●'; color: white; font-size: 8px; line-height: 1; }
+  .price-tag { font-size: 20px; font-weight: bold; color: #333; }
+  .price-sub { font-size: 11px; color: #888; }
+  .check-item { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 12px; color: #555; }
+  .check-tick { width: 16px; height: 16px; background: #aaa; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 9px; color: white; flex-shrink: 0; }
+  /* Summary card */
+  .summary-row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 13px; }
+  .summary-total { display: flex; justify-content: space-between; font-weight: bold; font-size: 16px; padding-top: 12px; border-top: 2px dashed #ddd; }
+  .divider { border: none; border-top: 1px dashed #e0e0e0; margin: 14px 0; }
+  /* Calendar stub */
+  .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center; }
+  .cal-cell { padding: 6px 2px; font-size: 12px; border-radius: 3px; border: 1px solid transparent; }
+  .cal-cell.header { font-weight: bold; color: #888; font-size: 11px; background: none; }
+  .cal-cell.day { background: #f5f5f5; border-color: #e0e0e0; color: #333; cursor: pointer; }
+  .cal-cell.selected { background: #333; color: white; border-color: #111; }
+  .cal-cell.disabled { color: #ccc; background: none; }
+  /* Misc */
+  .tag { display: inline-block; background: #e2e2e2; border: 1px solid #ccc; border-radius: 12px; padding: 4px 12px; font-size: 11px; color: #555; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1.5fr; gap: 40px; }
+  .mb-4{margin-bottom:4px;}.mb-8{margin-bottom:8px;}.mb-12{margin-bottom:12px;}.mb-16{margin-bottom:16px;}.mb-20{margin-bottom:20px;}.mb-24{margin-bottom:24px;}.mb-32{margin-bottom:32px;}
+  .mt-8{margin-top:8px;}.mt-12{margin-top:12px;}.mt-16{margin-top:16px;}.mt-20{margin-top:20px;}.mt-24{margin-top:24px;}
+  .flex{display:flex;}.gap-8{gap:8px;}.gap-12{gap:12px;}.gap-16{gap:16px;}.items-center{align-items:center;}.justify-between{justify-content:space-between;}.text-center{text-align:center;}.w-full{width:100%;}
+</style>
+</head>
+<body>
+
+<!-- ===== WIREFRAME TITLE BAR ===== -->
+<div class="wf-title">
+  <h1>📅 Agendamento Online — Booking Wizard Page &nbsp;|&nbsp; KL Vistorias Cautelar</h1>
+  <p>4-step guided booking wizard — Service selection, date & time, vehicle info, confirmation — Balanced content density</p>
+</div>
+<div class="wf-legend">
+  <span>Legend:</span>
+  <span><span class="badge-r">[REUSE]</span> Existing component from codebase</span>
+  <span><span class="badge-n">[NEW]</span> New component to be created</span>
+</div>
+
+<!-- ===== HEADER ===== -->
+<!-- REUSABLE: Header from src/components/Header.tsx -->
+<div class="comp-wrap" style="position:sticky; top:0; z-index:100; margin-top:12px;">
+  <span class="cb-reuse" title="src/components/Header.tsx">[REUSE] Header</span>
+  <div class="wire-header">
+    <div class="wire-logo">[ KL VISTORIAS ]</div>
+    <nav class="wire-nav">
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Diferenciais</a>
+      <a href="#">FAQ</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Atendimento</a>
+      <span class="wire-btn-sm">Contato</span>
+    </nav>
+  </div>
+</div>
+
+<!-- ===== PAGE HERO (COMPACT) ===== -->
+<div class="hero-compact" style="margin-top:8px;">
+  <div class="container">
+    <div style="font-size:12px; color:#666; margin-bottom:8px;"><a href="#" style="color:#666; text-decoration:underline;">Início</a> › Agendamento Online</div>
+    <h1 style="font-size:28px; font-weight:bold; color:white; margin-bottom:8px;">Agende sua Vistoria Online</h1>
+    <p style="color:#aaa; font-size:14px;">Rápido, fácil e sem complicações. Escolha o serviço, data e horário.</p>
+  </div>
+</div>
+
+<!-- ===== STEP PROGRESS ===== -->
+<!-- NEW COMPONENT: StepProgress -->
+<div class="section-white" style="padding:20px 0; border-bottom:1px dashed #ddd;">
+  <div class="container">
+    <div class="comp-wrap">
+      <span class="cb-new" title="src/components/StepProgress.tsx">[NEW] StepProgress</span>
+      <div class="step-progress">
+
+        <div class="step-item">
+          <div class="step-circle active">1</div>
+          <span class="step-label active">Serviço</span>
+        </div>
+        <div class="step-line"></div>
+
+        <div class="step-item">
+          <div class="step-circle idle">2</div>
+          <span class="step-label idle">Data &amp; Hora</span>
+        </div>
+        <div class="step-line"></div>
+
+        <div class="step-item">
+          <div class="step-circle idle">3</div>
+          <span class="step-label idle">Veículo</span>
+        </div>
+        <div class="step-line"></div>
+
+        <div class="step-item">
+          <div class="step-circle idle">4</div>
+          <span class="step-label idle">Confirmação</span>
+        </div>
+
+      </div>
+      <div style="font-size:12px; color:#999; text-align:right; margin-top:4px;">Etapa 1 de 4</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="section">
+  <div class="container">
+    <div class="main-layout">
+
+      <!-- ===== LEFT: STEP CONTENT ===== -->
+      <div>
+
+        <!-- STEP 1: SERVICE SELECTION -->
+        <!-- NEW COMPONENT: ServiceSelectCard -->
+        <div class="comp-wrap mb-20">
+          <span class="cb-new" title="src/components/ServiceSelectCard.tsx" style="right:0;">[NEW] ServiceSelectCard</span>
+
+          <h2 style="font-size:20px; font-weight:bold; margin-bottom:6px;">Escolha o Serviço</h2>
+          <p style="font-size:13px; color:#666; margin-bottom:20px;">Selecione o tipo de análise que melhor atende a sua necessidade.</p>
+
+          <!-- Option 1: Selected -->
+          <div class="service-card selected mb-16">
+            <div class="service-card-header">
+              <div>
+                <span class="tag" style="margin-bottom:6px;">Mais Completo</span>
+                <h3 style="font-size:16px; font-weight:bold; margin-bottom:4px;">Vistoria Cautelar Completa</h3>
+                <p style="font-size:12px; color:#666;">Análise estrutural profunda + histórico + documentação</p>
+              </div>
+              <div>
+                <div class="radio-circle checked" style="margin-bottom:6px;"></div>
+                <div class="price-tag">R$ 250</div>
+                <div class="price-sub">por veículo</div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="check-item"><div class="check-tick">✓</div> Análise de longarinas e estrutura do chassi</div>
+            <div class="check-item"><div class="check-tick">✓</div> Verificação de pintura e repintura com medidor</div>
+            <div class="check-item"><div class="check-tick">✓</div> Identificação de motor, chassi e gravações</div>
+            <div class="check-item"><div class="check-tick">✓</div> Laudo técnico digital assinado</div>
+          </div>
+
+          <!-- Option 2 -->
+          <div class="service-card mb-16">
+            <div class="service-card-header">
+              <div>
+                <h3 style="font-size:16px; font-weight:bold; margin-bottom:4px;">Pesquisa de Histórico Veicular</h3>
+                <p style="font-size:12px; color:#666;">Consulta em bancos de dados nacionais — leilão, restrições, sinistros</p>
+              </div>
+              <div>
+                <div class="radio-circle" style="margin-bottom:6px;"></div>
+                <div class="price-tag">R$ 80</div>
+                <div class="price-sub">por veículo</div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Indício de sinistro (batidas graves)</div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Passagem por leilão</div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Restrições judiciais e financeiras</div>
+          </div>
+
+          <!-- Option 3 -->
+          <div class="service-card">
+            <div class="service-card-header">
+              <div>
+                <span class="tag" style="background:#333; color:white; border-color:#333; margin-bottom:6px;">Melhor Custo-Benefício</span>
+                <h3 style="font-size:16px; font-weight:bold; margin-bottom:4px;">Pacote Completo</h3>
+                <p style="font-size:12px; color:#666;">Cautelar + Pesquisa de Histórico juntos com desconto</p>
+              </div>
+              <div>
+                <div class="radio-circle" style="margin-bottom:6px;"></div>
+                <div class="price-tag">R$ 299</div>
+                <div class="price-sub" style="text-decoration:line-through; color:#aaa;">R$ 330</div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Tudo da Vistoria Cautelar Completa</div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Tudo da Pesquisa de Histórico</div>
+            <div class="check-item"><div class="check-tick" style="background:#ccc;">✓</div> Economia de R$ 31 no pacote</div>
+          </div>
+
+        </div>
+
+        <!-- ===== STEP 2 PREVIEW (Date & Time) — shown as preview/disabled ===== -->
+        <div class="wire-card mb-20" style="opacity:0.45; border-style:dashed;">
+          <div style="font-size:11px; color:#999; font-weight:bold; text-transform:uppercase; letter-spacing:1px; margin-bottom:12px;">Etapa 2 — Data &amp; Horário</div>
+          <!-- NEW COMPONENT: DateTimePicker -->
+          <div class="comp-wrap">
+            <span class="cb-new" title="src/components/DateTimePicker.tsx">[NEW] DateTimePicker</span>
+            <div class="grid-2" style="gap:20px;">
+              <div>
+                <div class="wire-label">Selecione a data</div>
+                <div style="border:1.5px solid #ddd; border-radius:6px; padding:12px;">
+                  <div style="display:flex; justify-content:space-between; margin-bottom:10px; font-size:13px; font-weight:bold; color:#999;">
+                    <span>◂</span><span>Março 2026</span><span>▸</span>
+                  </div>
+                  <div class="cal-grid">
+                    <div class="cal-cell header">D</div><div class="cal-cell header">S</div><div class="cal-cell header">T</div><div class="cal-cell header">Q</div><div class="cal-cell header">Q</div><div class="cal-cell header">S</div><div class="cal-cell header">S</div>
+                    <div class="cal-cell disabled">1</div><div class="cal-cell disabled">2</div><div class="cal-cell disabled">3</div><div class="cal-cell disabled">4</div><div class="cal-cell disabled">5</div><div class="cal-cell disabled">6</div><div class="cal-cell disabled">7</div>
+                    <div class="cal-cell disabled">8</div><div class="cal-cell disabled">9</div><div class="cal-cell selected">10</div><div class="cal-cell day">11</div><div class="cal-cell day">12</div><div class="cal-cell day">13</div><div class="cal-cell day">14</div>
+                    <div class="cal-cell day">15</div><div class="cal-cell day">16</div><div class="cal-cell day">17</div><div class="cal-cell day">18</div><div class="cal-cell day">19</div><div class="cal-cell day">20</div><div class="cal-cell day">21</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="wire-label">Horário disponível</div>
+                <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:6px;">
+                  <div style="border:1.5px solid #ddd; border-radius:4px; padding:8px; text-align:center; font-size:12px; color:#aaa;">08:00</div>
+                  <div style="border:1.5px solid #ddd; border-radius:4px; padding:8px; text-align:center; font-size:12px; color:#aaa;">09:00</div>
+                  <div style="border:1.5px solid #333; border-radius:4px; padding:8px; text-align:center; font-size:12px; background:#333; color:white;">10:00</div>
+                  <div style="border:1.5px solid #ddd; border-radius:4px; padding:8px; text-align:center; font-size:12px; color:#aaa;">11:00</div>
+                  <div style="border:1.5px solid #ddd; border-radius:4px; padding:8px; text-align:center; font-size:12px; color:#aaa;">13:00</div>
+                  <div style="border:1.5px solid #ddd; border-radius:4px; padding:8px; text-align:center; font-size:12px; color:#aaa;">14:00</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== STEP 3 PREVIEW (Vehicle Info) — shown as preview/disabled ===== -->
+        <div class="wire-card mb-20" style="opacity:0.45; border-style:dashed;">
+          <div style="font-size:11px; color:#999; font-weight:bold; text-transform:uppercase; letter-spacing:1px; margin-bottom:12px;">Etapa 3 — Dados do Veículo</div>
+          <!-- NEW COMPONENT: VehicleInfoForm -->
+          <div class="comp-wrap">
+            <span class="cb-new" title="src/components/VehicleInfoForm.tsx">[NEW] VehicleInfoForm</span>
+            <div class="grid-2" style="gap:14px;">
+              <div><div class="wire-label">Placa do Veículo *</div><input class="wire-input" type="text" placeholder="ABC-1234" disabled/></div>
+              <div><div class="wire-label">Marca / Modelo *</div><input class="wire-input" type="text" placeholder="Ex: Toyota Corolla" disabled/></div>
+              <div><div class="wire-label">Ano de Fabricação *</div><input class="wire-input" type="text" placeholder="2018" disabled/></div>
+              <div><div class="wire-label">Cor do Veículo</div><input class="wire-input" type="text" placeholder="Prata" disabled/></div>
+              <div style="grid-column:span 2;"><div class="wire-label">Endereço para atendimento *</div><input class="wire-input" type="text" placeholder="Rua, nº, Bairro — Goiânia, GO" disabled/></div>
+              <div><div class="wire-label">Seu Nome *</div><input class="wire-input" type="text" placeholder="Nome completo" disabled/></div>
+              <div><div class="wire-label">WhatsApp *</div><input class="wire-input" type="text" placeholder="(62) 9xxxx-xxxx" disabled/></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== NAVIGATION BUTTONS ===== -->
+        <div style="display:flex; justify-content:space-between; align-items:center; padding-top:8px;">
+          <span class="wire-btn-outline">← Voltar</span>
+          <div style="font-size:12px; color:#999; text-align:center;">Etapa 1 de 4</div>
+          <!-- REUSABLE: Button -->
+          <div class="comp-wrap" style="display:inline-block;">
+            <span class="cb-reuse" title="src/components/ui/Button.tsx">[REUSE] Button</span>
+            <span class="wire-btn-lg">Próximo: Data &amp; Hora →</span>
+          </div>
+        </div>
+
+      </div><!-- end left col -->
+
+      <!-- ===== RIGHT: SUMMARY SIDEBAR ===== -->
+      <!-- NEW COMPONENT: BookingSummary -->
+      <div class="comp-wrap" style="margin-top:0;">
+        <span class="cb-new" style="right:0;" title="src/components/BookingSummary.tsx">[NEW] BookingSummary</span>
+
+        <div class="wire-card" style="position:sticky; top:84px;">
+          <h3 style="font-size:15px; font-weight:bold; margin-bottom:16px; border-bottom:1px dashed #e0e0e0; padding-bottom:12px;">📋 Resumo do Pedido</h3>
+
+          <div class="summary-row">
+            <span style="color:#777;">Serviço:</span>
+            <span style="font-weight:bold; text-align:right; max-width:150px;">Vistoria Cautelar Completa</span>
+          </div>
+          <div class="summary-row">
+            <span style="color:#777;">Data:</span>
+            <span style="color:#aaa; font-style:italic;">— selecione —</span>
+          </div>
+          <div class="summary-row">
+            <span style="color:#777;">Horário:</span>
+            <span style="color:#aaa; font-style:italic;">— selecione —</span>
+          </div>
+          <div class="summary-row">
+            <span style="color:#777;">Endereço:</span>
+            <span style="color:#aaa; font-style:italic;">— informe —</span>
+          </div>
+          <div class="summary-row">
+            <span style="color:#777;">Veículo:</span>
+            <span style="color:#aaa; font-style:italic;">— informe —</span>
+          </div>
+
+          <div class="divider" style="border-top:2px dashed #ddd;"></div>
+          <div class="summary-total">
+            <span>Total:</span>
+            <span>R$ 250,00</span>
+          </div>
+          <div style="font-size:11px; color:#aaa; text-align:right; margin-top:4px;">Pagamento no ato da vistoria</div>
+
+          <div class="divider"></div>
+
+          <!-- REUSABLE: WhatsAppButton variant -->
+          <div class="comp-wrap">
+            <span class="cb-reuse" style="right:0;" title="src/components/WhatsAppButton.tsx">[REUSE] WhatsAppButton</span>
+            <div class="wire-btn-wa">📱 Dúvidas? Fale no WhatsApp</div>
+          </div>
+
+          <div style="margin-top:12px; background:#f5f5f5; border:1px dashed #ddd; border-radius:6px; padding:12px;">
+            <div style="font-size:11px; font-weight:bold; color:#555; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">✅ Suas Garantias</div>
+            <div style="font-size:12px; color:#666; margin-bottom:6px;">🔒 Pagamento apenas após o serviço</div>
+            <div style="font-size:12px; color:#666; margin-bottom:6px;">📄 Laudo digital em até 24h</div>
+            <div style="font-size:12px; color:#666;">🚗 Atendemos em todo Goiânia</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end main-layout -->
+  </div><!-- end container -->
+</div><!-- end section -->
+
+<!-- ===== FOOTER ===== -->
+<!-- REUSABLE: Footer from src/components/Footer.tsx -->
+<div class="comp-wrap" style="margin-top:8px;">
+  <span class="cb-reuse" style="right:20px; top:-10px;" title="src/components/Footer.tsx">[REUSE] Footer</span>
+  <div style="background:#111; color:#aaa; padding:40px 0 20px;">
+    <div class="container">
+      <div class="footer-grid" style="margin-bottom:28px;">
+        <div>
+          <div class="wire-logo" style="display:inline-block; margin-bottom:12px;">[ KL VISTORIAS ]</div>
+          <p style="font-size:12px; color:#555; max-width:220px; line-height:1.6;">Engenharia veicular preditiva. Vistorias móveis em Goiânia e Região.</p>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:12px; letter-spacing:1.5px;">Links</p>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            <a href="#" style="color:#777; font-size:12px; text-decoration:none;">Início</a>
+            <a href="#" style="color:#777; font-size:12px; text-decoration:none;">Serviços</a>
+            <a href="#" style="color:#ccc; font-size:12px; text-decoration:none;">Agendamento ←</a>
+          </div>
+        </div>
+        <div>
+          <p style="font-size:10px; color:#555; font-weight:bold; text-transform:uppercase; margin-bottom:12px; letter-spacing:1.5px;">Contato</p>
+          <div style="font-size:12px; color:#777; line-height:1.8;">
+            📞 (62) 99219-7652<br/>
+            ✉️ contato@klvistorias.com.br<br/>
+            📍 Goiânia, GO
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px dashed #222; padding-top:14px; font-size:12px; color:#444;">
+        © 2024 KL Vistorias Cautelar — CNPJ: 14.869.645/0001-38
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- REUSABLE: WhatsAppButton -->
+<div class="comp-wrap" style="position:fixed; bottom:24px; right:24px; z-index:1000;">
+  <span class="cb-reuse" title="src/components/WhatsAppButton.tsx">[REUSE] WhatsAppButton</span>
+  <div style="width:52px; height:52px; background:#555; border:2px solid #888; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; cursor:pointer;">📱</div>
+</div>
+
+</body>
+</html>
