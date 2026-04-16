@@ -64,25 +64,16 @@ const Hero = () => {
                 </span>
               ))}
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-blue-300 to-slate-400">
-                {"SEM SABER A VERDADE.".split(" ").map((word, i) => (
-                  <span key={i} className="inline-block whitespace-nowrap mr-4 text-glow">
-                    {word.split("").map((char, index) => (
-                      <motion.span
-                        key={index}
-                        variants={{
-                          hidden: { opacity: 0, y: 40, rotateX: -90 },
-                          visible: { opacity: 1, y: 0, rotateX: 0 },
-                        }}
-                        transition={{ duration: 0.8, ease: [0.215, 0.61, 0.355, 1], delay: 0.5 + (i * 0.1) }}
-                        className="inline-block"
-                      >
-                        {char}
-                      </motion.span>
-                    ))}
-                  </span>
-                ))}
-              </span>
+              <motion.span
+                className="hero-gradient-text text-glow inline-block"
+                variants={{
+                  hidden: { opacity: 0, y: 40 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+                transition={{ duration: 0.8, delay: 0.6, ease: [0.215, 0.61, 0.355, 1] }}
+              >
+                SEM SABER A VERDADE.
+              </motion.span>
             </motion.h1>
           </div>
 

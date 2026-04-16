@@ -95,4 +95,12 @@
   .text-glow-sm {
     text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
   }
+
+  .hero-gradient-text {
+    background-image: linear-gradient(to right, #3b82f6, #93c5fd, #94a3b8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
 }
