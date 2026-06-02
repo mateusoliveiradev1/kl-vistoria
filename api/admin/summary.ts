@@ -34,6 +34,7 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
     sourceBreakdown,
     recentLeads,
     recentEvents,
+    moduleCounts,
   ] = await Promise.all([
     sql`
       SELECT event_name, COUNT(*)::int AS total
@@ -75,6 +76,13 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
       ORDER BY created_at DESC
       LIMIT 20
     `,
+    sql`
+      SELECT
+        (SELECT COUNT(*)::int FROM service_catalog) AS catalog_items,
+        (SELECT COUNT(*)::int FROM reviews) AS reviews,
+        (SELECT COUNT(*)::int FROM appointments) AS appointments,
+        (SELECT COUNT(*)::int FROM lead_events WHERE status = 'new') AS open_leads
+    `,
   ]);
 
   const counts = Object.fromEntries(eventCounts.map((row) => [row.event_name, row.total]));
@@ -100,5 +108,11 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
     sourceBreakdown,
     recentLeads,
     recentEvents,
+    modules: moduleCounts[0] || {
+      catalog_items: 0,
+      reviews: 0,
+      appointments: 0,
+      open_leads: 0,
+    },
   });
 }
