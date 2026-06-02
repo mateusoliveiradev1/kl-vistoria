@@ -57,7 +57,7 @@ export const LeadCalculator = () => {
     const handleWhatsAppLead = () => {
         const text = `Olá! Usei a Calculadora de Risco KL e meu resultado foi:\n\n🚗 Veículo: ${brand}\n📅 Ano: ${year}\n💰 Preço: R$ ${price}\n⚠️ Risco Detectado: ${result?.risk}%\n📉 Perda Potencial: R$ ${result?.loss.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}\n\nQuero blindar meu investimento com uma vistoria profissional!`;
         const encodedText = encodeURIComponent(text);
-        window.open(`https://wa.me/5562992197652?text=${encodedText}`, '_blank');
+        window.open(`https://wa.me/556295406565?text=${encodedText}`, '_blank');
     };
 
     return (

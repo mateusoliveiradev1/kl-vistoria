@@ -19,8 +19,8 @@ export const COMPANY_INFO = {
     "Setor Bueno", "Setor Marista", "Setor Oeste", "Jardim Goiás", "Parque Amazônia", "Setor Sul", "Setor Norte Ferroviário"
   ],
   contact: {
-    phone: "(62) 99219-7652",
-    phoneLink: "https://wa.me/5562992197652",
+    phone: "+55 62 9540-6565",
+    phoneLink: "https://wa.me/556295406565",
     email: "contato@klvistorias.com.br",
     whatsappMessage: "Olá! Vi o site da KL Vistorias e gostaria de agendar uma Vistoria Cautelar."
   },

@@ -45,7 +45,7 @@ export default function LocationPage({ locationId }: LocationPageProps) {
                       "image": "${locationData.heroImage}",
                       "@id": "https://klvistorias.com.br/${locationData.slug}",
                       "url": "https://klvistorias.com.br/${locationData.slug}",
-                      "telePhone": "5562992197652",
+                      "telePhone": "556295406565",
                       "aggregateRating": {
                         "@type": "AggregateRating",
                         "ratingValue": "${locationData.localTestimonial.rating}",

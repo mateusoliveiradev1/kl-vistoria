@@ -15,7 +15,7 @@ export function WhatsAppButton() {
     <>
       {/* Botão Direto (Bypass Popup) */}
       <a
-        href="https://wa.me/5562992197652?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+vistoria+cautelar."
+        href="https://wa.me/556295406565?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+vistoria+cautelar."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-28 right-6 z-[40] bg-white text-[#25D366] p-3 rounded-full shadow-xl hover:bg-slate-50 transition-all duration-300 hover:scale-110 group border border-[#25D366]/20"
