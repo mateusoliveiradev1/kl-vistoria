@@ -14,7 +14,7 @@ import { Container } from '../components/ui/Container';
 import { FadeIn } from '../components/ui/FadeIn';
 import { COMPANY_INFO } from '../data/company';
 
-const LAST_UPDATED = '18 de marco de 2026';
+const LAST_UPDATED = '2 de junho de 2026';
 
 const highlightCards = [
   {
@@ -49,7 +49,7 @@ const collectedData = [
     title: 'Dados de navegacao',
     items: [
       'registro do consentimento de cookies no navegador',
-      'metricas de navegacao e paginas visitadas, quando o analytics for aceito',
+      'metricas de navegacao, paginas visitadas, origem do acesso e cliques de conversao, quando o analytics for aceito',
     ],
   },
   {
@@ -57,6 +57,7 @@ const collectedData = [
     items: [
       'data e hora do envio do formulario',
       'origem do contato e informacoes necessarias para organizar o atendimento',
+      'historico de leads, status comercial e dados usados no painel administrativo privado',
     ],
   },
 ];
@@ -70,7 +71,8 @@ const purposes = [
 
 const sharingItems = [
   'prestadores de tecnologia e hospedagem necessarios para o funcionamento do site',
-  'Google, em recursos usados para formulario, armazenamento operacional e analytics',
+  'fornecedores de banco de dados, hospedagem e funcoes de API usados para o painel administrativo',
+  'Google, quando forem usados recursos de formulario, armazenamento operacional, Search Console, Perfil da Empresa ou analytics',
   'Meta/WhatsApp, quando o atendimento e continuado pelo WhatsApp',
   'autoridades publicas, quando houver obrigacao legal, regulatoria ou ordem valida',
 ];
@@ -231,8 +233,11 @@ export default function PrivacyPolicyPage() {
                 </div>
                 <p className="text-sm leading-7 text-slate-300">
                   O site registra a sua escolha no banner de cookies em armazenamento local do navegador.
-                  Ferramentas de analytics so sao inicializadas apos o aceite explicito. Se preferir,
-                  voce pode recusar o banner ou apagar esse registro diretamente no seu navegador.
+                  O tracking proprio da KL Vistorias pode registrar eventos de conversao, como cliques
+                  no WhatsApp, abertura de popup e envio de lead, sempre para medir desempenho comercial
+                  e melhorar o atendimento. Ferramentas opcionais de analytics so sao inicializadas apos
+                  o aceite explicito. Se preferir, voce pode recusar o banner ou apagar esse registro
+                  diretamente no seu navegador.
                 </p>
               </div>
             </div>

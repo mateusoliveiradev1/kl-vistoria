@@ -12,6 +12,7 @@ See: `.planning/PROJECT.md` (updated 2026-06-02)
 
 - 2026-06-02: Initialized lightweight GSD planning for landing redesign.
 - 2026-06-02: Added first-party tracking admin as the next phase before the WhatsApp bot.
+- 2026-06-02: Implemented first pass of admin dashboard, first-party tracking APIs, lead persistence hooks, and Neon-ready schema.
 
 ## Resume Point
 

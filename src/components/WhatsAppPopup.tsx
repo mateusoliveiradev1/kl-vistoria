@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Send, ShieldCheck, Mail, Phone, Car, FileText, MapPin } from 'lucide-react';
 import { COMPANY_INFO } from '../data/company';
+import { trackEvent, trackLead } from '../lib/analytics';
 
 interface WhatsAppPopupProps {
   isOpen: boolean;
@@ -26,6 +27,12 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
     setIsSubmitting(true);
 
     try {
+      await trackLead({
+        ...formData,
+        metadata_source: 'website_popup',
+        lgpd_consent: lgpdConsent,
+      });
+
       const GOOGLE_APPS_SCRIPT_URL =
         'https://script.google.com/macros/s/AKfycbzwd4R9cvEBg4jzKJm68zMagkT2WhqIctx13wrQWreuEmVqPM49kX6IZqymBe4T6tUB/exec';
 
@@ -48,6 +55,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `${COMPANY_INFO.contact.phoneLink}?text=${encodedMessage}`;
 
+      void trackEvent('whatsapp_click', { source: 'popup_submit', service: formData.service }, { requireConsent: false });
       window.open(whatsappUrl, '_blank');
 
       setTimeout(() => {
@@ -59,6 +67,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
       setIsSubmitting(false);
 
       const fallbackMsg = `Ola, me chamo ${formData.name}. Quero agendar ${formData.service} para o veiculo ${formData.vehicle} em ${formData.address}. Urgencia: ${formData.urgency}.`;
+      void trackEvent('whatsapp_click', { source: 'popup_fallback', service: formData.service }, { requireConsent: false });
       window.open(`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(fallbackMsg)}`, '_blank');
     }
   };

@@ -12,15 +12,20 @@ import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ServiceAreasPage from './pages/ServiceAreasPage';
+import AdminLoginPage from './pages/admin/AdminLoginPage';
+import AdminDashboardPage from './pages/admin/AdminDashboardPage';
 import { serviceLocations } from './data/locations';
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { logPageView } from './lib/analytics';
 
 function App() {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith('/admin');
+
   useEffect(() => {
-    // Track page views on route change (or initial load)
     logPageView();
-  }, []);
+  }, [location.pathname]);
 
   return (
     <HelmetProvider>
@@ -30,12 +35,14 @@ function App() {
           title="Vistoria Cautelar e Veicular em Goiânia"
           description="Especialistas em Vistoria Cautelar em Goiânia. Garanta segurança na compra do seu carro com análise estrutural, documental e de histórico completa. Agende agora!"
         />
-        <Header />
+        {!isAdminRoute && <Header />}
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/areas-de-atendimento" element={<ServiceAreasPage />} />
             <Route path="/politica-de-privacidade" element={<PrivacyPolicyPage />} />
+            <Route path="/admin/login" element={<AdminLoginPage />} />
+            <Route path="/admin" element={<AdminDashboardPage />} />
             {serviceLocations.map(loc => (
               <Route
                 key={loc.slug}
@@ -46,10 +53,10 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
-        <Footer />
-        <WhatsAppButton />
-        <CookieConsent />
-        <BackToTop />
+        {!isAdminRoute && <Footer />}
+        {!isAdminRoute && <WhatsAppButton />}
+        {!isAdminRoute && <CookieConsent />}
+        {!isAdminRoute && <BackToTop />}
       </div>
     </HelmetProvider>
   );

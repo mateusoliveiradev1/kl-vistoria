@@ -1,12 +1,16 @@
 import { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import { WhatsAppPopup } from './WhatsAppPopup';
+import { trackEvent } from '../lib/analytics';
 
 export function WhatsAppButton() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   useEffect(() => {
-    const handleOpen = () => setIsPopupOpen(true);
+    const handleOpen = () => {
+      void trackEvent('popup_open', { source: 'custom_event' });
+      setIsPopupOpen(true);
+    };
     window.addEventListener('open-whatsapp-popup', handleOpen);
     return () => window.removeEventListener('open-whatsapp-popup', handleOpen);
   }, []);
@@ -18,6 +22,7 @@ export function WhatsAppButton() {
         href="https://wa.me/556295406565?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+vistoria+cautelar."
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => void trackEvent('whatsapp_click', { source: 'floating_direct' })}
         className="group fixed bottom-28 right-6 z-[40] hidden rounded-full border border-[#25D366]/30 bg-[#0B111A] p-3 text-[#25D366] shadow-xl transition-all duration-300 hover:scale-110 hover:bg-[#111827] md:block"
         aria-label="WhatsApp Direto"
       >
@@ -28,7 +33,10 @@ export function WhatsAppButton() {
       </a>
 
       <button
-        onClick={() => setIsPopupOpen(true)}
+        onClick={() => {
+          void trackEvent('popup_open', { source: 'floating_cta' });
+          setIsPopupOpen(true);
+        }}
         className="group fixed bottom-4 left-4 right-4 z-[40] flex min-h-14 cursor-pointer items-center justify-center gap-3 rounded-md border-none bg-[#25D366] px-5 py-4 font-black text-[#06140a] shadow-2xl shadow-emerald-950/30 outline-none transition-all duration-300 hover:bg-[#4ee184] md:bottom-6 md:left-auto md:right-6 md:min-h-0 md:w-auto md:rounded-full md:p-4 md:hover:scale-110"
         aria-label="Falar no WhatsApp"
       >

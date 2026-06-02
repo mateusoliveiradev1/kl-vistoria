@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { COMPANY_INFO } from "../data/company";
-import { FAQ_ITEMS } from "./FAQ";
+import { FAQ_ITEMS } from "../data/faq";
 
 interface SEOProps {
   title?: string;
@@ -8,9 +8,10 @@ interface SEOProps {
   keywords?: string;
   image?: string;
   url?: string;
+  noIndex?: boolean;
 }
 
-export function SEO({ title, description, keywords, image, url }: SEOProps) {
+export function SEO({ title, description, keywords, image, url, noIndex }: SEOProps) {
   const siteTitle = title
     ? `${title} | ${COMPANY_INFO.name}`
     : COMPANY_INFO.name;
@@ -119,7 +120,11 @@ export function SEO({ title, description, keywords, image, url }: SEOProps) {
       <meta name="author" content={COMPANY_INFO.name} />
       <meta
         name="robots"
-        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        content={
+          noIndex
+            ? 'noindex, nofollow'
+            : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+        }
       />
       <link rel="canonical" href={siteUrl} />
 

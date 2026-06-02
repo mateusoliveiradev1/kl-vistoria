@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calculator, AlertTriangle, CheckCircle2, TrendingDown, Info } from 'lucide-react';
 import { Container } from './ui/Container';
+import { trackEvent } from '../lib/analytics';
 
 export const LeadCalculator = () => {
     const [price, setPrice] = useState<string>('');
@@ -57,6 +58,16 @@ export const LeadCalculator = () => {
     const handleWhatsAppLead = () => {
         const text = `Olá! Usei a Calculadora de Risco KL e meu resultado foi:\n\n🚗 Veículo: ${brand}\n📅 Ano: ${year}\n💰 Preço: R$ ${price}\n⚠️ Risco Detectado: ${result?.risk}%\n📉 Perda Potencial: R$ ${result?.loss.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}\n\nQuero blindar meu investimento com uma vistoria profissional!`;
         const encodedText = encodeURIComponent(text);
+        void trackEvent(
+            'whatsapp_click',
+            {
+                source: 'lead_calculator',
+                vehicle: brand,
+                year,
+                risk: result?.risk || 0,
+            },
+            { requireConsent: false }
+        );
         window.open(`https://wa.me/556295406565?text=${encodedText}`, '_blank');
     };
 
