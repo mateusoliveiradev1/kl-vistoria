@@ -1,11 +1,12 @@
 {
   "name": "KL Vistorias Cautelar",
   "short_name": "KL Vistorias",
-  "description": "Sua parceira de confiança em vistorias cautelares em Goiânia.",
+  "description": "Vistoria cautelar e pericia automotiva em Goiania.",
   "start_url": "/",
+  "lang": "pt-BR",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1e3a8a",
+  "background_color": "#080B10",
+  "theme_color": "#080B10",
   "icons": [
     {
       "src": "/favicon.ico",

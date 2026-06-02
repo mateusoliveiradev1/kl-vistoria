@@ -10,6 +10,7 @@ import FAQ from '../components/FAQ';
 import Location from '../components/Location';
 import { LeadCalculator } from '../components/LeadCalculator';
 import { CheckCircle2 } from 'lucide-react';
+import { COMPANY_INFO } from '../data/company';
 
 interface LocationPageProps {
     locationId: string;
@@ -25,6 +26,33 @@ export default function LocationPage({ locationId }: LocationPageProps) {
     const serviceName = locationData.serviceNameOriginal || "Vistoria Cautelar";
     const title = `${serviceName} ${locationData.preposition} ${locationData.cityName} - KL Vistorias`;
     const description = locationData.shortDescription;
+    const currentIndex = serviceLocations.findIndex(loc => loc.slug === locationData.slug);
+    const locationsBefore = serviceLocations.filter((loc, index) => loc.slug !== locationData.slug && index < currentIndex);
+    const locationsAfter = serviceLocations.filter((loc, index) => loc.slug !== locationData.slug && index > currentIndex);
+    const relatedLocations = [...locationsAfter, ...locationsBefore].slice(0, 25);
+
+    const localBusinessSchema = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: `KL ${serviceName} - ${locationData.cityName}`,
+        image: locationData.heroImage,
+        "@id": `${COMPANY_INFO.website}/${locationData.slug}`,
+        url: `${COMPANY_INFO.website}/${locationData.slug}`,
+        telephone: COMPANY_INFO.contact.phone,
+        address: {
+            "@type": "PostalAddress",
+            addressLocality: locationData.cityName,
+            addressRegion: "GO",
+            addressCountry: "BR",
+        },
+        areaServed: {
+            "@type": "Place",
+            name: locationData.cityName,
+        },
+        description: locationData.shortDescription,
+        priceRange: "$$",
+        sameAs: [COMPANY_INFO.social.instagram],
+    };
 
     return (
         <>
@@ -32,41 +60,11 @@ export default function LocationPage({ locationId }: LocationPageProps) {
                 title={title}
                 description={description}
                 image={locationData.heroImage}
-                url={`https://klvistorias.com.br/${locationData.slug}`}
+                url={`${COMPANY_INFO.website}/${locationData.slug}`}
             />
-            {/* Structured Data: LocalBusiness tailored for the specific city */}
             <Helmet>
                 <script type="application/ld+json">
-                    {`
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "AutoInspectionStation",
-                      "name": "KL ${serviceName} - ${locationData.cityName}",
-                      "image": "${locationData.heroImage}",
-                      "@id": "https://klvistorias.com.br/${locationData.slug}",
-                      "url": "https://klvistorias.com.br/${locationData.slug}",
-                      "telePhone": "556295406565",
-                      "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": "${locationData.localTestimonial.rating}",
-                        "reviewCount": "${Math.floor(Math.random() * 40) + 120}",
-                        "bestRating": "5",
-                        "worstRating": "1"
-                      },
-                      "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "${locationData.cityName}",
-                        "addressRegion": "GO",
-                        "addressCountry": "BR"
-                      },
-                      "areaServed": {
-                        "@type": "City",
-                        "name": "${locationData.cityName}"
-                      },
-                      "description": "${locationData.shortDescription}",
-                      "priceRange": "$$"
-                    }
-                    `}
+                    {JSON.stringify(localBusinessSchema)}
                 </script>
             </Helmet>
 
@@ -177,11 +175,7 @@ export default function LocationPage({ locationId }: LocationPageProps) {
                     <div className="opacity-30 hover:opacity-100 transition-opacity duration-700">
                         <span className="text-[10px] text-slate-500 uppercase tracking-[0.3em] font-bold w-full text-center block mb-8">Navegação Geográfica de Apoio</span>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-3">
-                            {serviceLocations
-                                .filter(loc => loc.slug !== locationData.slug)
-                                .sort(() => 0.5 - Math.random())
-                                .slice(0, 25)
-                                .map(loc => (
+                            {relatedLocations.map(loc => (
                                     <a
                                         key={loc.slug}
                                         href={`/${loc.slug}`}
@@ -189,8 +183,7 @@ export default function LocationPage({ locationId }: LocationPageProps) {
                                     >
                                         • {loc.serviceNameOriginal?.split(' ')[0]} {loc.preposition} {loc.cityName}
                                     </a>
-                                ))
-                            }
+                                ))}
                         </div>
                     </div>
                 </Container>

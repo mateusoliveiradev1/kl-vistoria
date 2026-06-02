@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Phone, MapPin, Mail } from 'lucide-react';
+import { Instagram, Phone, MapPin, Mail } from 'lucide-react';
 import { COMPANY_INFO } from '../data/company';
 import { Container } from './ui/Container';
 import { Logo } from './Logo';
@@ -32,17 +32,12 @@ const Footer = () => {
             <div className="flex justify-center gap-4 md:justify-start">
               <a
                 href={COMPANY_INFO.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group rounded-xl border border-slate-700/50 bg-slate-800/50 p-3.5 transition-all duration-300 hover:border-primary/50 hover:bg-primary/20"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5 text-slate-400 transition-all group-hover:scale-110 group-hover:text-primary" />
-              </a>
-              <a
-                href={COMPANY_INFO.social.facebook}
-                className="group rounded-xl border border-slate-700/50 bg-slate-800/50 p-3.5 transition-all duration-300 hover:border-primary/50 hover:bg-primary/20"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5 text-slate-400 transition-all group-hover:scale-110 group-hover:text-primary" />
               </a>
             </div>
           </div>

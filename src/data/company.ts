@@ -29,7 +29,6 @@ export const COMPANY_INFO = {
     privacyEmail: "contato@klvistorias.com.br"
   },
   social: {
-    instagram: "https://instagram.com/klvistorias", // Placeholder
-    facebook: "https://facebook.com/klvistorias"   // Placeholder
+    instagram: "https://www.instagram.com/klvistoriasgo"
   }
 } as const;

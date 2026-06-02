@@ -22,18 +22,23 @@ export function CookieConsent() {
     initGA();
   };
 
+  const reject = () => {
+    localStorage.setItem('kl_cookie_consent', 'false');
+    setShow(false);
+  };
+
   if (!show) return null;
 
   return (
     <div className="fixed bottom-4 left-4 right-4 z-[100] animate-in slide-in-from-bottom-10 fade-in duration-500 md:left-auto md:right-4 md:max-w-md">
-      <div className="flex flex-col gap-4 rounded-2xl border border-gray-200 bg-white/95 p-6 shadow-2xl backdrop-blur-md">
+      <div className="flex flex-col gap-4 rounded-lg border border-white/10 bg-[#111827]/95 p-6 shadow-2xl backdrop-blur-md">
         <div className="flex items-start gap-4">
-          <div className="shrink-0 rounded-full bg-blue-100 p-2">
+          <div className="shrink-0 rounded-md bg-primary/10 p-2">
             <Cookie className="h-6 w-6 text-primary" />
           </div>
           <div className="space-y-2">
-            <h3 className="font-bold text-gray-900">Privacidade & Cookies</h3>
-            <p className="text-sm leading-relaxed text-gray-600">
+            <h3 className="font-bold text-white">Privacidade & Cookies</h3>
+            <p className="text-sm leading-relaxed text-slate-300">
               Utilizamos cookies para melhorar sua experiencia e analisar o trafego. Ao continuar,
               voce concorda com nossa{' '}
               <a href="/politica-de-privacidade" className="font-semibold text-primary hover:underline">
@@ -44,7 +49,7 @@ export function CookieConsent() {
           </div>
           <button
             onClick={() => setShow(false)}
-            className="text-gray-400 transition-colors hover:text-gray-600"
+            className="text-slate-500 transition-colors hover:text-white"
             aria-label="Fechar aviso de cookies"
           >
             <X className="h-5 w-5" />
@@ -55,13 +60,13 @@ export function CookieConsent() {
             variant="outline"
             size="sm"
             className="h-9 text-xs"
-            onClick={() => setShow(false)}
+            onClick={reject}
           >
             Recusar
           </Button>
           <Button
             size="sm"
-            className="h-9 bg-primary text-xs hover:bg-blue-900"
+            className="h-9 bg-primary text-xs text-white hover:bg-blue-700"
             onClick={accept}
           >
             Aceitar e Continuar

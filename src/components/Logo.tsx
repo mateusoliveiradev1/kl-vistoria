@@ -6,7 +6,7 @@ interface LogoProps extends SVGProps<SVGSVGElement> {
 }
 
 export const Logo = ({ className = "", variant = "default", ...props }: LogoProps) => {
-    const accentColor = variant === "default" ? "#3B82F6" : "#FFFFFF"; // blue-500 or white
+    const accentColor = variant === "default" ? "#2563EB" : "#FFFFFF";
     const primaryColor = "#FFFFFF";
 
     return (
@@ -50,7 +50,7 @@ export const Logo = ({ className = "", variant = "default", ...props }: LogoProp
             {/* Typography */}
             <g transform="translate(130, 75)">
                 <text
-                    fontFamily="Orbitron, sans-serif"
+                    fontFamily="Barlow Condensed, Arial, sans-serif"
                     fontWeight="bold"
                     fontSize="48"
                     fill={primaryColor}
@@ -60,7 +60,7 @@ export const Logo = ({ className = "", variant = "default", ...props }: LogoProp
                 </text>
                 <text
                     x="85"
-                    fontFamily="Exo 2, sans-serif"
+                    fontFamily="Albert Sans, Arial, sans-serif"
                     fontWeight="300"
                     fontSize="42"
                     fill={primaryColor}
@@ -70,7 +70,7 @@ export const Logo = ({ className = "", variant = "default", ...props }: LogoProp
                 </text>
                 <text
                     y="25"
-                    fontFamily="Exo 2, sans-serif"
+                    fontFamily="Albert Sans, Arial, sans-serif"
                     fontWeight="600"
                     fontSize="14"
                     fill={accentColor}

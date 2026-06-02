@@ -15,7 +15,8 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
     phone: '',
     vehicle: '',
     address: '',
-    service: 'Vistoria Cautelar Completa'
+    service: 'Vistoria Cautelar Completa',
+    urgency: 'Estou negociando agora'
   });
   const [lgpdConsent, setLgpdConsent] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -43,7 +44,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
         });
       }
 
-      const message = `*NOVO AGENDAMENTO PELO SITE*\n\nOla equipe KL Vistorias! Gostaria de falar com um especialista para solicitar um orcamento.\n\n*Nome:* ${formData.name}\n*E-mail:* ${formData.email}\n*WhatsApp:* ${formData.phone}\n*Localizacao:* ${formData.address}\n*Veiculo:* ${formData.vehicle}\n*Servico:* ${formData.service}\n\nAguardo retorno!`;
+      const message = `*NOVO LEAD - SITE KL VISTORIAS*\n\n*Objetivo:* Quero avaliar um veiculo antes de fechar negocio.\n\n*Nome:* ${formData.name}\n*E-mail:* ${formData.email}\n*WhatsApp:* ${formData.phone}\n*Localizacao do veiculo:* ${formData.address}\n*Veiculo:* ${formData.vehicle}\n*Servico:* ${formData.service}\n*Urgencia:* ${formData.urgency}\n\nPodem me orientar sobre disponibilidade e proximo passo?`;
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `${COMPANY_INFO.contact.phoneLink}?text=${encodedMessage}`;
 
@@ -57,7 +58,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
       console.error('Error sending data:', error);
       setIsSubmitting(false);
 
-      const fallbackMsg = `Ola, me chamo ${formData.name}. Quero agendar ${formData.service} para o veiculo ${formData.vehicle} em ${formData.address}.`;
+      const fallbackMsg = `Ola, me chamo ${formData.name}. Quero agendar ${formData.service} para o veiculo ${formData.vehicle} em ${formData.address}. Urgencia: ${formData.urgency}.`;
       window.open(`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(fallbackMsg)}`, '_blank');
     }
   };
@@ -85,9 +86,9 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: 'spring', duration: 0.5 }}
-            className="fixed left-1/2 top-1/2 z-50 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-3xl glass-card"
+            className="fixed left-1/2 top-1/2 z-50 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-lg glass-card"
           >
-            <div className="relative border-b border-slate-700/50 bg-primary/20 p-6 text-white md:p-8">
+            <div className="relative border-b border-white/10 bg-primary/10 p-6 text-white md:p-8">
               <button
                 onClick={onClose}
                 className="absolute right-6 top-6 text-slate-400 transition-colors hover:text-white"
@@ -95,13 +96,12 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
               >
                 <X className="h-6 w-6" />
               </button>
-              <h3 className="flex items-center gap-3 text-xl font-black tracking-tight md:text-2xl font-heading">
-                <ShieldCheck className="h-8 w-8 animate-pulse text-primary" />
-                AGENDAR ANALISE
+              <h3 className="flex items-center gap-3 text-2xl font-black tracking-tight md:text-3xl font-heading">
+                <ShieldCheck className="h-8 w-8 text-primary" />
+                Enviar dados do veiculo
               </h3>
               <p className="mt-2 text-sm font-medium leading-relaxed text-slate-400">
-                Detalhes tecnicos para atendimento prioritario. Resposta em{' '}
-                <span className="font-bold text-primary">5 min</span>.
+                Esses campos deixam o atendimento pronto para a equipe e para o futuro bot do WhatsApp.
               </p>
             </div>
 
@@ -130,7 +130,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/50"
+                    className="w-full rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/30"
                     placeholder="Nome completo"
                   />
                 </div>
@@ -147,7 +147,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/50"
+                      className="w-full rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/30"
                       placeholder="E-mail"
                       aria-label="Seu endereco de e-mail"
                     />
@@ -163,7 +163,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/50"
+                      className="w-full rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/30"
                       placeholder="WhatsApp"
                       aria-label="Seu numero de WhatsApp para contato"
                     />
@@ -187,7 +187,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                     value={formData.address}
                     onChange={handleChange}
                     rows={2}
-                    className="w-full resize-none rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/50"
+                    className="w-full resize-none rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/30"
                     placeholder="Endereco completo da vistoria"
                     aria-label="Endereco onde o veiculo se encontra"
                   />
@@ -205,7 +205,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                       name="vehicle"
                       value={formData.vehicle}
                       onChange={handleChange}
-                      className="w-full rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/50"
+                      className="w-full rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all placeholder:text-slate-600 focus:border-primary focus:ring-2 focus:ring-primary/30"
                       placeholder="Veiculo / Placa"
                       aria-label="Modelo do veiculo ou placa"
                     />
@@ -220,7 +220,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full cursor-pointer appearance-none rounded-xl border border-slate-700 bg-slate-900/50 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all focus:border-primary focus:ring-2 focus:ring-primary/50"
+                      className="w-full cursor-pointer appearance-none rounded-md border border-white/10 bg-black/30 py-3 pl-12 pr-4 text-sm text-slate-200 outline-none transition-all focus:border-primary focus:ring-2 focus:ring-primary/30"
                       aria-label="Selecione o servico desejado"
                     >
                       <option value="Vistoria Cautelar Completa" className="bg-slate-900">
@@ -238,6 +238,30 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                     </select>
                   </div>
                 </div>
+
+                <div className="group relative">
+                  <select
+                    id="urgency"
+                    name="urgency"
+                    value={formData.urgency}
+                    onChange={handleChange}
+                    className="w-full cursor-pointer appearance-none rounded-md border border-white/10 bg-black/30 px-4 py-3 text-sm text-slate-200 outline-none transition-all focus:border-primary focus:ring-2 focus:ring-primary/30"
+                    aria-label="Selecione a urgencia do atendimento"
+                  >
+                    <option value="Estou negociando agora" className="bg-slate-900">
+                      Estou negociando agora
+                    </option>
+                    <option value="Quero vistoriar hoje" className="bg-slate-900">
+                      Quero vistoriar hoje
+                    </option>
+                    <option value="Pode ser nos proximos dias" className="bg-slate-900">
+                      Pode ser nos proximos dias
+                    </option>
+                    <option value="Quero tirar duvidas primeiro" className="bg-slate-900">
+                      Quero tirar duvidas primeiro
+                    </option>
+                  </select>
+                </div>
               </div>
 
               <div className="pt-2">
@@ -248,7 +272,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                       required
                       checked={lgpdConsent}
                       onChange={(e) => setLgpdConsent(e.target.checked)}
-                      className="peer h-5 w-5 appearance-none rounded border-2 border-slate-600 bg-slate-900/50 transition-all checked:border-primary checked:bg-primary"
+                      className="peer h-5 w-5 appearance-none rounded border-2 border-slate-600 bg-black/30 transition-all checked:border-secondary checked:bg-secondary"
                     />
                     <ShieldCheck className="absolute h-3 w-3 text-white opacity-0 transition-opacity peer-checked:opacity-100" />
                   </div>
@@ -271,20 +295,20 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
                 <button
                   type="submit"
                   disabled={!lgpdConsent || isSubmitting}
-                  className="group flex w-full items-center justify-center gap-3 rounded-2xl bg-primary px-6 py-4 font-black text-white shadow-[0_8px_30px_rgba(59,130,246,0.3)] transition-all active:scale-[0.98] hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-70"
+                  className="group flex w-full items-center justify-center gap-3 rounded-md bg-secondary px-6 py-4 font-black text-[#06140a] shadow-[0_8px_30px_rgba(37,211,102,0.2)] transition-all active:scale-[0.98] hover:bg-[#4ee184] disabled:cursor-not-allowed disabled:opacity-70"
                 >
                   {isSubmitting ? (
                     <span className="animate-pulse">PROCESSANDO...</span>
                   ) : (
                     <>
                       <Send className="h-5 w-5 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
-                      SOLICITAR AGORA
+                      ABRIR WHATSAPP
                     </>
                   )}
                 </button>
               </div>
 
-              <p className="rounded-xl border border-slate-800/50 bg-slate-900/40 py-3 text-center text-[10px] uppercase tracking-widest text-slate-500">
+              <p className="rounded-md border border-white/10 bg-black/20 py-3 text-center text-[10px] uppercase tracking-widest text-slate-500">
                 Atendimento protegido para envio das informacoes
               </p>
             </form>

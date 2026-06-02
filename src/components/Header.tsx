@@ -21,7 +21,7 @@ const Header = () => {
       className={cn(
         "fixed w-full top-0 z-50 h-[80px] flex items-center transition-all duration-300",
         scrolled
-          ? "bg-primary/80 backdrop-blur-lg border-b border-white/10 shadow-xl"
+          ? "bg-[#080B10]/90 backdrop-blur-lg border-b border-white/10 shadow-xl"
           : "bg-transparent bg-gradient-to-b from-black/50 to-transparent",
       )}
     >
@@ -46,17 +46,17 @@ const Header = () => {
                 <a
                   key={item}
                   href={href}
-                  className="text-white hover:text-secondary transition-colors font-medium text-sm lg:text-base tracking-wide relative group"
+                  className="text-white hover:text-primary transition-colors font-medium text-sm lg:text-base tracking-wide relative group"
                 >
                   {item}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
                 </a>
               );
             }
           )}
           <div onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))} className="cursor-pointer">
             <Button size="sm" className="font-bold pointer-events-none">
-              Contato
+              WhatsApp
             </Button>
           </div>
         </nav>
@@ -78,7 +78,7 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={cn(
-          "absolute top-[80px] left-0 w-full bg-primary/95 backdrop-blur-md border-t border-white/10 shadow-xl md:hidden transition-all duration-300 ease-in-out origin-top",
+          "absolute top-[80px] left-0 w-full bg-[#080B10]/95 backdrop-blur-md border-t border-white/10 shadow-xl md:hidden transition-all duration-300 ease-in-out origin-top",
           isMenuOpen
             ? "opacity-100 scale-y-100"
             : "opacity-0 scale-y-0 pointer-events-none",
@@ -95,7 +95,7 @@ const Header = () => {
               <a
                 key={item}
                 href={href}
-                className="text-white hover:text-secondary transition-colors font-medium text-lg border-b border-white/5 pb-2"
+                className="text-white hover:text-primary transition-colors font-medium text-lg border-b border-white/5 pb-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item}
@@ -103,7 +103,7 @@ const Header = () => {
             );
           })}
           <div onClick={() => { setIsMenuOpen(false); window.dispatchEvent(new CustomEvent('open-whatsapp-popup')); }} className="cursor-pointer">
-            <Button className="w-full pointer-events-none">Contato</Button>
+            <Button className="w-full pointer-events-none">WhatsApp</Button>
           </div>
         </div>
       </div>

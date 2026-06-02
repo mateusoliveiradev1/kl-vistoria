@@ -18,7 +18,7 @@ export function WhatsAppButton() {
         href="https://wa.me/556295406565?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+vistoria+cautelar."
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-28 right-6 z-[40] bg-white text-[#25D366] p-3 rounded-full shadow-xl hover:bg-slate-50 transition-all duration-300 hover:scale-110 group border border-[#25D366]/20"
+        className="group fixed bottom-28 right-6 z-[40] hidden rounded-full border border-[#25D366]/30 bg-[#0B111A] p-3 text-[#25D366] shadow-xl transition-all duration-300 hover:scale-110 hover:bg-[#111827] md:block"
         aria-label="WhatsApp Direto"
       >
         <div className="absolute -top-8 right-0 bg-slate-900 text-white text-[10px] font-bold px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-white/10 uppercase tracking-tighter">
@@ -29,17 +29,18 @@ export function WhatsAppButton() {
 
       <button
         onClick={() => setIsPopupOpen(true)}
-        className="fixed bottom-6 right-6 z-[40] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#128C7E] transition-all duration-300 hover:scale-110 group cursor-pointer border-none outline-none"
+        className="group fixed bottom-4 left-4 right-4 z-[40] flex min-h-14 cursor-pointer items-center justify-center gap-3 rounded-md border-none bg-[#25D366] px-5 py-4 font-black text-[#06140a] shadow-2xl shadow-emerald-950/30 outline-none transition-all duration-300 hover:bg-[#4ee184] md:bottom-6 md:left-auto md:right-6 md:min-h-0 md:w-auto md:rounded-full md:p-4 md:hover:scale-110"
         aria-label="Falar no WhatsApp"
       >
-        <div className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20"></div>
+        <div className="absolute inset-0 hidden rounded-full bg-[#25D366] opacity-20 md:block md:animate-ping"></div>
 
         {/* Notification Badge */}
-        <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full border-2 border-white animate-bounce">
+        <div className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 border-white bg-red-500 text-xs font-bold text-white md:animate-bounce">
           1
         </div>
 
-        <Phone className="w-8 h-8 fill-current" />
+        <Phone className="h-6 w-6 fill-current md:h-8 md:w-8" />
+        <span className="md:hidden">Falar no WhatsApp</span>
 
         {/* Tooltip */}
         <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-gray-800 px-4 py-2 rounded-xl text-sm font-bold shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block border border-gray-100">

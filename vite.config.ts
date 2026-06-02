@@ -5,9 +5,12 @@ import { VitePWA } from 'vite-plugin-pwa'
 import Sitemap from 'vite-plugin-sitemap'
 import { serviceLocations } from './src/data/locations'
 
-const dynamicRoutes = serviceLocations.map(loc => `/${loc.slug}`)
+const dynamicRoutes = [
+  '/areas-de-atendimento',
+  '/politica-de-privacidade',
+  ...serviceLocations.map(loc => `/${loc.slug}`)
+]
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
@@ -18,9 +21,10 @@ export default defineConfig({
       manifest: {
         name: 'KL Vistorias Cautelar',
         short_name: 'KL Vistorias',
-        description: 'Sua parceira de confiança em vistorias cautelares em Goiânia.',
-        theme_color: '#1e3a8a',
-        background_color: '#ffffff',
+        description: 'Vistoria cautelar e pericia automotiva em Goiania.',
+        theme_color: '#080B10',
+        background_color: '#080B10',
+        lang: 'pt-BR',
         display: 'standalone',
         icons: [
           {
@@ -43,7 +47,8 @@ export default defineConfig({
     }),
     Sitemap({
       hostname: 'https://klvistorias.com.br',
-      dynamicRoutes
+      dynamicRoutes,
+      lastmod: new Date('2026-06-02')
     })
   ],
 })

@@ -1,4 +1,4 @@
-import { ChevronRight } from 'lucide-react';
+import { ArrowRight, CheckCircle2, FileText, MapPin, MessageCircle, ShieldCheck } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { COMPANY_INFO } from '../data/company';
@@ -6,95 +6,142 @@ import { Button } from './ui/Button';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
 
+const proofItems = [
+  'Atendimento movel',
+  'Laudo digital',
+  'Analise estrutural',
+  'Goiania e regiao',
+];
+
+const inspectionItems = [
+  'Chassi, motor e etiquetas',
+  'Longarinas e estrutura',
+  'Pintura e repintura',
+  'Leilao, sinistro e restricoes',
+];
+
 const Hero = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end start"],
+    offset: ['start start', 'end start'],
   });
-  const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const y = useTransform(scrollYProgress, [0, 1], ['0%', '18%']);
 
   return (
-    <section ref={ref} id="inicio" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Background Image Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-950/95 via-gray-900/90 to-gray-900/60 z-10 pointer-events-none"></div>
-
-      {/* Background Image */}
+    <section
+      ref={ref}
+      id="inicio"
+      className="relative min-h-screen overflow-hidden bg-[#080B10] pb-12 pt-24 text-white md:pt-32"
+    >
       <motion.div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center opacity-45"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1613214149922-f1809c99b414?q=80&w=2070&auto=format&fit=crop")',
-          y
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1613214149922-f1809c99b414?q=80&w=2070&auto=format&fit=crop")',
+          y,
         }}
       />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,10,8,0.97)_0%,rgba(8,10,8,0.88)_44%,rgba(8,10,8,0.58)_100%)]" />
+      <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#080B10] to-transparent" />
+      <div className="absolute left-0 top-24 hidden h-[1px] w-full bg-gradient-to-r from-transparent via-primary/40 to-transparent md:block" />
 
-      <Container className="relative z-20 text-white h-full flex flex-col justify-center">
-        <div className="max-w-4xl">
-          <FadeIn delay={0.1}>
-            <div className="inline-block bg-primary/20 backdrop-blur-md px-6 py-2 rounded-full text-xs font-bold mb-8 tracking-[0.2em] uppercase border border-primary/30 shadow-[0_0_20px_rgba(59,130,246,0.3)]">
-              Especialistas em Engenharia Veicular
-            </div>
-          </FadeIn>
+      <Container className="relative z-10">
+        <div className="grid min-h-[calc(100vh-7rem)] grid-cols-1 items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+          <div className="max-w-3xl">
+            <FadeIn delay={0.02}>
+              <div className="mb-6 inline-flex items-center gap-3 rounded-md border border-primary/30 bg-primary/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.2em] text-primary">
+                <ShieldCheck className="h-4 w-4" />
+                Vistoria cautelar antes de fechar negocio
+              </div>
+            </FadeIn>
 
-          <div className="overflow-hidden mb-8">
             <motion.h1
-              className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight font-heading"
-              initial="hidden"
-              animate="visible"
-              variants={{
-                visible: { transition: { staggerChildren: 0.05 } },
-                hidden: {},
-              }}
+              className="font-heading text-4xl font-extrabold leading-[0.98] text-white sm:text-6xl lg:text-7xl"
+              initial={{ opacity: 0, y: 26 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: [0.2, 0.8, 0.2, 1] }}
             >
-              {"NÃO COMPRE UM CARRO".split(" ").map((word, i) => (
-                <span key={i} className="inline-block whitespace-nowrap mr-4">
-                  {word.split("").map((char, index) => (
-                    <motion.span
-                      key={index}
-                      variants={{
-                        hidden: { opacity: 0, y: 40, rotateX: -90 },
-                        visible: { opacity: 1, y: 0, rotateX: 0 },
-                      }}
-                      transition={{ duration: 0.8, ease: [0.215, 0.61, 0.355, 1] }}
-                      className="inline-block"
-                    >
-                      {char}
-                    </motion.span>
-                  ))}
-                </span>
-              ))}
-              <br />
-              <motion.span
-                className="hero-gradient-text text-glow inline-block"
-                variants={{
-                  hidden: { opacity: 0, y: 40 },
-                  visible: { opacity: 1, y: 0 },
-                }}
-                transition={{ duration: 0.8, delay: 0.6, ease: [0.215, 0.61, 0.355, 1] }}
-              >
-                SEM SABER A VERDADE.
-              </motion.span>
+              Evite comprar carro batido ou adulterado.
             </motion.h1>
+
+            <FadeIn delay={0.08}>
+              <p className="mt-7 max-w-2xl border-l border-primary/60 pl-5 text-base leading-8 text-slate-200 sm:text-lg">
+                A {COMPANY_INFO.name} vai ate o veiculo e entrega uma analise tecnica para voce
+                negociar com seguranca antes de transferir dinheiro.
+              </p>
+            </FadeIn>
+
+            <FadeIn delay={0.12} className="mt-7 flex flex-col gap-3 sm:flex-row">
+              <button
+                onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))}
+                className="group inline-flex min-h-14 items-center justify-center gap-3 rounded-md bg-secondary px-7 font-black text-[#06140a] shadow-xl shadow-emerald-950/30 transition hover:-translate-y-0.5 hover:bg-[#4ee184]"
+              >
+                <MessageCircle className="h-5 w-5" />
+                Agendar vistoria no WhatsApp
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
+              </button>
+              <a href="/#servicos">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                  Ver o que analisamos
+                </Button>
+              </a>
+            </FadeIn>
+
+            <FadeIn delay={0.16}>
+              <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                {proofItems.map((item) => (
+                  <div
+                    key={item}
+                    className="rounded-md border border-white/10 bg-white/[0.04] px-3 py-3 text-xs font-bold uppercase tracking-wide text-slate-200"
+                  >
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </FadeIn>
           </div>
 
-          <FadeIn delay={0.8}>
-            <p className="text-lg md:text-xl mb-12 text-slate-300 font-light leading-relaxed max-w-2xl border-l-[3px] border-primary pl-8 py-2 bg-slate-900/40 backdrop-blur-sm rounded-r-lg">
-              A <span className="font-bold text-white text-glow-sm">{COMPANY_INFO.name}</span> utiliza tecnologia avançada de análise estrutural para revelar o histórico oculto do seu futuro veículo.
-            </p>
-          </FadeIn>
+          <FadeIn delay={0.25} direction="left">
+            <div className="relative mx-auto w-full max-w-xl rounded-lg border border-white/12 bg-[#111827]/85 p-5 shadow-2xl backdrop-blur-xl sm:p-6">
+              <div className="absolute -right-3 -top-3 rounded-md bg-primary px-4 py-2 text-xs font-black uppercase tracking-widest text-white shadow-xl">
+                Antes da compra
+              </div>
+              <div className="overflow-hidden rounded-md border border-white/10">
+                <img
+                  src="https://images.unsplash.com/photo-1746079074494-822fb0f83364?q=80&w=2070&auto=format&fit=crop"
+                  alt="Perito realizando vistoria cautelar em veiculo"
+                  className="h-56 w-full object-cover sm:h-72"
+                />
+              </div>
 
-          <FadeIn delay={1} className="flex flex-col sm:flex-row gap-6">
-            <div onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))} className="cursor-pointer">
-              <Button size="lg" className="w-full sm:w-auto group bg-primary hover:bg-blue-600 shadow-[0_0_30px_rgba(59,130,246,0.4)] border-none">
-                SOLICITAR AGENDAMENTO DIGITAL
-                <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <div className="mt-6 grid gap-3">
+                <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-4">
+                  <div>
+                    <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary">
+                      Checklist tecnico
+                    </p>
+                    <h2 className="mt-1 text-2xl font-bold text-white">O que pode mudar o valor do carro</h2>
+                  </div>
+                  <FileText className="h-9 w-9 shrink-0 text-primary" />
+                </div>
+
+                {inspectionItems.map((item) => (
+                  <div key={item} className="flex items-center gap-3 text-sm text-slate-200">
+                    <CheckCircle2 className="h-5 w-5 shrink-0 text-secondary" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-6 flex flex-col gap-3 rounded-md border border-primary/20 bg-primary/10 p-4 sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex items-center gap-3 text-sm text-slate-200">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  {COMPANY_INFO.address.fullAddress}
+                </div>
+                <span className="text-sm font-bold text-primary">{COMPANY_INFO.contact.phone}</span>
+              </div>
             </div>
-            <a href="/#servicos">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto border-slate-700 hover:bg-slate-800/50 backdrop-blur-sm transition-all duration-500">
-                VER SERVIÇOS TÉCNICOS
-              </Button>
-            </a>
           </FadeIn>
         </div>
       </Container>

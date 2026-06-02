@@ -1,79 +1,110 @@
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, HelpCircle, MessageCircle } from 'lucide-react';
 import { Section } from './ui/Section';
 import { Container } from './ui/Container';
 import { FadeIn } from './ui/FadeIn';
 import { cn } from '../lib/utils';
 
-const FAQ_ITEMS = [
+export const FAQ_ITEMS = [
   {
-    question: "O que é a Vistoria Cautelar?",
-    answer: "A Vistoria Cautelar é uma análise técnica profunda realizada por peritos em Goiânia. Verificamos toda a estrutura do veículo (chassi, longarinas, painel frontal/traseiro), pintura e originalidade de peças. O objetivo é garantir sua segurança e evitar a compra de carros com batidas graves ou adulterações."
+    question: 'O que e a vistoria cautelar?',
+    answer:
+      'E uma analise tecnica antes da compra. Verificamos estrutura, identificacao, pintura, documentacao e indicios de historico que podem reduzir valor ou trazer risco.',
   },
   {
-    question: "Qual a diferença entre Vistoria Cautelar e Vistoria de Transferência?",
-    answer: "Muitos clientes em Goiânia confundem as duas. A Vistoria de Transferência é obrigatória pelo DETRAN-GO apenas para trocar o documento. Já a Vistoria Cautelar da KL é opcional e muito mais completa: ela analisa a qualidade real do carro, histórico de leilão e sinistros, sendo o seguro real de quem está investindo em um seminovo."
+    question: 'Qual a diferenca para vistoria de transferencia?',
+    answer:
+      'A transferencia atende uma obrigacao documental. A cautelar ajuda voce a decidir se o carro e seguro para comprar, olhando qualidade, passado e sinais de reparo.',
   },
   {
-    question: "Quanto tempo demora o serviço?",
-    answer: "Nossa unidade móvel atende em toda Goiânia de forma ágil. Uma perícia cautelar completa leva em média de 40 a 60 minutos, dependendo da complexidade do veículo analisado."
+    question: 'Quanto tempo demora?',
+    answer:
+      'Em media, uma vistoria cautelar completa leva de 40 a 60 minutos, dependendo do estado do veiculo e da complexidade da analise.',
   },
   {
-    question: "O laudo sai na hora?",
-    answer: "O laudo técnico KL é emitido após uma conferência minuciosa dos nossos peritos seniores. Isso garante que cada detalhe estrutural e eletrônico foi validado, proporcionando segurança real ao seu investimento (não realizamos emissões genéricas instantâneas)."
+    question: 'O laudo sai na hora?',
+    answer:
+      'A equipe passa a orientacao depois da conferencia tecnica. Quando algum ponto exige cuidado, a prioridade e clareza e seguranca, nao pressa.',
   },
   {
-    question: "Vocês atendem em quais regiões?",
-    answer: "Realizamos atendimento móvel premium em toda Goiânia e Região Metropolitana. Vamos até o carro, onde quer que ele esteja, para sua total comodidade e segurança."
-  }
+    question: 'Vocês atendem em quais regioes?',
+    answer:
+      'Atendemos Goiania e regiao metropolitana com unidade movel. Envie a localizacao do carro no WhatsApp para confirmar disponibilidade.',
+  },
 ];
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <Section id="faq" className="bg-white">
-      <Container size="md">
-        <FadeIn className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Dúvidas Frequentes</h2>
-          <p className="text-gray-600">
-            Tire suas dúvidas sobre nossos serviços e entenda por que a KL Vistorias é a melhor opção.
+    <Section id="faq" className="relative bg-[#080B10]">
+      <Container size="lg">
+        <FadeIn className="mb-12 grid gap-6 md:grid-cols-[0.85fr_1.15fr] md:items-end">
+          <div>
+            <p className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-primary">
+              Duvidas frequentes
+            </p>
+            <h2 className="text-4xl font-extrabold leading-tight text-white md:text-5xl">
+              Respostas para decidir antes de comprar.
+            </h2>
+          </div>
+          <p className="max-w-2xl text-base leading-8 text-slate-300">
+            Se ainda restar alguma duvida, envie os dados do veiculo e fale com a equipe pelo WhatsApp.
           </p>
         </FadeIn>
 
-        <div className="space-y-4">
-          {FAQ_ITEMS.map((item, index) => (
-            <FadeIn key={index} delay={index * 0.1} direction="up">
-              <div
-                className="group border border-gray-100 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg bg-white"
-              >
-                <button
-                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className="w-full flex items-center justify-between p-6 text-left focus:outline-none bg-gray-50/50 hover:bg-gray-50 transition-colors"
-                  aria-expanded={openIndex === index}
-                >
-                  <span className="font-bold text-lg text-gray-800 pr-8">{item.question}</span>
-                  <div className={cn(
-                    "w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300",
-                    openIndex === index ? "bg-secondary text-white rotate-180" : "bg-gray-200 text-gray-500 group-hover:bg-primary/10 group-hover:text-primary"
-                  )}>
-                    <ChevronDown className="w-5 h-5" />
-                  </div>
-                </button>
+        <div className="grid gap-6 lg:grid-cols-[1fr_0.42fr]">
+          <div className="space-y-3">
+            {FAQ_ITEMS.map((item, index) => (
+              <FadeIn key={item.question} delay={index * 0.05} direction="up">
+                <div className="overflow-hidden rounded-lg border border-white/10 bg-[#111827] transition hover:border-primary/40">
+                  <button
+                    onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                    className="flex w-full items-center justify-between gap-5 p-5 text-left transition hover:bg-white/[0.03]"
+                    aria-expanded={openIndex === index}
+                  >
+                    <span className="text-lg font-bold text-white">{item.question}</span>
+                    <span
+                      className={cn(
+                        'flex h-9 w-9 shrink-0 items-center justify-center rounded-md border transition',
+                        openIndex === index
+                          ? 'border-primary bg-primary text-white'
+                          : 'border-white/10 text-slate-400'
+                      )}
+                    >
+                      <ChevronDown className={cn('h-5 w-5 transition', openIndex === index && 'rotate-180')} />
+                    </span>
+                  </button>
 
-                <div
-                  className={cn(
-                    "px-6 text-gray-600 overflow-hidden transition-all duration-300 ease-in-out bg-white",
-                    openIndex === index ? "max-h-48 pb-6 opacity-100" : "max-h-0 opacity-0"
-                  )}
-                >
-                  <p className="leading-relaxed pt-2 text-gray-600">
-                    {item.answer}
-                  </p>
+                  <div
+                    className={cn(
+                      'overflow-hidden px-5 text-slate-300 transition-all duration-300',
+                      openIndex === index ? 'max-h-52 pb-5 opacity-100' : 'max-h-0 opacity-0'
+                    )}
+                  >
+                    <p className="border-t border-white/10 pt-4 leading-7">{item.answer}</p>
+                  </div>
                 </div>
-              </div>
-            </FadeIn>
-          ))}
+              </FadeIn>
+            ))}
+          </div>
+
+          <FadeIn direction="left">
+            <aside className="rounded-lg border border-primary/20 bg-primary/10 p-6 lg:sticky lg:top-28">
+              <HelpCircle className="mb-5 h-8 w-8 text-primary" />
+              <h3 className="text-2xl font-bold text-white">Esta negociando agora?</h3>
+              <p className="mt-3 text-sm leading-7 text-slate-300">
+                Mande modelo, ano, cidade e onde o carro esta. A equipe orienta o melhor proximo passo.
+              </p>
+              <button
+                onClick={() => window.dispatchEvent(new CustomEvent('open-whatsapp-popup'))}
+                className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-md bg-secondary px-5 font-black text-[#06140a] transition hover:bg-[#4ee184]"
+              >
+                <MessageCircle className="h-5 w-5" />
+                Falar com a KL
+              </button>
+            </aside>
+          </FadeIn>
         </div>
       </Container>
     </Section>
