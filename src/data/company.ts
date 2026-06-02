@@ -25,7 +25,7 @@ export const COMPANY_INFO = {
     whatsappMessage: "Olá! Vi o site da KL Vistorias e gostaria de agendar uma Vistoria Cautelar."
   },
   legal: {
-    cnpj: "14.869.645/0001-38",
+    cnpj: "66.999.752/0001-16",
     privacyEmail: "contato@klvistorias.com.br"
   },
   social: {
