@@ -18,6 +18,7 @@ import AdminLeadsPage from './pages/admin/AdminLeadsPage';
 import AdminAppointmentsPage from './pages/admin/AdminAppointmentsPage';
 import AdminReviewsPage from './pages/admin/AdminReviewsPage';
 import AdminCatalogPage from './pages/admin/AdminCatalogPage';
+import AdminEventsPage from './pages/admin/AdminEventsPage';
 import { serviceLocations } from './data/locations';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -52,6 +53,7 @@ function App() {
             <Route path="/admin/agendamentos" element={<AdminAppointmentsPage />} />
             <Route path="/admin/reviews" element={<AdminReviewsPage />} />
             <Route path="/admin/catalogo" element={<AdminCatalogPage />} />
+            <Route path="/admin/eventos" element={<AdminEventsPage />} />
             {serviceLocations.map(loc => (
               <Route
                 key={loc.slug}

@@ -47,9 +47,13 @@ export async function ensureSchema() {
       utm_campaign TEXT,
       metadata_json JSONB DEFAULT '{}'::jsonb,
       status TEXT DEFAULT 'new' NOT NULL,
+      notes TEXT,
       created_at TIMESTAMPTZ DEFAULT now() NOT NULL
     )
   `;
+
+  await sql`ALTER TABLE lead_events ADD COLUMN IF NOT EXISTS notes TEXT`;
+  await sql`ALTER TABLE lead_events ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ DEFAULT now() NOT NULL`;
 
   await sql`
     CREATE TABLE IF NOT EXISTS service_catalog (
@@ -112,4 +116,3 @@ export async function ensureSchema() {
 
   schemaReady = true;
 }
-

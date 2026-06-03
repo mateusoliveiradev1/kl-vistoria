@@ -2,7 +2,15 @@ import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BookOpen, Pencil, Plus, RefreshCw, Trash2 } from 'lucide-react';
 import { SEO } from '../../components/SEO';
-import { AdminShell, EmptyState } from './adminShared';
+import {
+  AdminShell,
+  EmptyState,
+  adminDangerButton,
+  adminInput,
+  adminPrimaryButton,
+  adminSecondaryButton,
+  adminSurface,
+} from './adminShared';
 
 type CatalogItem = {
   id: number;
@@ -167,17 +175,17 @@ export default function AdminCatalogPage() {
         title="Catalogo"
         description="Cadastre servicos para alimentar landing, painel e futuro bot do WhatsApp."
         actions={
-          <button onClick={() => void loadCatalog()} className="flex h-11 items-center gap-2 rounded-md border border-white/10 px-4 text-sm font-bold text-slate-300 transition hover:border-primary/40 hover:text-white">
+          <button onClick={() => void loadCatalog()} className={adminSecondaryButton}>
             <RefreshCw className="h-4 w-4" />
             Atualizar
           </button>
         }
       >
-        {error && <div className="mb-6 rounded-lg border border-red-500/30 bg-red-500/10 p-5 text-sm text-red-100">{error}</div>}
+        {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
 
-        <section className="mb-6 rounded-lg border border-white/10 bg-[#111827] p-6">
+        <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
           <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <Plus className="h-5 w-5 text-primary" />
+            <Plus className="h-5 w-5 text-[#E8C766]" />
             {form.id ? 'Editar servico' : 'Novo servico'}
           </h2>
 
@@ -187,7 +195,7 @@ export default function AdminCatalogPage() {
               <input
                 value={form.name}
                 onChange={(event) => setForm((current) => ({ ...current, name: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="Vistoria cautelar"
               />
             </label>
@@ -197,7 +205,7 @@ export default function AdminCatalogPage() {
               <input
                 value={form.short_description}
                 onChange={(event) => setForm((current) => ({ ...current, short_description: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="Analise completa antes da compra"
               />
             </label>
@@ -208,7 +216,7 @@ export default function AdminCatalogPage() {
                 type="number"
                 value={form.sort_order}
                 onChange={(event) => setForm((current) => ({ ...current, sort_order: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
               />
             </label>
 
@@ -217,7 +225,7 @@ export default function AdminCatalogPage() {
               <textarea
                 value={form.full_description}
                 onChange={(event) => setForm((current) => ({ ...current, full_description: event.target.value }))}
-                className="min-h-24 w-full rounded-md border border-white/10 bg-black/30 px-4 py-3 text-sm text-white outline-none focus:border-primary"
+                className={`${adminInput} min-h-24 py-3`}
                 placeholder="Explique quando o servico e indicado e o que sera analisado."
               />
             </label>
@@ -227,7 +235,7 @@ export default function AdminCatalogPage() {
               <input
                 value={form.base_price}
                 onChange={(event) => setForm((current) => ({ ...current, base_price: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="Sob consulta"
               />
             </label>
@@ -237,7 +245,7 @@ export default function AdminCatalogPage() {
               <input
                 value={form.average_time}
                 onChange={(event) => setForm((current) => ({ ...current, average_time: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="40 a 60 minutos"
               />
             </label>
@@ -247,7 +255,7 @@ export default function AdminCatalogPage() {
                 type="checkbox"
                 checked={form.active}
                 onChange={(event) => setForm((current) => ({ ...current, active: event.target.checked }))}
-                className="h-5 w-5 accent-blue-600"
+                className="h-5 w-5 accent-[#E8C766]"
               />
               Ativo no catalogo
             </label>
@@ -257,14 +265,14 @@ export default function AdminCatalogPage() {
             <button
               onClick={() => void saveCatalogItem()}
               disabled={isSaving}
-              className="rounded-md bg-primary px-5 py-3 text-sm font-black text-white transition hover:bg-blue-700 disabled:opacity-60"
+              className={adminPrimaryButton}
             >
               {isSaving ? 'Salvando...' : form.id ? 'Salvar alteracoes' : 'Cadastrar servico'}
             </button>
             {form.id && (
               <button
                 onClick={() => setForm(emptyForm)}
-                className="rounded-md border border-white/10 px-5 py-3 text-sm font-bold text-slate-300 transition hover:text-white"
+                className={adminSecondaryButton}
               >
                 Cancelar edicao
               </button>
@@ -272,19 +280,19 @@ export default function AdminCatalogPage() {
           </div>
         </section>
 
-        <section className="rounded-lg border border-white/10 bg-[#111827] p-6">
+        <section className={`${adminSurface} p-4 md:p-5`}>
           <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <BookOpen className="h-5 w-5 text-primary" />
+            <BookOpen className="h-5 w-5 text-[#E8C766]" />
             Servicos cadastrados
           </h2>
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {catalog.map((item) => (
-              <article key={item.id} className="rounded-md border border-white/10 bg-black/20 p-5">
+              <article key={item.id} className="rounded-md border border-white/10 bg-[#070A0F] p-5">
                 <div className="mb-3 flex items-center justify-between gap-3">
                   <h3 className="font-black text-white">{item.name}</h3>
                   <button
                     onClick={() => void toggleCatalogItem(item)}
-                    className={`rounded-md px-3 py-1 text-xs font-bold ${item.active ? 'bg-secondary/10 text-secondary' : 'bg-slate-700 text-slate-300'}`}
+                    className={`rounded-md px-3 py-1 text-xs font-bold ${item.active ? 'bg-[#7DD3C7]/10 text-[#7DD3C7]' : 'bg-slate-700 text-slate-300'}`}
                   >
                     {item.active ? 'ativo' : 'inativo'}
                   </button>
@@ -303,11 +311,11 @@ export default function AdminCatalogPage() {
                   </div>
                 </div>
                 <div className="mt-5 flex gap-2">
-                  <button onClick={() => editCatalogItem(item)} className="inline-flex items-center gap-2 rounded-md border border-white/10 px-3 py-2 text-xs font-bold text-slate-300 hover:text-white">
+                  <button onClick={() => editCatalogItem(item)} className={adminSecondaryButton}>
                     <Pencil className="h-4 w-4" />
                     Editar
                   </button>
-                  <button onClick={() => void deleteCatalogItem(item.id)} className="inline-flex items-center gap-2 rounded-md border border-white/10 px-3 py-2 text-xs font-bold text-slate-300 hover:text-red-200">
+                  <button onClick={() => void deleteCatalogItem(item.id)} className={adminDangerButton}>
                     <Trash2 className="h-4 w-4" />
                     Excluir
                   </button>
@@ -323,4 +331,3 @@ export default function AdminCatalogPage() {
     </>
   );
 }
-

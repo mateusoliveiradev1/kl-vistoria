@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CalendarClock, Pencil, Plus, RefreshCw, Trash2 } from 'lucide-react';
 import { SEO } from '../../components/SEO';
-import { AdminShell, EmptyState } from './adminShared';
+import { AdminShell, EmptyState, adminInput, adminPrimaryButton, adminSecondaryButton, adminSurface } from './adminShared';
 import { formatAdminDate } from './adminUtils';
 
 type Lead = {
@@ -165,17 +165,17 @@ export default function AdminAppointmentsPage() {
         title="Agendamentos"
         description="Crie horarios, conecte leads e acompanhe status de atendimento."
         actions={
-          <button onClick={() => void loadAppointments()} className="flex h-11 items-center gap-2 rounded-md border border-white/10 px-4 text-sm font-bold text-slate-300 transition hover:border-primary/40 hover:text-white">
+          <button onClick={() => void loadAppointments()} className={adminSecondaryButton}>
             <RefreshCw className="h-4 w-4" />
             Atualizar
           </button>
         }
       >
-        {error && <div className="mb-6 rounded-lg border border-red-500/30 bg-red-500/10 p-5 text-sm text-red-100">{error}</div>}
+        {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
 
-        <section className="mb-6 rounded-lg border border-white/10 bg-[#111827] p-6">
+        <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
           <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <Plus className="h-5 w-5 text-primary" />
+            <Plus className="h-5 w-5 text-[#E8C766]" />
             {form.id ? 'Editar agendamento' : 'Novo agendamento'}
           </h2>
 
@@ -185,7 +185,7 @@ export default function AdminAppointmentsPage() {
               <select
                 value={form.lead_id}
                 onChange={(event) => setForm((current) => ({ ...current, lead_id: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
               >
                 <option className="bg-slate-950" value="">Sem lead vinculado</option>
                 {leads.map((lead) => (
@@ -202,7 +202,7 @@ export default function AdminAppointmentsPage() {
                 type="datetime-local"
                 value={form.scheduled_for}
                 onChange={(event) => setForm((current) => ({ ...current, scheduled_for: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
               />
             </label>
 
@@ -211,7 +211,7 @@ export default function AdminAppointmentsPage() {
               <select
                 value={form.status}
                 onChange={(event) => setForm((current) => ({ ...current, status: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
               >
                 <option className="bg-slate-950" value="pending">Pendente</option>
                 <option className="bg-slate-950" value="confirmed">Confirmado</option>
@@ -225,7 +225,7 @@ export default function AdminAppointmentsPage() {
               <input
                 value={form.location}
                 onChange={(event) => setForm((current) => ({ ...current, location: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="Endereco ou bairro do atendimento"
               />
             </label>
@@ -235,7 +235,7 @@ export default function AdminAppointmentsPage() {
               <input
                 value={form.notes}
                 onChange={(event) => setForm((current) => ({ ...current, notes: event.target.value }))}
-                className="h-12 w-full rounded-md border border-white/10 bg-black/30 px-4 text-sm text-white outline-none focus:border-primary"
+                className={adminInput}
                 placeholder="Detalhe rapido"
               />
             </label>
@@ -245,14 +245,14 @@ export default function AdminAppointmentsPage() {
             <button
               onClick={() => void saveAppointment()}
               disabled={isSaving}
-              className="rounded-md bg-primary px-5 py-3 text-sm font-black text-white transition hover:bg-blue-700 disabled:opacity-60"
+              className={adminPrimaryButton}
             >
               {isSaving ? 'Salvando...' : form.id ? 'Salvar alteracoes' : 'Criar agendamento'}
             </button>
             {form.id && (
               <button
                 onClick={() => setForm(emptyForm)}
-                className="rounded-md border border-white/10 px-5 py-3 text-sm font-bold text-slate-300 transition hover:text-white"
+                className={adminSecondaryButton}
               >
                 Cancelar edicao
               </button>
@@ -260,14 +260,14 @@ export default function AdminAppointmentsPage() {
           </div>
         </section>
 
-        <section className="rounded-lg border border-white/10 bg-[#111827] p-6">
+        <section className={`${adminSurface} p-4 md:p-5`}>
           <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <CalendarClock className="h-5 w-5 text-primary" />
+            <CalendarClock className="h-5 w-5 text-[#E8C766]" />
             Agenda
           </h2>
           <div className="grid gap-3">
             {appointments.map((item) => (
-              <div key={item.id} className="grid gap-4 rounded-md border border-white/10 bg-black/20 p-4 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
+              <div key={item.id} className="grid gap-4 rounded-md border border-white/10 bg-[#070A0F] p-4 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Quando</p>
                   <p className="mt-2 font-bold text-white">{formatAdminDate(item.scheduled_for)}</p>
@@ -285,7 +285,7 @@ export default function AdminAppointmentsPage() {
                   <p className="mt-2 text-slate-300">{item.location || '-'}</p>
                 </div>
                 <div className="flex items-start gap-2">
-                  <span className="rounded-md bg-primary/10 px-3 py-1 text-xs font-bold text-primary">
+                  <span className="rounded-md bg-[#E8C766]/10 px-3 py-1 text-xs font-bold text-[#E8C766]">
                     {item.status || 'pending'}
                   </span>
                   <button onClick={() => editAppointment(item)} className="rounded-md border border-white/10 p-2 text-slate-400 hover:text-white" aria-label="Editar">
@@ -306,4 +306,3 @@ export default function AdminAppointmentsPage() {
     </>
   );
 }
-

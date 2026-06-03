@@ -20,3 +20,14 @@ export function eventLabel(name: string) {
   return labels[name] || name;
 }
 
+export function leadStatusLabel(name: string) {
+  const labels: Record<string, string> = {
+    new: 'Novo',
+    contacted: 'Em contato',
+    scheduled: 'Agendado',
+    won: 'Fechado',
+    lost: 'Perdido',
+  };
+
+  return labels[name] || name;
+}
