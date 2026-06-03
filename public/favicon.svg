@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="KL Vistorias">
+  <rect width="64" height="64" rx="12" fill="#070A0F"/>
+  <path d="M14 16h36v32H14z" fill="#10131A" stroke="#E8C766" stroke-width="2"/>
+  <path d="M21 39V23h5v6.4L33 23h6.5l-8.2 7.4L40 39h-6.8l-6.1-6.2-1.1 1V39h-5Z" fill="#F8FAFC"/>
+  <path d="M42 23h5v16H32v-5h10V23Z" fill="#7DD3C7"/>
+  <path d="M15 49h34" stroke="#E8C766" stroke-width="2" stroke-linecap="round"/>
+</svg>

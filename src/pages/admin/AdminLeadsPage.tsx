@@ -39,9 +39,52 @@ type Draft = {
 
 const statuses = ['new', 'contacted', 'scheduled', 'won', 'lost'];
 
-function whatsappHref(lead: Lead) {
+function leadContext(lead: Lead) {
+  return {
+    name: lead.name || 'tudo bem',
+    service: lead.service || 'vistoria',
+    vehicle: lead.vehicle || 'seu veiculo',
+    location: lead.address || lead.city || '',
+  };
+}
+
+function whatsappMessageForStatus(lead: Lead, status: string) {
+  const context = leadContext(lead);
+
+  if (status === 'scheduled') {
+    return `Ola, ${context.name}. Aqui e da KL Vistorias. Estou passando para confirmar o agendamento da ${context.service} para ${context.vehicle}${context.location ? ` em ${context.location}` : ''}. Podemos confirmar esse horario?`;
+  }
+
+  if (status === 'won') {
+    return `Ola, ${context.name}. Aqui e da KL Vistorias. Obrigado por confiar na nossa vistoria para ${context.vehicle}. Se puder, sua avaliacao ajuda outros clientes a comprarem com mais seguranca.`;
+  }
+
+  if (status === 'lost') {
+    return `Ola, ${context.name}. Aqui e da KL Vistorias. Vi que o atendimento sobre ${context.vehicle} ficou em aberto. Ainda posso te ajudar com alguma duvida ou nova vistoria?`;
+  }
+
+  if (status === 'contacted') {
+    return `Ola, ${context.name}. Aqui e da KL Vistorias. Estou retornando sobre ${context.service} para ${context.vehicle}. Conseguiu avancar na negociacao ou prefere que eu te oriente no proximo passo?`;
+  }
+
+  return `Ola, ${context.name}. Aqui e da KL Vistorias. Recebemos seu pedido sobre ${context.service} para ${context.vehicle}. Posso te ajudar com o agendamento?`;
+}
+
+function whatsappActionLabel(status: string) {
+  const labels: Record<string, string> = {
+    new: 'Primeiro contato',
+    contacted: 'Retomar conversa',
+    scheduled: 'Confirmar agenda',
+    won: 'Pedir review',
+    lost: 'Reativar lead',
+  };
+
+  return labels[status] || 'Chamar';
+}
+
+function whatsappHref(lead: Lead, status: string) {
   const phone = lead.phone?.replace(/\D/g, '') || COMPANY_INFO.contact.phone.replace(/\D/g, '');
-  const message = `Ola, ${lead.name || ''}. Aqui e da KL Vistorias. Recebemos seu pedido sobre ${lead.service || 'vistoria'}${lead.vehicle ? ` para ${lead.vehicle}` : ''}. Posso te ajudar com o agendamento?`;
+  const message = whatsappMessageForStatus(lead, status);
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }
 
@@ -267,8 +310,8 @@ export default function AdminLeadsPage() {
                   <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-400">{leadStatusLabel(item)}</p>
                   <span className="rounded-md bg-white/5 px-2 py-1 text-xs font-bold text-white">{groupedLeads[item].length}</span>
                 </div>
-                <div className="space-y-2">
-                  {groupedLeads[item].slice(0, 4).map((lead) => (
+                <div className="custom-scrollbar max-h-[420px] space-y-2 overflow-y-auto pr-1">
+                  {groupedLeads[item].map((lead) => (
                     <article key={lead.id} className="rounded-md border border-white/10 bg-[#10131A] p-3">
                       <p className="truncate text-sm font-black text-white">{lead.name || 'Lead sem nome'}</p>
                       <p className="mt-1 truncate text-xs text-slate-400">{lead.vehicle || lead.service || lead.phone || '-'}</p>
@@ -302,11 +345,15 @@ export default function AdminLeadsPage() {
             {leads.map((lead) => (
               <article key={lead.id} className={`${adminInset} p-4`}>
                 <div className="grid gap-4 xl:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)_260px]">
+                  {(() => {
+                    const currentStatus = drafts[lead.id]?.status || lead.status || 'new';
+                    return (
+                      <>
                   <div className="min-w-0">
                     <div className="mb-3 flex flex-wrap items-center gap-2">
                       <strong className="text-lg text-white">{lead.name || 'Lead sem nome'}</strong>
                       <span className="rounded-md bg-[#E8C766]/10 px-2 py-1 text-[11px] font-black uppercase tracking-[0.14em] text-[#E8C766]">
-                        {leadStatusLabel(drafts[lead.id]?.status || lead.status || 'new')}
+                        {leadStatusLabel(currentStatus)}
                       </span>
                     </div>
                     <div className="grid gap-2 text-sm text-slate-300 sm:grid-cols-2">
@@ -337,9 +384,9 @@ export default function AdminLeadsPage() {
                   </div>
 
                   <div className="grid content-start gap-2 sm:grid-cols-3 xl:grid-cols-1">
-                    <a href={whatsappHref(lead)} target="_blank" rel="noreferrer" className={adminPrimaryButton}>
+                    <a href={whatsappHref(lead, currentStatus)} target="_blank" rel="noreferrer" className={adminPrimaryButton}>
                       <MessageCircle className="h-4 w-4" />
-                      Chamar
+                      {whatsappActionLabel(currentStatus)}
                     </a>
                     <button onClick={() => void createAppointment(lead)} disabled={isSavingId === lead.id} className={adminSecondaryButton}>
                       <CalendarPlus className="h-4 w-4" />
@@ -350,6 +397,9 @@ export default function AdminLeadsPage() {
                       Salvar
                     </button>
                   </div>
+                      </>
+                    );
+                  })()}
                 </div>
               </article>
             ))}
