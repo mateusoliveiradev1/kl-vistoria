@@ -126,9 +126,8 @@ export default function AdminAppointmentsPage() {
         return;
       }
 
-      const data = (await response.json()) as { appointments?: Appointment[] };
-      setAppointments(data.appointments || []);
       setForm(emptyForm);
+      await loadAppointments();
     } catch {
       setError('Falha ao salvar agendamento.');
     } finally {
@@ -157,8 +156,7 @@ export default function AdminAppointmentsPage() {
     });
 
     if (response?.ok) {
-      const data = (await response.json()) as { appointments?: Appointment[] };
-      setAppointments(data.appointments || []);
+      await loadAppointments();
     }
   };
 
