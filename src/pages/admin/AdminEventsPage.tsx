@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Activity, Filter, RefreshCw, Search } from 'lucide-react';
 import { SEO } from '../../components/SEO';
-import { AdminShell, EmptyState, adminInput, adminInset, adminSecondaryButton, adminSurface } from './adminShared';
+import { AdminDonutChart, AdminShell, EmptyState, adminInput, adminInset, adminSecondaryButton, adminSurface } from './adminShared';
 import { eventLabel, formatAdminDate } from './adminUtils';
 
 type EventRow = {
@@ -66,6 +66,16 @@ export default function AdminEventsPage() {
     void loadEvents();
   }, [loadEvents]);
 
+  const eventCounts = useMemo(
+    () =>
+      ['page_view', 'whatsapp_click', 'popup_open', 'popup_submit'].map((name) => ({
+        name,
+        label: eventLabel(name),
+        value: events.filter((event) => event.event_name === name).length,
+      })),
+    [events]
+  );
+
   return (
     <>
       <SEO title="Eventos Admin" description="Eventos privados da KL Vistorias." url="https://klvistorias.com.br/admin/eventos" noIndex />
@@ -81,6 +91,31 @@ export default function AdminEventsPage() {
         }
       >
         {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
+
+        <section className="mb-4 grid gap-4 xl:grid-cols-[360px_minmax(0,1fr)]">
+          <div className={`${adminSurface} p-4 md:p-5`}>
+            <AdminDonutChart
+              title="Eventos por tipo"
+              total={events.length}
+              centerLabel="eventos"
+              segments={[
+                { label: 'Paginas vistas', value: eventCounts[0].value, color: '#E8C766' },
+                { label: 'WhatsApp', value: eventCounts[1].value, color: '#7DD3C7' },
+                { label: 'Popup aberto', value: eventCounts[2].value, color: '#D7B451' },
+                { label: 'Lead enviado', value: eventCounts[3].value, color: '#9DCFBF' },
+              ]}
+            />
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            {eventCounts.map((item) => (
+              <div key={item.name} className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+                <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{item.label}</p>
+                <p className="mt-3 text-3xl font-black text-white">{isLoading ? '-' : item.value}</p>
+                <p className="mt-2 text-xs text-slate-500">Ultimo filtro aplicado</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <section className={`${adminSurface} mb-4 p-4`}>
           <div className="grid gap-3 md:grid-cols-[1fr_180px_220px_auto]">

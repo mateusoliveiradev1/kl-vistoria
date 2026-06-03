@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, Pencil, Plus, RefreshCw, Trash2 } from 'lucide-react';
+import { BookOpen, Bot, CheckCircle2, Pencil, Plus, RefreshCw, Search, Trash2 } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import {
   AdminShell,
@@ -49,6 +49,7 @@ export default function AdminCatalogPage() {
   const navigate = useNavigate();
   const [catalog, setCatalog] = useState<CatalogItem[]>([]);
   const [form, setForm] = useState<CatalogForm>(emptyForm);
+  const [search, setSearch] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState('');
@@ -167,6 +168,19 @@ export default function AdminCatalogPage() {
     }
   };
 
+  const filteredCatalog = useMemo(() => {
+    const term = search.trim().toLowerCase();
+    if (!term) return catalog;
+    return catalog.filter((item) =>
+      [item.name, item.short_description, item.full_description, item.base_price, item.average_time]
+        .filter(Boolean)
+        .some((value) => String(value).toLowerCase().includes(term))
+    );
+  }, [catalog, search]);
+
+  const activeCount = catalog.filter((item) => item.active).length;
+  const inactiveCount = catalog.length - activeCount;
+
   return (
     <>
       <SEO title="Catalogo Admin" description="Catalogo privado da KL Vistorias." url="https://klvistorias.com.br/admin/catalogo" noIndex />
@@ -183,11 +197,32 @@ export default function AdminCatalogPage() {
       >
         {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
 
+        <section className="mb-4 grid gap-3 md:grid-cols-3">
+          <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+            <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Servicos</p>
+            <p className="mt-3 text-3xl font-black text-white">{isLoading ? '-' : catalog.length}</p>
+            <p className="mt-2 text-xs text-slate-500">Base do atendimento</p>
+          </div>
+          <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+            <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Ativos</p>
+            <p className="mt-3 text-3xl font-black text-[#7DD3C7]">{isLoading ? '-' : activeCount}</p>
+            <p className="mt-2 text-xs text-slate-500">Prontos para bot e landing</p>
+          </div>
+          <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+            <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Ocultos</p>
+            <p className="mt-3 text-3xl font-black text-slate-300">{isLoading ? '-' : inactiveCount}</p>
+            <p className="mt-2 text-xs text-slate-500">Guardados sem aparecer</p>
+          </div>
+        </section>
+
         <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
-          <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <Plus className="h-5 w-5 text-[#E8C766]" />
-            {form.id ? 'Editar servico' : 'Novo servico'}
-          </h2>
+          <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="flex items-center gap-2 text-xl font-black">
+              <Plus className="h-5 w-5 text-[#E8C766]" />
+              {form.id ? 'Editar servico' : 'Novo servico'}
+            </h2>
+            <p className="text-sm leading-6 text-slate-400">Quanto melhor o catalogo, melhor o bot responde no WhatsApp.</p>
+          </div>
 
           <div className="grid gap-4 lg:grid-cols-[1fr_1fr_0.5fr]">
             <label className="block">
@@ -281,12 +316,23 @@ export default function AdminCatalogPage() {
         </section>
 
         <section className={`${adminSurface} p-4 md:p-5`}>
-          <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <BookOpen className="h-5 w-5 text-[#E8C766]" />
-            Servicos cadastrados
-          </h2>
+          <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+            <h2 className="flex items-center gap-2 text-xl font-black">
+              <BookOpen className="h-5 w-5 text-[#E8C766]" />
+              Servicos cadastrados
+            </h2>
+            <label className="relative block w-full lg:max-w-sm">
+              <Search className="pointer-events-none absolute left-3 top-3.5 h-4 w-4 text-slate-500" />
+              <input
+                value={search}
+                onChange={(event) => setSearch(event.target.value)}
+                className={`${adminInput} pl-10`}
+                placeholder="Buscar servico"
+              />
+            </label>
+          </div>
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {catalog.map((item) => (
+            {filteredCatalog.map((item) => (
               <article key={item.id} className="rounded-md border border-white/10 bg-[#070A0F] p-5">
                 <div className="mb-3 flex items-center justify-between gap-3">
                   <h3 className="font-black text-white">{item.name}</h3>
@@ -300,6 +346,11 @@ export default function AdminCatalogPage() {
                 <p className="min-h-14 text-sm leading-7 text-slate-400">
                   {item.short_description || 'Sem descricao curta cadastrada.'}
                 </p>
+                {item.full_description && (
+                  <p className="mt-3 line-clamp-3 text-xs leading-6 text-slate-500">
+                    {item.full_description}
+                  </p>
+                )}
                 <div className="mt-5 grid grid-cols-2 gap-3 text-xs">
                   <div className="rounded-md bg-black/30 p-3">
                     <p className="text-slate-500">Preco</p>
@@ -309,6 +360,10 @@ export default function AdminCatalogPage() {
                     <p className="text-slate-500">Tempo</p>
                     <p className="mt-1 font-bold text-white">{item.average_time || '-'}</p>
                   </div>
+                </div>
+                <div className="mt-4 flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.02] px-3 py-2 text-xs text-slate-400">
+                  {item.active ? <CheckCircle2 className="h-4 w-4 text-[#7DD3C7]" /> : <Bot className="h-4 w-4 text-slate-500" />}
+                  {item.active ? 'Disponivel para atendimento e futuro bot' : 'Oculto do fluxo automatico'}
                 </div>
                 <div className="mt-5 flex gap-2">
                   <button onClick={() => editCatalogItem(item)} className={adminSecondaryButton}>
@@ -323,7 +378,7 @@ export default function AdminCatalogPage() {
               </article>
             ))}
           </div>
-          {!isLoading && catalog.length === 0 && (
+          {!isLoading && filteredCatalog.length === 0 && (
             <EmptyState title="Catalogo ainda vazio" description="Use o formulario acima para cadastrar os servicos que a landing e o bot poderao consumir." />
           )}
         </section>

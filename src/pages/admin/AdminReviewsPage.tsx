@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Pencil, Plus, RefreshCw, Star, Trash2 } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import {
+  AdminDonutChart,
   AdminShell,
   EmptyState,
   adminDangerButton,
@@ -157,6 +158,12 @@ export default function AdminReviewsPage() {
   };
 
   const approvedCount = reviews.filter((review) => review.approved_for_site).length;
+  const hiddenCount = reviews.length - approvedCount;
+  const ratedReviews = reviews.filter((review) => Number(review.rating || 0) > 0);
+  const averageRating =
+    ratedReviews.length > 0
+      ? (ratedReviews.reduce((total, review) => total + Number(review.rating || 0), 0) / ratedReviews.length).toFixed(1)
+      : '0.0';
 
   return (
     <>
@@ -174,11 +181,45 @@ export default function AdminReviewsPage() {
       >
         {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
 
+        <section className="mb-4 grid gap-4 xl:grid-cols-[360px_minmax(0,1fr)]">
+          <div className={`${adminSurface} p-4 md:p-5`}>
+            <AdminDonutChart
+              title="Aprovacao para landing"
+              total={reviews.length}
+              centerLabel="reviews"
+              segments={[
+                { label: 'Aprovadas', value: approvedCount, color: '#7DD3C7' },
+                { label: 'Ocultas', value: hiddenCount, color: '#E8C766' },
+              ]}
+            />
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Nota media</p>
+              <p className="mt-3 text-3xl font-black text-[#E8C766]">{isLoading ? '-' : averageRating}</p>
+              <p className="mt-2 text-xs text-slate-500">Base cadastrada</p>
+            </div>
+            <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Aprovadas</p>
+              <p className="mt-3 text-3xl font-black text-[#7DD3C7]">{isLoading ? '-' : approvedCount}</p>
+              <p className="mt-2 text-xs text-slate-500">Podem aparecer no site</p>
+            </div>
+            <div className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Ocultas</p>
+              <p className="mt-3 text-3xl font-black text-slate-300">{isLoading ? '-' : hiddenCount}</p>
+              <p className="mt-2 text-xs text-slate-500">Guardadas no painel</p>
+            </div>
+          </div>
+        </section>
+
         <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
-          <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <Plus className="h-5 w-5 text-[#E8C766]" />
-            {form.id ? 'Editar review' : 'Nova review'}
-          </h2>
+          <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="flex items-center gap-2 text-xl font-black">
+              <Plus className="h-5 w-5 text-[#E8C766]" />
+              {form.id ? 'Editar review' : 'Nova review'}
+            </h2>
+            <p className="text-sm leading-6 text-slate-400">Aprovada aparece como prova social. Oculta fica salva para consulta interna.</p>
+          </div>
 
           <div className="grid gap-3 lg:grid-cols-[1fr_140px_180px]">
             <input value={form.author_name} onChange={(event) => setForm((current) => ({ ...current, author_name: event.target.value }))} className={adminInput} placeholder="Nome do cliente" />

@@ -31,3 +31,14 @@ export function leadStatusLabel(name: string) {
 
   return labels[name] || name;
 }
+
+export function appointmentStatusLabel(name: string) {
+  const labels: Record<string, string> = {
+    pending: 'Pendente',
+    confirmed: 'Confirmado',
+    done: 'Concluido',
+    canceled: 'Cancelado',
+  };
+
+  return labels[name] || name;
+}

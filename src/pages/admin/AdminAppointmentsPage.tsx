@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CalendarClock, Pencil, Plus, RefreshCw, Trash2 } from 'lucide-react';
+import { CalendarClock, CheckCircle2, Clock, MessageCircle, Pencil, Plus, RefreshCw, Trash2, XCircle } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { AdminShell, EmptyState, adminInput, adminPrimaryButton, adminSecondaryButton, adminSurface } from './adminShared';
-import { formatAdminDate } from './adminUtils';
+import { appointmentStatusLabel, formatAdminDate } from './adminUtils';
 
 type Lead = {
   id: number;
@@ -50,6 +50,11 @@ function toDateInput(value: string | null) {
   const date = new Date(value);
   const offsetDate = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
   return offsetDate.toISOString().slice(0, 16);
+}
+
+function phoneHref(phone: string | null) {
+  if (!phone) return '';
+  return `https://wa.me/${phone.replace(/\D/g, '')}`;
 }
 
 export default function AdminAppointmentsPage() {
@@ -157,6 +162,16 @@ export default function AdminAppointmentsPage() {
     }
   };
 
+  const statusCards = [
+    { key: 'pending', label: 'Pendentes', icon: Clock, color: '#E8C766' },
+    { key: 'confirmed', label: 'Confirmados', icon: CalendarClock, color: '#7DD3C7' },
+    { key: 'done', label: 'Concluidos', icon: CheckCircle2, color: '#9DCFBF' },
+    { key: 'canceled', label: 'Cancelados', icon: XCircle, color: '#EF9A7A' },
+  ].map((item) => ({
+    ...item,
+    value: appointments.filter((appointment) => (appointment.status || 'pending') === item.key).length,
+  }));
+
   return (
     <>
       <SEO title="Agendamentos Admin" description="Agenda privada da KL Vistorias." url="https://klvistorias.com.br/admin/agendamentos" noIndex />
@@ -173,11 +188,29 @@ export default function AdminAppointmentsPage() {
       >
         {error && <div className="mb-4 rounded-md border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">{error}</div>}
 
+        <section className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          {statusCards.map((item) => (
+            <div key={item.key} className="rounded-lg border border-white/10 bg-[#10131A] p-4">
+              <div className="mb-4 flex items-center justify-between gap-3">
+                <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{item.label}</p>
+                <item.icon className="h-5 w-5" style={{ color: item.color }} />
+              </div>
+              <p className="text-3xl font-black text-white">{isLoading ? '-' : item.value}</p>
+              <p className="mt-2 text-xs text-slate-500">Agenda operacional</p>
+            </div>
+          ))}
+        </section>
+
         <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
-          <h2 className="mb-5 flex items-center gap-2 text-xl font-black">
-            <Plus className="h-5 w-5 text-[#E8C766]" />
-            {form.id ? 'Editar agendamento' : 'Novo agendamento'}
-          </h2>
+          <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="flex items-center gap-2 text-xl font-black">
+              <Plus className="h-5 w-5 text-[#E8C766]" />
+              {form.id ? 'Editar agendamento' : 'Novo agendamento'}
+            </h2>
+            <p className="text-sm leading-6 text-slate-400">
+              Use esta tela para confirmar horarios combinados pelo WhatsApp ou criados a partir de leads.
+            </p>
+          </div>
 
           <div className="grid gap-4 lg:grid-cols-[1fr_1fr_1fr]">
             <label className="block">
@@ -267,14 +300,17 @@ export default function AdminAppointmentsPage() {
           </h2>
           <div className="grid gap-3">
             {appointments.map((item) => (
-              <div key={item.id} className="grid gap-4 rounded-md border border-white/10 bg-[#070A0F] p-4 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
+              <div key={item.id} className="rounded-lg border border-white/10 bg-[#070A0F] p-4">
+                <div className="grid gap-4 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Quando</p>
                   <p className="mt-2 font-bold text-white">{formatAdminDate(item.scheduled_for)}</p>
+                  <p className="mt-1 text-xs text-slate-500">{item.scheduled_for ? 'Horario definido' : 'Sem horario'}</p>
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Lead</p>
                   <p className="mt-2 text-slate-300">{item.lead_name || '-'}</p>
+                  <p className="mt-1 text-xs text-slate-500">{item.lead_phone || 'sem telefone'}</p>
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Servico</p>
@@ -286,8 +322,13 @@ export default function AdminAppointmentsPage() {
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="rounded-md bg-[#E8C766]/10 px-3 py-1 text-xs font-bold text-[#E8C766]">
-                    {item.status || 'pending'}
+                    {appointmentStatusLabel(item.status || 'pending')}
                   </span>
+                  {item.lead_phone && (
+                    <a href={phoneHref(item.lead_phone)} target="_blank" rel="noreferrer" className="rounded-md border border-white/10 p-2 text-[#7DD3C7] hover:text-white" aria-label="Abrir WhatsApp">
+                      <MessageCircle className="h-4 w-4" />
+                    </a>
+                  )}
                   <button onClick={() => editAppointment(item)} className="rounded-md border border-white/10 p-2 text-slate-400 hover:text-white" aria-label="Editar">
                     <Pencil className="h-4 w-4" />
                   </button>
@@ -295,6 +336,12 @@ export default function AdminAppointmentsPage() {
                     <Trash2 className="h-4 w-4" />
                   </button>
                 </div>
+                </div>
+                {item.notes && (
+                  <p className="mt-4 rounded-md border border-white/10 bg-white/[0.02] p-3 text-xs leading-6 text-slate-400">
+                    {item.notes}
+                  </p>
+                )}
               </div>
             ))}
           </div>
