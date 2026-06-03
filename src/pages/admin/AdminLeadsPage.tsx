@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CalendarPlus, MessageCircle, RefreshCw, Save, Search, Users } from 'lucide-react';
+import { CalendarPlus, ChevronLeft, ChevronRight, MessageCircle, RefreshCw, Save, Search, Star, Users } from 'lucide-react';
 import { COMPANY_INFO } from '../../data/company';
 import { SEO } from '../../components/SEO';
 import {
@@ -37,6 +37,18 @@ type Draft = {
   notes: string;
 };
 
+type Pagination = {
+  page: number;
+  limit: number;
+  total: number;
+  pages: number;
+};
+
+type StatusCount = {
+  status: string | null;
+  total: number;
+};
+
 const statuses = ['new', 'contacted', 'scheduled', 'won', 'lost'];
 
 function leadContext(lead: Lead) {
@@ -48,7 +60,7 @@ function leadContext(lead: Lead) {
   };
 }
 
-function whatsappMessageForStatus(lead: Lead, status: string) {
+function whatsappMessageForStatus(lead: Lead, status: string, googleReviewUrl: string) {
   const context = leadContext(lead);
 
   if (status === 'scheduled') {
@@ -56,7 +68,7 @@ function whatsappMessageForStatus(lead: Lead, status: string) {
   }
 
   if (status === 'won') {
-    return `Ola, ${context.name}. Aqui e da KL Vistorias. Obrigado por confiar na nossa vistoria para ${context.vehicle}. Se puder, sua avaliacao ajuda outros clientes a comprarem com mais seguranca.`;
+    return `Ola, ${context.name}. Aqui e da KL Vistorias. Obrigado por confiar na nossa vistoria para ${context.vehicle}. Se puder, sua avaliacao ajuda outros clientes a comprarem com mais seguranca.\n\nAvalie a KL Vistorias no Google: ${googleReviewUrl}`;
   }
 
   if (status === 'lost') {
@@ -82,9 +94,9 @@ function whatsappActionLabel(status: string) {
   return labels[status] || 'Chamar';
 }
 
-function whatsappHref(lead: Lead, status: string) {
+function whatsappHref(lead: Lead, status: string, googleReviewUrl: string) {
   const phone = lead.phone?.replace(/\D/g, '') || COMPANY_INFO.contact.phone.replace(/\D/g, '');
-  const message = whatsappMessageForStatus(lead, status);
+  const message = whatsappMessageForStatus(lead, status, googleReviewUrl);
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }
 
@@ -95,16 +107,20 @@ export default function AdminLeadsPage() {
   const [search, setSearch] = useState('');
   const [status, setStatus] = useState('');
   const [days, setDays] = useState(365);
+  const [page, setPage] = useState(1);
+  const [pagination, setPagination] = useState<Pagination>({ page: 1, limit: 30, total: 0, pages: 1 });
+  const [serverStatusCounts, setServerStatusCounts] = useState<StatusCount[]>([]);
+  const [googleReviewUrl, setGoogleReviewUrl] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSavingId, setIsSavingId] = useState<number | null>(null);
   const [error, setError] = useState('');
 
   const query = useMemo(() => {
-    const params = new URLSearchParams({ days: String(days) });
+    const params = new URLSearchParams({ days: String(days), page: String(page), limit: '30' });
     if (status) params.set('status', status);
     if (search.trim()) params.set('search', search.trim());
     return params.toString();
-  }, [days, search, status]);
+  }, [days, page, search, status]);
 
   const requestJson = useCallback(
     async (url: string, options?: RequestInit) => {
@@ -123,17 +139,30 @@ export default function AdminLeadsPage() {
     setError('');
 
     try {
-      const response = await requestJson(`/api/admin/leads?${query}`);
-      if (!response) return;
+      const [response, settingsResponse] = await Promise.all([
+        requestJson(`/api/admin/leads?${query}`),
+        requestJson('/api/admin/settings'),
+      ]);
+      if (!response || !settingsResponse) return;
 
-      if (!response.ok) {
+      if (!response.ok || !settingsResponse.ok) {
         setError('Nao foi possivel carregar os leads.');
         return;
       }
 
-      const data = (await response.json()) as { leads?: Lead[] };
+      const data = (await response.json()) as {
+        leads?: Lead[];
+        pagination?: Pagination;
+        statusCounts?: StatusCount[];
+      };
       const nextLeads = data.leads || [];
+      const settingsData = (await settingsResponse.json()) as {
+        settings?: { google_review_url?: string };
+      };
       setLeads(nextLeads);
+      setPagination(data.pagination || { page: 1, limit: 30, total: nextLeads.length, pages: 1 });
+      setServerStatusCounts(data.statusCounts || []);
+      setGoogleReviewUrl(settingsData.settings?.google_review_url || '');
       setDrafts(
         Object.fromEntries(
           nextLeads.map((lead) => [
@@ -215,11 +244,12 @@ export default function AdminLeadsPage() {
     }
   };
 
-  const openLeads = leads.filter((lead) => (lead.status || 'new') === 'new').length;
+  const statusCountMap = Object.fromEntries(serverStatusCounts.map((item) => [item.status || 'new', Number(item.total || 0)]));
+  const openLeads = Number(statusCountMap.new || 0);
   const statusCounts = statuses.map((item) => ({
     status: item,
     label: leadStatusLabel(item),
-    value: leads.filter((lead) => (lead.status || 'new') === item).length,
+    value: Number(statusCountMap[item] || 0),
   }));
   const groupedLeads = Object.fromEntries(statuses.map((item) => [item, leads.filter((lead) => (lead.status || 'new') === item)]));
 
@@ -245,18 +275,35 @@ export default function AdminLeadsPage() {
               <Search className="pointer-events-none absolute left-3 top-3.5 h-4 w-4 text-slate-500" />
               <input
                 value={search}
-                onChange={(event) => setSearch(event.target.value)}
+                onChange={(event) => {
+                  setSearch(event.target.value);
+                  setPage(1);
+                }}
                 className={`${adminInput} pl-10`}
                 placeholder="Buscar por nome, telefone, veiculo ou servico"
               />
             </label>
-            <select value={status} onChange={(event) => setStatus(event.target.value)} className={adminInput}>
+            <select
+              value={status}
+              onChange={(event) => {
+                setStatus(event.target.value);
+                setPage(1);
+              }}
+              className={adminInput}
+            >
               <option className="bg-slate-950" value="">Todos status</option>
               {statuses.map((item) => (
                 <option className="bg-slate-950" key={item} value={item}>{leadStatusLabel(item)}</option>
               ))}
             </select>
-            <select value={days} onChange={(event) => setDays(Number(event.target.value))} className={adminInput}>
+            <select
+              value={days}
+              onChange={(event) => {
+                setDays(Number(event.target.value));
+                setPage(1);
+              }}
+              className={adminInput}
+            >
               <option className="bg-slate-950" value={7}>Ultimos 7 dias</option>
               <option className="bg-slate-950" value={30}>Ultimos 30 dias</option>
               <option className="bg-slate-950" value={90}>Ultimos 90 dias</option>
@@ -270,7 +317,7 @@ export default function AdminLeadsPage() {
           <div className="grid gap-5 xl:grid-cols-[360px_minmax(0,1fr)]">
             <AdminDonutChart
               title="Distribuicao do CRM"
-              total={leads.length}
+              total={statusCounts.reduce((total, item) => total + item.value, 0)}
               centerLabel="leads"
               segments={[
                 { label: 'Novo', value: statusCounts[0].value, color: '#E8C766' },
@@ -299,7 +346,7 @@ export default function AdminLeadsPage() {
               CRM por etapa
             </h2>
             <span className="rounded-md border border-white/10 px-3 py-1 text-xs font-bold text-slate-400">
-              Pipeline comercial
+              Cards da pagina atual
             </span>
           </div>
 
@@ -336,7 +383,7 @@ export default function AdminLeadsPage() {
               Pipeline comercial
             </h2>
             <div className="flex flex-wrap gap-2 text-xs font-bold">
-              <span className="rounded-md border border-white/10 px-3 py-1 text-slate-400">{leads.length} leads</span>
+              <span className="rounded-md border border-white/10 px-3 py-1 text-slate-400">{pagination.total} leads</span>
               <span className="rounded-md border border-[#7DD3C7]/30 bg-[#7DD3C7]/10 px-3 py-1 text-[#7DD3C7]">{openLeads} novos</span>
             </div>
           </div>
@@ -384,10 +431,17 @@ export default function AdminLeadsPage() {
                   </div>
 
                   <div className="grid content-start gap-2 sm:grid-cols-3 xl:grid-cols-1">
-                    <a href={whatsappHref(lead, currentStatus)} target="_blank" rel="noreferrer" className={adminPrimaryButton}>
-                      <MessageCircle className="h-4 w-4" />
-                      {whatsappActionLabel(currentStatus)}
-                    </a>
+                    {currentStatus === 'won' && !googleReviewUrl ? (
+                      <button onClick={() => navigate('/admin/reviews')} className={adminPrimaryButton}>
+                        <Star className="h-4 w-4" />
+                        Configurar link de review
+                      </button>
+                    ) : (
+                      <a href={whatsappHref(lead, currentStatus, googleReviewUrl)} target="_blank" rel="noreferrer" className={adminPrimaryButton}>
+                        <MessageCircle className="h-4 w-4" />
+                        {whatsappActionLabel(currentStatus)}
+                      </a>
+                    )}
                     <button onClick={() => void createAppointment(lead)} disabled={isSavingId === lead.id} className={adminSecondaryButton}>
                       <CalendarPlus className="h-4 w-4" />
                       Agendar
@@ -407,6 +461,32 @@ export default function AdminLeadsPage() {
 
           {!isLoading && leads.length === 0 && (
             <EmptyState title="Nenhum lead encontrado" description="Quando um visitante enviar o popup ou fluxo de WhatsApp, o lead aparece aqui com origem e contexto." />
+          )}
+
+          {!isLoading && pagination.total > 0 && (
+            <div className="mt-5 flex flex-col gap-3 border-t border-white/10 pt-4 sm:flex-row sm:items-center sm:justify-between">
+              <p className="text-xs text-slate-500">
+                Pagina {pagination.page} de {pagination.pages} · {pagination.total} leads encontrados
+              </p>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setPage((current) => Math.max(current - 1, 1))}
+                  disabled={pagination.page <= 1}
+                  className={adminSecondaryButton}
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                  Anterior
+                </button>
+                <button
+                  onClick={() => setPage((current) => Math.min(current + 1, pagination.pages))}
+                  disabled={pagination.page >= pagination.pages}
+                  className={adminSecondaryButton}
+                >
+                  Proxima
+                  <ChevronRight className="h-4 w-4" />
+                </button>
+              </div>
+            </div>
           )}
         </section>
       </AdminShell>

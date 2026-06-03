@@ -12,7 +12,12 @@ interface Testimonial {
   avatar?: string;
 }
 
-const SCRIPT_URL = 'SUA_NOVA_URL_AQUI';
+interface ReviewResponse {
+  author_name: string | null;
+  rating: string | number | null;
+  comment: string | null;
+  source: string | null;
+}
 
 const FALLBACK_TESTIMONIALS: Testimonial[] = [
   {
@@ -43,13 +48,22 @@ export default function Testimonials() {
 
   useEffect(() => {
     const fetchReviews = async () => {
-      if (SCRIPT_URL === 'SUA_NOVA_URL_AQUI') return;
-
       try {
-        const response = await fetch(SCRIPT_URL);
-        const data = await response.json();
-        if (Array.isArray(data) && data.length > 0) {
-          setTestimonials(data);
+        const response = await fetch('/api/reviews');
+        if (!response.ok) return;
+
+        const data = (await response.json()) as { reviews?: ReviewResponse[] };
+        const reviews = (data.reviews || [])
+          .filter((review) => review.comment)
+          .map((review) => ({
+            name: review.author_name || 'Cliente KL',
+            role: review.source === 'google' ? 'Avaliacao no Google' : 'Cliente verificado',
+            content: review.comment || '',
+            rating: Math.max(1, Math.min(5, Math.round(Number(review.rating) || 5))),
+          }));
+
+        if (reviews.length > 0) {
+          setTestimonials(reviews);
         }
       } catch (error) {
         console.error('Erro ao carregar depoimentos:', error);

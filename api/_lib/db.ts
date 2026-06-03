@@ -100,6 +100,14 @@ export async function ensureSchema() {
   `;
 
   await sql`
+    CREATE TABLE IF NOT EXISTS app_settings (
+      key TEXT PRIMARY KEY,
+      value TEXT,
+      updated_at TIMESTAMPTZ DEFAULT now() NOT NULL
+    )
+  `;
+
+  await sql`
     CREATE INDEX IF NOT EXISTS tracking_events_created_at_idx
     ON tracking_events (created_at DESC)
   `;

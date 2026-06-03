@@ -21,31 +21,84 @@ function getDays(req: ApiRequest) {
   return Math.min(Math.max(Math.floor(days), 1), 365);
 }
 
+function getBoundedNumber(req: ApiRequest, name: string, fallback: number, min: number, max: number) {
+  const number = Number(getQueryValue(req, name) || fallback);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.min(Math.max(Math.floor(number), min), max);
+}
+
 async function listLeads(req: ApiRequest) {
-  if (!sql) return [];
+  if (!sql) return { leads: [], pagination: { page: 1, limit: 30, total: 0, pages: 1 }, statusCounts: [] };
 
   const days = getDays(req);
   const since = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString();
   const status = toText(getQueryValue(req, 'status'));
   const search = toText(getQueryValue(req, 'search'));
   const searchPattern = `%${search}%`;
+  const page = getBoundedNumber(req, 'page', 1, 1, 100000);
+  const limit = getBoundedNumber(req, 'limit', 30, 10, 100);
+  const offset = (page - 1) * limit;
 
-  return sql`
-    SELECT id, name, email, phone, service, city, vehicle, address, urgency, source_path, utm_source, status, notes, created_at, updated_at
-    FROM lead_events
-    WHERE created_at >= ${since}
-      AND (${status} = '' OR status = ${status})
-      AND (
-        ${search} = ''
-        OR name ILIKE ${searchPattern}
-        OR phone ILIKE ${searchPattern}
-        OR email ILIKE ${searchPattern}
-        OR vehicle ILIKE ${searchPattern}
-        OR service ILIKE ${searchPattern}
-      )
-    ORDER BY created_at DESC
-    LIMIT 150
-  `;
+  const [leads, totals, statusCounts] = await Promise.all([
+    sql`
+      SELECT id, name, email, phone, service, city, vehicle, address, urgency, source_path, utm_source, status, notes, created_at, updated_at
+      FROM lead_events
+      WHERE created_at >= ${since}
+        AND (${status} = '' OR status = ${status})
+        AND (
+          ${search} = ''
+          OR name ILIKE ${searchPattern}
+          OR phone ILIKE ${searchPattern}
+          OR email ILIKE ${searchPattern}
+          OR vehicle ILIKE ${searchPattern}
+          OR service ILIKE ${searchPattern}
+        )
+      ORDER BY created_at DESC
+      LIMIT ${limit}
+      OFFSET ${offset}
+    `,
+    sql`
+      SELECT COUNT(*)::int AS total
+      FROM lead_events
+      WHERE created_at >= ${since}
+        AND (${status} = '' OR status = ${status})
+        AND (
+          ${search} = ''
+          OR name ILIKE ${searchPattern}
+          OR phone ILIKE ${searchPattern}
+          OR email ILIKE ${searchPattern}
+          OR vehicle ILIKE ${searchPattern}
+          OR service ILIKE ${searchPattern}
+        )
+    `,
+    sql`
+      SELECT status, COUNT(*)::int AS total
+      FROM lead_events
+      WHERE created_at >= ${since}
+        AND (
+          ${search} = ''
+          OR name ILIKE ${searchPattern}
+          OR phone ILIKE ${searchPattern}
+          OR email ILIKE ${searchPattern}
+          OR vehicle ILIKE ${searchPattern}
+          OR service ILIKE ${searchPattern}
+        )
+      GROUP BY status
+    `,
+  ]);
+
+  const total = Number(totals[0]?.total || 0);
+
+  return {
+    leads,
+    statusCounts,
+    pagination: {
+      page,
+      limit,
+      total,
+      pages: Math.max(Math.ceil(total / limit), 1),
+    },
+  };
 }
 
 export default async function handler(req: ApiRequest, res: ApiResponse) {
@@ -54,7 +107,13 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
   if (requireAdmin(req, res)) return;
 
   if (!isDatabaseConfigured || !sql) {
-    res.status(200).json({ ok: true, disabled: true, leads: [] });
+    res.status(200).json({
+      ok: true,
+      disabled: true,
+      leads: [],
+      statusCounts: [],
+      pagination: { page: 1, limit: 30, total: 0, pages: 1 },
+    });
     return;
   }
 
@@ -78,6 +137,6 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
     `;
   }
 
-  const leads = await listLeads(req);
-  res.status(200).json({ ok: true, leads });
+  const result = await listLeads(req);
+  res.status(200).json({ ok: true, ...result });
 }

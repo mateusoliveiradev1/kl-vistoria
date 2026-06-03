@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Pencil, Plus, RefreshCw, Star, Trash2 } from 'lucide-react';
+import { ExternalLink, Link2, Pencil, Plus, RefreshCw, Save, Star, Trash2 } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import {
   AdminDonutChart,
@@ -58,6 +58,8 @@ export default function AdminReviewsPage() {
   const [form, setForm] = useState<ReviewForm>(emptyForm);
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
+  const [isSavingSetting, setIsSavingSetting] = useState(false);
+  const [googleReviewUrl, setGoogleReviewUrl] = useState('');
   const [error, setError] = useState('');
 
   const requestJson = useCallback(
@@ -77,16 +79,23 @@ export default function AdminReviewsPage() {
     setError('');
 
     try {
-      const response = await requestJson('/api/admin/reviews');
-      if (!response) return;
+      const [response, settingsResponse] = await Promise.all([
+        requestJson('/api/admin/reviews'),
+        requestJson('/api/admin/settings'),
+      ]);
+      if (!response || !settingsResponse) return;
 
-      if (!response.ok) {
+      if (!response.ok || !settingsResponse.ok) {
         setError('Nao foi possivel carregar as reviews.');
         return;
       }
 
       const data = (await response.json()) as { reviews?: Review[] };
+      const settingsData = (await settingsResponse.json()) as {
+        settings?: { google_review_url?: string };
+      };
       setReviews(data.reviews || []);
+      setGoogleReviewUrl(settingsData.settings?.google_review_url || '');
     } catch {
       setError('Falha de conexao com a API de reviews.');
     } finally {
@@ -126,6 +135,33 @@ export default function AdminReviewsPage() {
       setError('Falha ao salvar review.');
     } finally {
       setIsSaving(false);
+    }
+  };
+
+  const saveGoogleReviewUrl = async () => {
+    setIsSavingSetting(true);
+    setError('');
+
+    try {
+      const response = await requestJson('/api/admin/settings', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ google_review_url: googleReviewUrl }),
+      });
+
+      if (!response?.ok) {
+        setError('Informe um link HTTPS valido para solicitar reviews.');
+        return;
+      }
+
+      const data = (await response.json()) as {
+        settings?: { google_review_url?: string };
+      };
+      setGoogleReviewUrl(data.settings?.google_review_url || '');
+    } catch {
+      setError('Falha ao salvar o link de review.');
+    } finally {
+      setIsSavingSetting(false);
     }
   };
 
@@ -210,6 +246,46 @@ export default function AdminReviewsPage() {
               <p className="mt-2 text-xs text-slate-500">Guardadas no painel</p>
             </div>
           </div>
+        </section>
+
+        <section className={`${adminSurface} mb-4 p-4 md:p-5`}>
+          <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="flex items-center gap-2 text-xl font-black">
+              <Link2 className="h-5 w-5 text-[#E8C766]" />
+              Coleta de reviews no Google
+            </h2>
+            <span className={`w-fit rounded-md px-3 py-1 text-xs font-bold ${googleReviewUrl ? 'bg-[#7DD3C7]/10 text-[#7DD3C7]' : 'bg-[#E8C766]/10 text-[#E8C766]'}`}>
+              {googleReviewUrl ? 'link configurado' : 'aguardando link'}
+            </span>
+          </div>
+
+          <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
+            <label className="grid gap-2">
+              <span className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Link direto para pedir avaliacao</span>
+              <input
+                type="url"
+                value={googleReviewUrl}
+                onChange={(event) => setGoogleReviewUrl(event.target.value)}
+                className={adminInput}
+                placeholder="https://g.page/r/.../review"
+              />
+            </label>
+            <div className="flex flex-wrap gap-2">
+              <button onClick={() => void saveGoogleReviewUrl()} disabled={isSavingSetting} className={adminPrimaryButton}>
+                <Save className="h-4 w-4" />
+                {isSavingSetting ? 'Salvando...' : 'Salvar link'}
+              </button>
+              {googleReviewUrl && (
+                <a href={googleReviewUrl} target="_blank" rel="noreferrer" className={adminSecondaryButton}>
+                  <ExternalLink className="h-4 w-4" />
+                  Testar link
+                </a>
+              )}
+            </div>
+          </div>
+          <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-400">
+            No Perfil da Empresa no Google, use a opcao Pedir avaliacoes e cole aqui o link gerado. O CRM usa esse endereco na mensagem de leads concluidos, e o bot podera reutiliza-lo depois.
+          </p>
         </section>
 
         <section className={`${adminSurface} mb-4 p-4 md:p-5`}>

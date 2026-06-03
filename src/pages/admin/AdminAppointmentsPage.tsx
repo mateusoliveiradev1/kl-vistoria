@@ -85,7 +85,7 @@ export default function AdminAppointmentsPage() {
     try {
       const [appointmentsResponse, leadsResponse] = await Promise.all([
         requestJson('/api/admin/appointments'),
-        requestJson('/api/admin/leads'),
+        requestJson('/api/admin/leads?limit=100'),
       ]);
 
       if (!appointmentsResponse || !leadsResponse) return;
