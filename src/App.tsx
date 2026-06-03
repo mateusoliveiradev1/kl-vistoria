@@ -14,6 +14,10 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ServiceAreasPage from './pages/ServiceAreasPage';
 import AdminLoginPage from './pages/admin/AdminLoginPage';
 import AdminDashboardPage from './pages/admin/AdminDashboardPage';
+import AdminLeadsPage from './pages/admin/AdminLeadsPage';
+import AdminAppointmentsPage from './pages/admin/AdminAppointmentsPage';
+import AdminReviewsPage from './pages/admin/AdminReviewsPage';
+import AdminCatalogPage from './pages/admin/AdminCatalogPage';
 import { serviceLocations } from './data/locations';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -44,6 +48,10 @@ function App() {
             <Route path="/politica-de-privacidade" element={<PrivacyPolicyPage />} />
             <Route path="/admin/login" element={<AdminLoginPage />} />
             <Route path="/admin" element={<AdminDashboardPage />} />
+            <Route path="/admin/leads" element={<AdminLeadsPage />} />
+            <Route path="/admin/agendamentos" element={<AdminAppointmentsPage />} />
+            <Route path="/admin/reviews" element={<AdminReviewsPage />} />
+            <Route path="/admin/catalogo" element={<AdminCatalogPage />} />
             {serviceLocations.map(loc => (
               <Route
                 key={loc.slug}
