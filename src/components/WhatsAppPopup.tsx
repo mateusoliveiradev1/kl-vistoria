@@ -25,9 +25,10 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    const whatsappWindow = window.open('about:blank', '_blank');
 
     try {
-      await trackLead({
+      void trackLead({
         ...formData,
         metadata_source: 'website_popup',
         lgpd_consent: lgpdConsent,
@@ -37,7 +38,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
         'https://script.google.com/macros/s/AKfycbzwd4R9cvEBg4jzKJm68zMagkT2WhqIctx13wrQWreuEmVqPM49kX6IZqymBe4T6tUB/exec';
 
       if (GOOGLE_APPS_SCRIPT_URL) {
-        await fetch(GOOGLE_APPS_SCRIPT_URL, {
+        void fetch(GOOGLE_APPS_SCRIPT_URL, {
           method: 'POST',
           mode: 'no-cors',
           headers: {
@@ -48,7 +49,7 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
             timestamp: new Date().toISOString(),
             source: 'Website Popup'
           }),
-        });
+        }).catch(() => undefined);
       }
 
       const message = `*NOVO LEAD - SITE KL VISTORIAS*\n\n*Objetivo:* Quero avaliar um veiculo antes de fechar negocio.\n\n*Nome:* ${formData.name}\n*E-mail:* ${formData.email}\n*WhatsApp:* ${formData.phone}\n*Localizacao do veiculo:* ${formData.address}\n*Veiculo:* ${formData.vehicle}\n*Servico:* ${formData.service}\n*Urgencia:* ${formData.urgency}\n\nPodem me orientar sobre disponibilidade e proximo passo?`;
@@ -56,7 +57,11 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
       const whatsappUrl = `${COMPANY_INFO.contact.phoneLink}?text=${encodedMessage}`;
 
       void trackEvent('whatsapp_click', { source: 'popup_submit', service: formData.service }, { requireConsent: false });
-      window.open(whatsappUrl, '_blank');
+      if (whatsappWindow) {
+        whatsappWindow.location.href = whatsappUrl;
+      } else {
+        window.location.href = whatsappUrl;
+      }
 
       setTimeout(() => {
         onClose();
@@ -67,8 +72,13 @@ export function WhatsAppPopup({ isOpen, onClose }: WhatsAppPopupProps) {
       setIsSubmitting(false);
 
       const fallbackMsg = `Ola, me chamo ${formData.name}. Quero agendar ${formData.service} para o veiculo ${formData.vehicle} em ${formData.address}. Urgencia: ${formData.urgency}.`;
+      const fallbackUrl = `${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(fallbackMsg)}`;
       void trackEvent('whatsapp_click', { source: 'popup_fallback', service: formData.service }, { requireConsent: false });
-      window.open(`${COMPANY_INFO.contact.phoneLink}?text=${encodeURIComponent(fallbackMsg)}`, '_blank');
+      if (whatsappWindow) {
+        whatsappWindow.location.href = fallbackUrl;
+      } else {
+        window.location.href = fallbackUrl;
+      }
     }
   };
 
