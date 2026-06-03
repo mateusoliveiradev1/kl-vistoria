@@ -24,8 +24,9 @@ function App() {
   const isAdminRoute = location.pathname.startsWith('/admin');
 
   useEffect(() => {
+    if (isAdminRoute) return;
     logPageView();
-  }, [location.pathname]);
+  }, [isAdminRoute, location.pathname]);
 
   return (
     <HelmetProvider>

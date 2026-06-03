@@ -45,6 +45,7 @@ export async function trackEvent(
   options: { requireConsent?: boolean } = {}
 ) {
   if (typeof window === 'undefined') return;
+  if (window.location.pathname.startsWith('/admin')) return;
   if (options.requireConsent !== false && !hasAnalyticsConsent()) return;
 
   const payload = {

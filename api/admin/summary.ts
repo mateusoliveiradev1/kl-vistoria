@@ -40,6 +40,7 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
       SELECT event_name, COUNT(*)::int AS total
       FROM tracking_events
       WHERE created_at >= ${since}
+        AND COALESCE(path, '') NOT LIKE '/admin%'
       GROUP BY event_name
       ORDER BY total DESC
     `,
@@ -52,6 +53,7 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
       SELECT COALESCE(NULLIF(path, ''), '/') AS path, COUNT(*)::int AS total
       FROM tracking_events
       WHERE created_at >= ${since}
+        AND COALESCE(path, '') NOT LIKE '/admin%'
       GROUP BY COALESCE(NULLIF(path, ''), '/')
       ORDER BY total DESC
       LIMIT 8
@@ -60,6 +62,7 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
       SELECT COALESCE(NULLIF(utm_source, ''), 'direto') AS source, COUNT(*)::int AS total
       FROM tracking_events
       WHERE created_at >= ${since}
+        AND COALESCE(path, '') NOT LIKE '/admin%'
       GROUP BY COALESCE(NULLIF(utm_source, ''), 'direto')
       ORDER BY total DESC
       LIMIT 8
@@ -73,6 +76,7 @@ export default async function handler(req: ApiRequest, res: ApiResponse) {
     sql`
       SELECT id, event_name, path, utm_source, device_type, created_at
       FROM tracking_events
+      WHERE COALESCE(path, '') NOT LIKE '/admin%'
       ORDER BY created_at DESC
       LIMIT 20
     `,
