@@ -21,12 +21,12 @@ export const COMPANY_INFO = {
   contact: {
     phone: "+55 62 9540-6565",
     phoneLink: "https://wa.me/556295406565",
-    email: "contato@klvistorias.com.br",
+    email: "klayverrodrigues123@gmail.com",
     whatsappMessage: "Olá! Vi o site da KL Vistorias e gostaria de agendar uma Vistoria Cautelar."
   },
   legal: {
     cnpj: "66.999.752/0001-16",
-    privacyEmail: "contato@klvistorias.com.br"
+    privacyEmail: "klayverrodrigues123@gmail.com"
   },
   social: {
     instagram: "https://www.instagram.com/klvistoriasgo"
