@@ -19,7 +19,7 @@ export function SEO({ title, description, keywords, image, url, noIndex }: SEOPr
   const siteKeywords =
     keywords ||
     "vistoria cautelar, vistoria veicular, laudo cautelar, goiania, pericia automotiva, compra de carros, carros usados, historico veicular";
-  const siteImage = image || `${COMPANY_INFO.website}/documento.webp`;
+  const siteImage = image || `${COMPANY_INFO.website}/og-carro-azul.jpg`;
   const siteUrl = url || COMPANY_INFO.website;
 
   const localBusinessData = {
