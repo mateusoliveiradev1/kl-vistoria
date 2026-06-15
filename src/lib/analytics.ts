@@ -1,4 +1,4 @@
-const GA_MEASUREMENT_ID = '';
+const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || '';
 
 type TrackingMetadata = Record<string, string | number | boolean | null | undefined>;
 
@@ -66,6 +66,14 @@ export async function trackEvent(
     });
   } catch {
     // Tracking must never block the landing page or WhatsApp flow.
+  }
+
+  if (window.gtag && GA_MEASUREMENT_ID) {
+    window.gtag('event', eventName, {
+      page_path: window.location.pathname,
+      event_category: 'site',
+      ...metadata,
+    });
   }
 }
 
