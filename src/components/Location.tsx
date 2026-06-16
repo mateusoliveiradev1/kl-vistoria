@@ -6,10 +6,6 @@ import { FadeIn } from './ui/FadeIn';
 
 const coverage = [
   'Goiania',
-  'Aparecida de Goiania',
-  'Senador Canedo',
-  'Trindade',
-  'Anapolis',
 ];
 
 const benefits = [
@@ -70,7 +66,7 @@ const Location = () => {
               <div className="mb-6 flex items-center justify-between gap-5 border-b border-white/10 pb-5">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Area de cobertura</p>
-                  <h3 className="mt-2 text-3xl font-bold text-white">Goiania e regiao</h3>
+                  <h3 className="mt-2 text-3xl font-bold text-white">Goiania</h3>
                 </div>
                 <Route className="h-10 w-10 text-primary" />
               </div>
